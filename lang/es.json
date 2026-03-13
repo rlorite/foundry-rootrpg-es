@@ -25,32 +25,32 @@
         }
       },
       "startup": {
-        "name": "First Time Startup",
+        "name": "Primer inicio",
         "dialog": {
-          "title": "Welcome to Root!",
-          "content": "<p>Would you like to use a Root theme for your login screen?</p>"
+          "title": "¡Bienvenido a Root!",
+          "content": "<p>¿Quieres utilizar el tema de Root para tu pantalla de inicio de sesión?</p>"
         }
       },
       "loginImg": {
-        "name": "Set Login Image",
-        "hint": "True: reset the login background image to a Root image. False: allow user images to override the login background image."
+        "name": "Establecer imagen de inicio de sesión",
+        "hint": "Marcado: restablece la imagen de fondo de inicio de sesión a una imagen de Root. Desmarcado: permite que las imágenes del usuario sustituyan el fondo de inicio de sesión."
       }
     },
     "CharacterSheets": {
-      "sheetConfig": "Ficha de vagabundo",
-      "sheetNpcConfig": "Root NPC Sheet",
+      "sheetConfig": "Ficha de Vagabundo de Root",
+      "sheetNpcConfig": "Hoja de PNJ de Root",
       "inventory": {
-        "wearLabel": "Desgaste:",
-        "rangeLabel": "Alcance:",
-        "tagsLabel": "Etiquetas:",
-        "loadError": "You are carrying too much weight! Reduce your Load to continue.",
-        "loadWarning": "You are burdened! You’re not able to move quickly or easily."
+        "wearLabel": "Desgaste: ",
+        "rangeLabel": "Alcance: ",
+        "tagsLabel": "Etiquetas: ",
+        "loadError": "¡Llevas demasiado peso! Reduce tu carga para continuar.",
+        "loadWarning": "¡Estás sobrecargado! No eres capaz de moverte rápida o fácilmente."
       },
       "rollResults": {
         "failure": "Fallo",
         "partialSuccess": "Éxito parcial",
         "success": "Éxito total",
-        "triumph": "Triumph!"
+        "triumph": "¡Triunfo!"
       },
       "stats": {
         "charm": "Carisma",
@@ -77,7 +77,7 @@
         "natureLabel": "Naturaleza",
         "speciesLabel": "Especies",
         "demeanorLabel": "Comportamiento",
-        "bgQuestionsLabel": "Preguntas sobre el trasfondo",
+        "bgQuestionsLabel": "Preguntas de trasfondo",
         "bgInfoLabel": "Información de trasfondo"
       },
       "details": {
@@ -114,8 +114,8 @@
           "placeholder": "Establecer especies dominantes"
         },
         "controllingFaction": {
-          "label": "Controlling Faction",
-          "placeholder": "Set Controlling Faction"
+          "label": "Facción con el control",
+          "placeholder": "Establecer la facción con el control"
         },
         "stronghold": {
           "label": "¿La facción tiene una fortaleza?"
@@ -173,67 +173,67 @@
     },
     "NPCSheets": {
       "attr": {
-        "injuryLabel": "Injury",
-        "exhaustionLabel": "Exhaustion",
+        "injuryLabel": "Heridas",
+        "exhaustionLabel": "Agotamiento",
         "wearLabel": "Desgaste",
-        "moraleLabel": "Morale",
-        "factionLabel": "Faction",
-        "inflictsLabel": "Harm Inflicted",
+        "moraleLabel": "Moral",
+        "factionLabel": "Facción",
+        "inflictsLabel": "Heridas infligidas",
         "speciesLabel": "Especies"
       },
       "details": {
-        "biographyLabel": "Description",
-        "driveLabel": "Drive",
+        "biographyLabel": "Descripción",
+        "driveLabel": "Motivación",
         "movesLabel": "Movimientos",
         "equipmentLabel": "Equipo",
         "specialLabel": "Especial"
       }
     },
     "ItemSheets": {
-      "descriptionLabel": "Description",
-      "sheetEquipmentConfig": "Default Root Item Sheet",
+      "descriptionLabel": "Descripción",
+      "sheetEquipmentConfig": "Hoja de objetos por defecto de Root",
       "wearLabel": "Desgaste",
       "trackLabel": "Contador",
-      "valueLabel": "Value",
-      "loadLabel": "Load",
-      "rangeLabel": "Range",
+      "valueLabel": "Valor",
+      "loadLabel": "Carga",
+      "rangeLabel": "Alcance",
       "rangePlaceholder": "Añadir alcance",
-      "tagsLabel": "Tags: "
+      "tagsLabel": "Etiquetas:"
     },
     "NatureSheet": {
-      "sheetConfig": "Root Nature Sheet",
-      "label": "Nature"
+      "sheetConfig": "Hoja de Naturaleza de Root",
+      "label": "Naturaleza"
     },
     "DriveSheet": {
-      "sheetConfig": "Root Drive Sheet",
-      "label": "Drive"
+      "sheetConfig": "Hoja de Motivación de Root",
+      "label": "Motivación"
     },
     "FeatSheet": {
-      "sheetConfig": "Root Feat Sheet",
-      "label": "Roguish Feat",
-      "risksLabel": "Risks"
+      "sheetConfig": "Hoja de Proezas de Root",
+      "label": "Proeza de granuja",
+      "risksLabel": "Riesgos"
     },
     "BackgroundQuestionSheet": {
-      "sheetConfig": "Root Background Question Sheet",
+      "sheetConfig": "Hoja de Preguntas de trasfondo de Root",
       "question": "Pregunta",
       "options": "Opciones",
       "delete": "Eliminar",
       "add": "Añadir"
     },
     "FactionSheet": {
-      "label": "Faction",
-      "sheetConfig": "Root Faction Sheet",
-      "descriptionLabel": "Description",
-      "goalsLabel": "Goals",
-      "plansLabel": "Plans"
+      "label": "Facción",
+      "sheetConfig": "Hoja de Facción de Root",
+      "descriptionLabel": "Descripción",
+      "goalsLabel": "Objetivos",
+      "plansLabel": "Planes"
     },
     "SpeciesSheet": {
-      "sheetConfig": "Root Species Sheet",
+      "sheetConfig": "Hoja de Especies de Root",
       "label": "Especies",
       "movesLabel": "Movimientos de especie"
     },
     "ConnectionSheet": {
-      "sheetConfig": "Root Connection Sheet",
+      "sheetConfig": "Hoja de Conexión de Root",
       "connectionType": {
         "label": "Tipo de conexión",
         "option": {
@@ -262,8 +262,8 @@
             "description": "Cuando le ayudas a cumplir con su naturaleza, ambos recuperáis vuestro contador de agotamiento."
           },
           "peer": {
-            "name": "Peer",
-            "description": "If you share information with them after <b>reading a tense situation</b>, you both benefit from the +1 for acting on the answers. If you <b>help</b> them while they <b>attempt a roguish feat</b>, you gain choices on the help move as if you had marked 2-exhaustion when you mark 1-exhaustion."
+            "name": "Compañero",
+            "description": "Si compartes información con él después de <b>leer una situación tensa</b>, ambos os beneficiáis de +1 por actuar según las respuestas. Si le <b>ayudas</b> mientras <b>intenta una proeza de granuja</b>, obtienes opciones en el movimiento de ayuda como si hubieras marcado 2 casillas de agotamiento cuando marcas solo 1."
           }
         }
       },
@@ -287,385 +287,385 @@
           },
           "protege": {
             "name": "Protégé",
-            "description": "Once per game session, when you spend time training with them, choose one and hold 1:<ul><li>Learn tricks of the trade; they choose which roguish feat they teach you, and you may spend hold to <b>attempt that roguish feat</b> as if you had it.</li><li>Spar with them; they choose which weapon skill they teach you, and you may spend hold to use that weapon skill as if you had it.</li><li>Ask them about how they see the world; spend hold to take +1 forward to prove them right or wrong.</li></ul>"
+            "description": "Una vez por sesión de juego, cuando pases tiempo entrenando con tu mentor, elige una de las opciones y guarda 1 punto:<ul><li>Aprender trucos del oficio; él elige qué proeza de granuja te enseñará, y tú puedes gastar tu punto guardado para <b>intentar esa proeza de granuja</b> como si la tuvieras.</li><li>Combate con él; él elige qué habilidad con armas te enseña, y tú puedes gastar tu punto guardado para usar esa habilidad con armas como si la tuvieras.</li><li>Pregúntale sobre su manera de ver el mundo; gasta tu punto guardado para conseguir +1 Al siguiente y demostrarle que tienen razón o que está equivocado.</li></ul>"
           },
           "rival": {
             "name": "Rival",
-            "description": "When you challenge them to take a completely unnecessary and excessive risk to prove themself, they take +1 forward to accept and meet your provocation; if they decline, they mark exhaustion instead."
+            "description": "Cuando le retas a correr un riesgo totalmente innecesario y excesivo para demostrar que demuestre su valía, obtiene +1 Al siguiente si acepta y cumple con aquello con lo que le has provocado; si declina tu reto, debe marcar agotamiento en su lugar."
           }
         }
       },
       "playbook": "Libreto",
-      "statement": "Connection Statement",
-      "questions": "Connection Questions",
-      "answers": "Connection Answers",
-      "connectedTo": "Connect To",
+      "statement": "Descripción de la conexión",
+      "questions": "Preguntas de la conexión",
+      "answers": "Respuestas de la conexión",
+      "connectedTo": "Conectado a",
       "emptyQuestion": "—",
-      "connectedToPlaceholder": "Name of Connection",
+      "connectedToPlaceholder": "Nombre de la conexión",
       "tab": {
         "details": "Detalles",
-        "input": "Input"
+        "input": "Campo"
       },
-      "delete": "Delete",
-      "add": "Add"
+      "delete": "Eliminar",
+      "add": "Añadir"
     },
     "Tags": {
       "move": {
         "special": {
           "value": "Especial",
-          "description": "This move is a Weapon skill and represents special combat-related techniques that a vagabond has mastered."
+          "description": "Este movimiento es una habilidad con armas y representa técnicas especiales de combate que un vagabundo ha dominado."
         },
         "no-tag": {
-          "value": "No Tag Required",
-          "description": "If a move includes the “no tag required” label, you do not need a weapon with the tag in order to use the weapon skill."
+          "value": "No requiere etiqueta",
+          "description": "Si un movimiento incluye la indicación \"no requiere etiqueta\", no necesitas que tu arma tenga esa etiqueta para usar la habilidad con armas."
         },
         "marquisate": {
-          "value": "Marquisate",
-          "description": "This is a faction-specific Reputation move."
+          "value": "El Marquesado",
+          "description": "Este es un movimiento de Reputación específico de una facción."
         },
         "eyrie": {
-          "value": "Eyrie",
-          "description": "This is a faction-specific Reputation move."
+          "value": "Nido de Águilas",
+          "description": "Este es un movimiento de Reputación específico de una facción."
         },
         "woodland": {
           "value": "Alianza del Bosque",
-          "description": "This is a faction-specific Reputation move."
+          "description": "Este es un movimiento de Reputación específico de una facción."
         },
         "lizard": {
-          "value": "Lizard Cult",
-          "description": "This is a faction-specific Reputation move."
+          "value": "El Culto Reptiliano",
+          "description": "Este es un movimiento de Reputación específico de una facción."
         },
         "riverfolk": {
-          "value": "Riverfolk Company",
-          "description": "This is a faction-specific Reputation move."
+          "value": "La Compañía del Río",
+          "description": "Este es un movimiento de Reputación específico de una facción."
         },
         "corvid": {
-          "value": "Corvid Conspiracy",
-          "description": "This is a faction-specific Reputation move."
+          "value": "La Conspiración Córvida",
+          "description": "Este es un movimiento de Reputación específico de una facción."
         },
         "duchy": {
-          "value": "Grand Duchy",
-          "description": "This is a faction-specific Reputation move."
+          "value": "El Ducado Subterráneo",
+          "description": "Este es un movimiento de Reputación específico de una facción."
         }
       },
       "range": {
         "intimate": {
-          "value": "Intimate",
-          "description": "You’re right up in each other’s faces, easily in touching range, breaking each other’s personal space bubbles. The kind of range you’d be in to start wrestling, to poke a finger into someone’s chest, to hug someone."
+          "value": "Pegado",
+          "description": "Estáis frente a frente, os podéis tocar fácilmente y rompéis las burbujas del espacio personal del otro. Es la distancia a la que estarías para empezar un combate de lucha libre, clavarle un dedo en el pecho a alguien o abrazarle.\n "
         },
         "close": {
-          "value": "Close",
-          "description": "You’re close enough to talk comfortably, to fight with weapons—not close enough to touch without effort, but certainly close enough to lunge at the other denizen and reach them. The kind of range you’d be in to sword-fight (or to fistfight from a distance), to walk in each other’s company without holding hands, to easily toss something."
+          "value": "Corto",
+          "description": "Estáis lo bastante cerca para hablar cómodamente y para luchar con armas, no lo suficiente para tocaros sin esfuerzo, pero sí lo bastante como para asaltar al otro habitante y alcanzarle. Es la distancia a la que estarías para luchar con espadas (o a puñetazos desde cierta distancia), caminar en compañía del otro sin cogerse de la mano o para lanzarle algo con facilidad."
         },
         "far": {
-          "value": "Far",
-          "description": "You’re far enough that you have to speak louder, even yelling, to hear each other—but you still can hear each other. The kind of range you’d be in to shoot a bow, to spot each other from a distance, to be able to easily break line of sight and hide."
+          "value": "Largo",
+          "description": "Estáis lo suficientemente lejos para tener que hablar más alto, incluso gritar, para poder oíros, pero aun así podéis comunicaros. Es la distancia a la que se dispara con un arco, se ve al oponente desde lejos y se puede romper fácilmente la línea de visión y esconderse."
         }
       },
       "equipment": {
         "arrow-proof": {
-          "value": "Arrow-proof",
-          "description": "Ignore the first hit dealing injury from arrows that you suffer in a scene. (Armor)"
+          "value": "A prueba de flechas",
+          "description": "Ignora el primer impacto por flechas que cause heridas que sufras en una escena. (Armadura)"
         },
         "blunted": {
-          "value": "Blunted",
-          "description": "This weapon inflicts exhaustion, not injury. (Hammer, staff)"
+          "value": "Roma",
+          "description": "Esta arma causa agotamiento, no heridas. (Martillo, bastón)"
         },
         "catfolk-steel": {
-          "value": "Catfolk Steel",
-          "description": "Mark wear when engaging in melee to shift your range one step, even on a miss. (Armor, weapons)"
+          "value": "Acero gatuno",
+          "description": "Marca desgaste al enfrentarte cuerpo a cuerpo para desplazar tu alcance en un rango, incluso si fallas. (Armadura, armas)"
         },
         "ceremonial": {
           "value": "Ceremonial",
-          "description": "This weapon inflicts exhaustion, not injury. (Hammer, staff)"
+          "description": "Elige una facción relacionada con el objeto. Mientras este objeto esté a la vista, considera que tienes +1 de Reputación con esa facción, y -1 de Reputación con otras facciones. (Cualquiera)"
         },
         "comfortable": {
-          "value": "Comfortable",
-          "description": "This weapon inflicts exhaustion, not injury. (Hammer, staff)"
+          "value": "Cómodo",
+          "description": "Cuenta 1 menos para la Carga. (Armadura)"
         },
         "durable": {
-          "value": "Durable",
-          "description": "This weapon inflicts exhaustion, not injury. (Hammer, staff)"
+          "value": "Duradero",
+          "description": "Si este objeto se destruyera en algún momento, elimina permanentemente 1 casilla de desgaste en su lugar. Si en algún momento no quedan casillas de desgaste, se destruye. (Cualquiera)"
         },
         "eaglecraft": {
-          "value": "Eaglecraft",
-          "description": "This weapon inflicts exhaustion, not injury. (Hammer, staff)"
+          "value": "Artesanía aguileña",
+          "description": "Marca desgaste al enfrentarte cuerpo a cuerpo para que tu oponente y tú hagáis y sufráis otro intercambio de daño. (Armas)"
         },
         "fast": {
-          "value": "Fast",
-          "description": "Mark wear when engaging in melee to suffer 1 fewer harm, even on a miss. (Smaller or thinner weapons)"
+          "value": "Rápida",
+          "description": "Marca desgaste al enfrentarte cuerpo a cuerpo para sufrir 1 menos de daño, incluso si fallas. (Armas pequeñas o finas)"
         },
         "friendly": {
-          "value": "Friendly",
-          "description": "When you meet someone important, mark exhaustion to roll with your Reputation +1. (Armor, nonthreatening weapons like staves)"
+          "value": "Amistosa",
+          "description": "Cuando te encuentres con alguien importante, marca agotamiento para tirar con tu +1 a tu Reputación. (Armadura, armas no amenazantes como bastones)"
         },
         "flexible": {
           "value": "Flexible",
-          "description": "When you grapple with someone, mark exhaustion to ignore the first choice they make. (Armor)"
+          "description": "Cuando pelees con alguien, marca agotamiento para ignorar la primera elección que haga tu oponente. (Armadura)"
         },
         "foxfolk-steel": {
-          "value": "Foxfolk Steel",
-          "description": "Ignore the first box of wear you mark on this item each session. (Weapons and some armor)"
+          "value": "Acero zorruno",
+          "description": "Ignora la primera casilla de desgaste que tengas que marcar en este objeto en cada sesión. (Armas y algunas armaduras)"
         },
         "hair-trigger": {
-          "value": "Hair Trigger",
-          "description": "Mark wear to target a vulnerable foe at close range instead of far. (Crossbow)"
+          "value": "Gatillo sensible",
+          "description": "Marca desgaste para atacar a un enemigo vulnerable a corta distancia en lugar de lejos. (Ballesta)"
         },
         "healers-kit": {
-          "value": "Healer’s Kit",
-          "description": "Mark wear to clear exhaustion. Mark 2-wear to clear injury. (Healer’s kit)"
+          "value": "Kit de curandero",
+          "description": "Marca desgaste para eliminar agotamiento. Marca 2 casillas de desgaste para eliminar heridas. (Kit de curandero)"
         },
         "heavy-bludgeon": {
-          "value": "Heavy Bludgeon",
-          "description": "Mark exhaustion to ignore your enemy’s armor when you inflict harm. (Hammer, mace)"
+          "value": "Maza pesada",
+          "description": "Marca agotamiento para ignorar la armadura de tu enemigo cuando inflijas daño. (Martillo, maza)"
         },
         "heavy-draw-weight": {
-          "value": "Heavy Draw Weight",
-          "description": "When you target a vulnerable foe with this bow, mark exhaustion to inflict 1 additional injury. (Bow)"
+          "value": "Gran potencia de disparo",
+          "description": "Cuando apuntes y dispares a un enemigo vulnerable con este arco, marca agotamiento para infligir 1 de daño adicional. (Arco)"
         },
         "iron-bolts": {
-          "value": "Iron bolts",
-          "description": "This weapon inflicts 1 additional wear when its harm is absorbed by armor. (Bow, crossbow)"
+          "value": "Virotes de hierro",
+          "description": "Esta arma causa 1 de desgaste adicional cuando el daño que provoque es absorbido por la armadura. (Arco, ballesta)"
         },
         "large": {
-          "value": "Large",
-          "description": "Mark exhaustion when inflicting harm with this weapon to inflict 1 additional harm. (Weapons)"
+          "value": "Grande",
+          "description": "Marca agotamiento cuando causes daño con esta arma para infligir 1 de daño adicional. (Armas)"
         },
         "luxury": {
-          "value": "Luxury",
-          "description": "After creation, this item is worth +3-Value. (Anything)"
+          "value": "Lujosa",
+          "description": "Tras su creación, este objeto tiene un Valor +3. (Cualquiera)"
         },
         "mousefolk-steel": {
-          "value": "Mousefolk Steel",
-          "description": "Mark wear to engage in melee using Cunning instead of Might. (Weapons)"
+          "value": "Acero ratuno",
+          "description": "Marca desgaste al enfrentarte cuerpo a cuerpo para usar Astucia en lugar de Poderío. (Armas)"
         },
         "mighty": {
-          "value": "Mighty",
-          "description": "When you wreck something with this item, mark 2-wear to shift a miss to a 7–9 or a 7–9 to a 10+ result. (Explosives, heavy weapons)"
+          "value": "Poderoso",
+          "description": "Cuando destroces algo con este objeto, marca 2 casillas de desgaste para cambiar un fallo por un resultado de 7 a 9, o un resultado de 7 a 9 a un 10+. (Explosivos, armas pesadas)"
         },
         "oiled-string": {
-          "value": "Oiled String",
-          "description": "Mark wear to use the weapon skill quick shot even if you don’t have it. (Bow)"
+          "value": "Cuerda engrasada",
+          "description": "Marca desgaste para usar la habilidad con armas disparo rápido aunque no la tengas. (Arco)"
         },
         "quick": {
-          "value": "Quick",
-          "description": "Mark exhaustion to engage in melee with Finesse instead of Might. (Small or fast weapons)"
+          "value": "Rápida",
+          "description": "Marca desgaste al enfrentarte cuerpo a cuerpo para sufrir 1 menos de daño, incluso si fallas. (Armas pequeñas o finas)"
         },
         "rabbitfolk-steel": {
-          "value": "Rabbitfolk Steel",
-          "description": "Mark wear to engage in melee with Finesse instead of Might. (Weapons)"
+          "value": "Acero conejuno",
+          "description": "Marca desgaste para enfrentarte cuerpo a cuerpo con Finura en lugar de Poderío. (Armas)"
         },
         "reach": {
-          "value": "Reach",
-          "description": "When you engage in melee, mark wear on this weapon to inflict harm instead of trading harm; you cannot use this tag if your enemy’s weapon also has reach. (Large, tall weapons)"
+          "value": "Larga",
+          "description": "Cuando te enfrentas cuerpo a cuerpo, marca desgaste en esta arma para causar daño en lugar de intercambiar daño; no puedes usar esta etiqueta si el arma de tu enemigo también tiene alcance. (Armas grandes y altas)"
         },
         "refreshing": {
-          "value": "Refreshing",
-          "description": "When you take some time to relax and drink or eat from this item with a group, mark 3-wear, +1 additional wear for each participant past the third. Every participant clears all exhaustion. (Meal, flask)"
+          "value": "Reconfortante",
+          "description": "Cuando te tomas un tiempo para relajarte y beber o comer de este objeto con un grupo, marcas 3 casillas de desgaste, +1 de desgaste adicional por cada participante tras el tercero. Cada participante recupera todas las casillas de agotamiento. (Comida, frasco)"
         },
         "sharp": {
-          "value": "Sharp",
-          "description": "Mark wear when inflicting harm with this weapon to inflict 1 additional harm. (Edged weapons)"
+          "value": "Afilada",
+          "description": "Marca desgaste al causar daño con esta arma para infligir 1 de daño adicional. (Armas blancas y de filo)"
         },
         "short-limbs": {
-          "value": "Short Limbs",
-          "description": "Mark wear to fire a quick shot at far range. (Small bow)"
+          "value": "Palas cortas",
+          "description": "Marca desgaste para realizar un disparo rápido a largo alcance. (Arco corto)"
         },
         "signature": {
-          "value": "Signature",
-          "description": "Whenever you earn prestige or notoriety while showing this item, mark 1 additional prestige or notoriety. (Anything displayed)"
+          "value": "Conocido",
+          "description": "Siempre que ganes prestigio o infamia mientras muestras este objeto, marca 1 casilla de prestigio o infamia adicional. (Cualquier objeto visible)"
         },
         "thick": {
-          "value": "Thick",
-          "description": "When you mark wear on this shield to block a hit, you only ever mark 1-wear, even if you are blocking more harm from a single hit. (Shield)"
+          "value": "Grueso",
+          "description": "Cuando marques desgaste en este escudo para parar un golpe, solo tienes que marcar 1 de desgaste para bloquear el daño que cause, aunque sea mayor que 1. (Escudo)"
         },
         "thief-kit": {
-          "value": "Thief Kit",
-          "description": "When you attempt a roguish feat appropriate for this item, you may mark wear on this item instead of marking exhaustion to avoid a risk coming to bear on a 7–9. (Tools, specially made armor or weapons)"
+          "value": "Kit de ladrón",
+          "description": "Cuando intentes una proeza de granuja apropiada para este objeto, puedes marcar desgaste en vez de agotamiento para evitar que el riesgo que conlleva un resultado de 7–9. (Herramientas, armaduras o armas hechas especialmente para ello)"
         },
         "throwable": {
-          "value": "Throwable",
-          "description": "Mark exhaustion to target a vulnerable foe with this weapon at far range. (Daggers, grenades)"
+          "value": "Arrojadiza",
+          "description": "Marca agotamiento para atacar a un enemigo vulnerable con esta arma a largo alcance. (Dagas, granadas)"
         },
         "tightly-woven": {
-          "value": "Tightly Woven",
-          "description": "When you take a few seconds to repair this armor after a fight, clear 1-wear you marked during the fight. (Chain armor)"
+          "value": "Entretejido firme",
+          "description": "Cuando te tomas unos segundos para reparar esta armadura después de un combate, recupera 1 casilla de desgaste que marcaste mientras combatías. (Cota de malla)"
         },
         "tricky": {
-          "value": "Tricky",
-          "description": "When you use this item to trick an NPC by distracting them at a distance, on a 7–9 mark wear to eliminate one option from the trick an NPC move before the NPC picks. (Bolas, bows)"
+          "value": "Engañoso",
+          "description": "Cuando usas este objeto para engañar a un PNJ distrayéndole a distancia, con un resultado 7–9 puedes marcar desgaste para eliminar una de las opciones que puede elegir el PNJ antes de que lo haga. (Boleadoras, arcos)"
         },
         "unassuming": {
-          "value": "Unassuming",
-          "description": "Until you harm an enemy, they will never deem you more of a threat than other vagabonds with arms and armor. (Robes, staves)"
+          "value": "Discreta",
+          "description": "Mientras no dañes a un enemigo, nunca serás considerado como una amenaza mayor que otros vagabundos con armas y armaduras. (Túnicas, bastones y varas)"
         },
         "versatile": {
-          "value": "Versatile",
-          "description": "When you move to or from a range this weapon can reach, mark wear to make a quick strike and inflict injury on any opponent in this weapon’s range. (Fast weapons)"
+          "value": "Versatil",
+          "description": "Cuando te mueves hacia o desde un alcance en el que esta arma es útil, marca desgaste para realizar un ataque rápido e infligir daño a cualquier oponente que esté al alcance de arma. (Armas rápidas)"
         },
         "bulky": {
-          "value": "Bulky",
-          "description": "This weapon cannot be hidden and is always visible while on your body. Mark exhaustion whenever you attempt a roguish feat or trust fate to sneak, hide, blindside, or perform an act of acrobatics. (Large weapons)"
+          "value": "Voluminosa",
+          "description": "Esta arma no se puede ocultar y siempre está visible mientras la lleves encima. Marca agotamiento siempre que intentes una proeza de granuja o confíes en el destino para acciones de infiltración, esconderte, por sorpresa o acrobacias. (Armas grandes)"
         },
         "cumbersome": {
-          "value": "Cumbersome",
-          "description": "Mark 1-exhaustion when you don your armor—clear 1-exhaustion when you take it off. (Heavy armor)"
+          "value": "Engorrosa",
+          "description": "Marca 1 casilla de agotamiento cuando te pongas la armadura; la recuperas cuando te la quites. (Armadura pesada)"
         },
         "fragile": {
-          "value": "Fragile",
-          "description": "When you make a weapon move with this weapon, mark wear on it. Mark exhaustion to ignore this effect. (Light weapons)"
+          "value": "Frágil",
+          "description": "Cuando hagas un movimiento con armas con esta arma, marca 1 casilla de desgaste en ella. Marca 1 casilla de agotamiento para ignorar este efecto. (Armas ligeras)"
         },
         "hated": {
-          "value": "Hated",
-          "description": "Take –2 Reputation with the faction that loathes this item while it is displayed. If you reveal this item to foes from that faction, they clear morale as they are energized by anger at you. (Anything)"
+          "value": "Odiado",
+          "description": "Sufres -2 en tu Reputación con la facción que odia este objeto mientras esté a la vista. Si revelas este objeto a enemigos que pertenezcan a esa facción, recuperan la moral al tener fuerzas renovadas gracias a su ira hacia ti. (Cualquiera)"
         },
         "shoddy": {
-          "value": "Shoddy",
-          "description": "Repairing this item costs twice as much Value per box of wear cleared. (Anything)"
+          "value": "Chapucero",
+          "description": "Reparar este objeto cuesta el doble de Valor por cada casilla de desgaste recuperada. (Cualquiera)"
         },
         "slow": {
-          "value": "Slow",
-          "description": "When you engage in melee with this weapon, choose one fewer option. Mark wear to ignore this effect. (Heavy weapons)"
+          "value": "Lenta",
+          "description": "Cuando te enfrentas cuerpo a cuerpo con esta arma, eliges una opción menos cuando tengas éxito con el movimiento. Marca desgaste para ignorar este efecto. (Armas pesadas)"
         },
         "ugly": {
-          "value": "Ugly",
-          "description": "Take –1 to meet someone important while they can see this item. Mark exhaustion to hide it. (Weapons or handheld items)"
+          "value": "Fea",
+          "description": "Sufres -1 cuando te encuentres con alguien importante mientras pueda ver este objeto. Marca agotamiento para ocultarlo. (Armas u objetos de mano)"
         },
         "unwieldy": {
-          "value": "Unwieldy",
-          "description": "Take a –1 to all weapon moves—both basic and special weapon moves—made with this weapon. Mark exhaustion to ignore this effect."
+          "value": "Engorrosa",
+          "description": "Marca 1 casilla de agotamiento cuando te pongas la armadura; la recuperas cuando te la quites. (Armadura pesada)"
         },
         "weighty": {
-          "value": "Weighty",
-          "description": "This item counts as 1 additional Load. (Anything large)"
+          "value": "Pesado",
+          "description": "Este objeto consume 1 casilla de Carga adicional. (Cualquier objeto grande)"
         },
         "wicked": {
-          "value": "Wicked",
-          "description": "Anyone who sees this weapon will deem its wielder a threat, at least to be watched carefully. When you inflict any harm with this weapon, mark notoriety with an observing faction for each harm inflicted. (Cruel weapons)"
+          "value": "Malvada",
+          "description": "Cualquiera que vea esta arma considerará a su portador una amenaza, al menos como alguien a quien vigilar cuidadosamente. Cuando inflijas algún daño con esta arma, marca infamia con la facción que te vea por cada casilla de daño infligido. (Armas crueles)"
         },
         "accurate": {
-          "value": "Accurate",
-          "description": "When you inflict injury with this weapon, mark exhaustion to target a specific part of your target’s body and impair it until they have time to heal. (Bow, knives)"
+          "value": "Certero",
+          "description": "Cuando inflijas una herida con esta arma, marca agotamiento para apuntar a una parte específica del cuerpo de tu objetivo y que quede perjudicado hasta que tenga tiempo de curarse. (Arco, cuchillos)"
         },
         "barbed": {
-          "value": "Barbed",
-          "description": "When you catch someone with this weapon’s end, mark exhaustion to move to intimate range and grapple with them as if you had rolled a 10+. (Spears, axes, chains)"
+          "value": "Dentado",
+          "description": "Cuando alcanzas a alguien con el extremo de esta arma, marca agotamiento para moverte a alcance pegado y enzarzarte en una pelea con él como si hubieras sacado un 10+. (Lanzas, hachas, cadenas)"
         },
         "blend": {
-          "value": "Blend",
-          "description": "When you use this item to blend into the appropriate environment, mark wear to roll Sneak or Hide as if you had those feats. If you do have those feats, mark wear in the same situation to instead take +1 ongoing for the scene. (Camouflage, local clothing, etc.)"
+          "value": "Mimético",
+          "description": "Cuando utilices este objeto para camuflarte en el entorno apropiado, marca desgaste para tirar Infiltración o Esconderte como si tuvieras esas proezas. Si tienes esas proezas, marca desgaste en la misma situación para beneficiarte de +1 Continuo en la escena. (Ropa de camuflaje, ropa local, etc.)"
         },
         "cathartic": {
-          "value": "Cathartic",
-          "description": "When you use this item for a recreational activity with another vagabond, mark 2-wear for both vagabonds to each clear 2-exhaustion. (Art supplies, bow and arrow, etc.)"
+          "value": "Catártico",
+          "description": "Cuando utilices este objeto para una actividad recreativa con otro vagabundo, marca 2 casillas de desgaste para ambos vagabundos y cada uno recupera 2 casillas de agotamiento. (Suministros de arte, arco y flecha, etc.)"
         },
         "common": {
-          "value": "Common",
-          "description": "When repairing this item, you can repair twice as much wear for the same Value. (Anything)"
+          "value": "Común",
+          "description": "Al reparar este objeto, puedes reparar el doble de desgaste por el mismo Valor. (Cualquier cosa)"
         },
         "disarming": {
-          "value": "Disarming",
-          "description": "When wearing this item, you are underestimated. Mark exhaustion to change a miss to a 7-9 or a 7-9 to a 10+ when tricking an NPC by appearing weak or nonthreatening. (Tattered-seeming clothes, burlap robes)"
+          "value": "Indefenso",
+          "description": "Cuando llevas este objeto, te subestiman. Marca agotamiento para cambiar un fallo por un resultado de 7–9, o uno de 7–9 por un resultado de 10+ cuando engañes a un PNJ pareciendo débil o no amenazante. (Ropas de aspecto andrajoso, túnica de arpillera)."
         },
         "distracting": {
-          "value": "Distracting",
-          "description": "When you grapple with an enemy while you wield or display this item, mark exhaustion to change a miss to a 7-9 or a 7-9 to a 10+. (Anything visibly or audibly distracting for your enemy)"
+          "value": "Desconcertante",
+          "description": "Cuando estés enzarzado en una pelea con un enemigo mientras empuñas o exhibes este objeto, marca agotamiento para cambiar un fallo por un resultado de 7–9, o uno de 7–9 por un resultado de 10+. (Cualquier cosa que siendo visible o audible distraiga a tu enemigo)"
         },
         "disguised": {
-          "value": "Disguised",
-          "description": "Until this item is revealed as a weapon, it will be treated as if it isn’t one. When you attempt the Blindside roguish feat with this weapon while it is still unrevealed, mark wear to shift a miss to a 7-9 or a 7-9 to a 10+. (Any weapon disguised as a commonplace object)"
+          "value": "Disimulada",
+          "description": "Hasta que este objeto se revele como un arma, se tratará como si no lo fuera. Cuando intentes la proeza de granuja Por sorpresa con esta arma cuando aún pasa desapercibida, marca el desgaste para cambiar un fallo por un resultado de 7–9, o uno de 7–9 por un resultado de 10+. (Cualquier arma disimulada como un objeto común)"
         },
         "hidden": {
-          "value": "Hidden",
-          "description": "Mark exhaustion when being searched or examined to ensure this item goes unnoticed. Mark wear to attempt the Blindside roguish feat if you don’t have it, or to take a 10+ to Blindside if you do have it. (Stiletto, baton)"
+          "value": "Oculto",
+          "description": "Marca agotamiento al ser cacheado o examinado para asegurar que este objeto pase desapercibido. Marca desgaste para intentar la proeza de granuja Por sorpresa si no la tienes, o para sacar un resultado de 10+ en Por sorpresa si tienes la proeza. (Estilete, bastón)"
         },
         "impressive": {
-          "value": "Impressive",
-          "description": "When you storm a group wielding this item, mark wear to inflict 2-morale harm on them, in addition to the consequences of your roll. (Skull-shaped hammer, black sword)"
+          "value": "Impresionante",
+          "description": "Cuando asaltas a un grupo blandiendo este objeto, marca desgaste para infligirles 2 marcas de daño moral, además de las consecuencias de tu tirada. (Martillo con forma de calavera, espada negra)"
         },
         "incendiary": {
-          "value": "Incendiary",
-          "description": "This item inspires members of one faction, and angers and upsets members of another. When you openly give this item to an interested party in order to spread its message, mark prestige equal to this item’s Value with the positive faction, and notoriety equal to this item’s Value with the negative faction. (Pamphlets, libel, slanderous texts)"
+          "value": "Incendiario",
+          "description": "Este objeto inspira a los miembros de una facción, y enfada y molesta a los miembros de otra. Cuando entregues abiertamente este objeto a una parte interesada para difundir su mensaje, marca prestigio igual al Valor de este objeto con la facción positiva, y infamia igual al Valor de este objeto con la facción negativa. (Panfletos, libelos, textos difamatorios)"
         },
         "intimidating": {
-          "value": "Intimidating",
-          "description": "When you flaunt this item to persuade an NPC through threats, you can mark 2-notoriety with their faction to shift a miss to a 7-9 or a 7-9 to a 10+. (Any weapon)"
+          "value": "Intimidante",
+          "description": "Cuando haces alarde de este objeto para persuadir a un PNJ mediante amenazas, puedes marcar 2 casillas de infamia con su facción para cambiar un fallo por un resultado de 7–9, o uno de 7–9 a un resultado de 10+. (Cualquier arma)"
         },
         "inspiring": {
-          "value": "Inspiring",
-          "description": "When you use this item to help another vagabond, you can mark wear instead of exhaustion. (Anything)"
+          "value": "Inspirador",
+          "description": "Cuando uses este objeto para ayudar a otro vagabundo, puedes marcar desgaste en lugar de agotamiento. (Cualquier cosa)"
         },
         "invigorating": {
-          "value": "Invigorating",
-          "description": "When you consume this item, mark 2-injury to clear all your exhaustion and add 2 boxes to your exhaustion track for the rest of the scene (they go away at the end of the scene, whether they are marked or unmarked, with no further harmful effects either way). (Stimulant)"
+          "value": "Vigorizante",
+          "description": "Cuando lo consumas, marca 2 heridas para recuperar todo tu agotamiento y añade 2 casillas a tu contador de agotamiento durante el resto de la escena (desaparecen al final de la escena, tanto si están marcadas como si no, sin más efectos perjudiciales en cualquier caso). (Estimulante)"
         },
         "legendary": {
-          "value": "Legendary",
-          "description": "This item has its own reputation track, referred to as Legend, equivalent to 15 boxes of Prestige. It starts with Legend +1, and has no Legend boxes marked. To reach Legend +2, it would have to have 10 boxes of Legend marked, and then would clear its track. To reach Legend +3, it would have to have 15 boxes of Legend marked. This item also has a favored faction and a hated faction. Any time you wield this item openly, you do not mark prestige or notoriety at all. Instead, you mark Legend on this item when you aid the favored faction and injure the hated faction. For Reputation moves, roll with the item’s Legend instead of your own Reputation. Whenever any session goes by in which you did not mark any Legend on this item, clear 1 box of Legend from this item. If you have no boxes to clear, reduce its Legend by 1. (Anything)"
+          "value": "Legendario",
+          "description": "Este objeto tiene su propio contador de Reputación, denominado Leyenda, equivalente a 15 casillas de prestigio. El objeto comienza con Leyenda +1, y no tiene casillas de Leyenda marcadas. Para alcanzar Leyenda +2, tendría que obtener 10 casillas de Leyenda marcadas, y entonces subiría de +1 a +2, borrando todas las casillas marcadas del contador. Para alcanzar Leyenda +3, es necesario tener 15 casillas de Leyenda marcadas. Este objeto también tiene una facción para el que es favorito y una facción que lo odia. Cada vez que empuñas este objeto abiertamente, no marcas tu prestigio ni tu infamia. En su lugar, marcas Leyenda cuando ayudas a la facción para el que es favorito y perjudicas a la facción que lo odia. Para los movimientos de Reputación, tiras con la Leyenda del objeto en lugar de con tu propia Reputación. Cada vez que pase una sesión en la que no hayas marcado ninguna casilla de Leyenda en este objeto, pierdes 1 casilla marcada de Leyenda del objeto. Si no tuvieras casillas que eliminar, reduces su Leyenda en 1. (Cualquier cosa)"
         },
         "light": {
-          "value": "Light",
-          "description": "This item doesn’t count towards your Load. (Anything made from lighter materials than normal)"
+          "value": "Ligero",
+          "description": "Este objeto no cuenta para tu Carga. (Cualquier cosa hecha de materiales más ligeros de lo normal)"
         },
         "nasty": {
-          "value": "Nasty",
-          "description": "When you grapple with an enemy, both yours and your enemy’s first choice is doubled in effect. (Heavy gauntlet or other heavy weapon)"
+          "value": "Peligrosa",
+          "description": "Cuando te enzarzas en una pelea con un enemigo, tanto tu primera elección como la de tu enemigo duplican su efecto. (Guantelete pesado u otra arma pesada)"
         },
         "poison": {
-          "value": "Poison",
-          "description": "When you target a vulnerable foe, inflict exhaustion instead of injury; your target is poisoned until cured. While poisoned, each time they take a significant or strenuous action, inflict exhaustion. If they fall unconscious, inflict injury every 6 hours until they receive the cure or perish. (Anything envenomed or poisoned)"
+          "value": "Veneno",
+          "description": "Cuando atacas a un enemigo vulnerable, infliges agotamiento en lugar de daño; tu objetivo queda envenenado hasta que se cure. Mientras esté envenenado, cada vez que realice una acción importante o extenuante, sufre agotamiento. Si cae inconsciente, recibe daño cada 6 horas hasta que reciba la cura o muera. (Cualquier cosa envenenada)"
         },
         "precise": {
-          "value": "Precise",
-          "description": "Mark wear to ignore your enemy’s armor when you inflict harm. (Thin weapons)"
+          "value": "Penetrante",
+          "description": "Marca desgaste para ignorar la armadura de tu enemigo cuando le infliges daño. (Armas finas)"
         },
         "reinforced": {
-          "value": "Reinforced",
-          "description": "While wearing this armor, you may absorb injury as exhaustion 1-for-1 instead of absorbing it as wear. (Armor)"
+          "value": "Reforzada",
+          "description": "Mientras lleves esta armadura, puedes absorber daño como agotamiento 1 a 1 en vez de absorberlo como desgaste. (Armadura)"
         },
         "sturdy": {
-          "value": "Sturdy",
-          "description": "When you would mark wear on this item, you may mark exhaustion instead. You cannot mark exhaustion to absorb injury with this tag. (Anything)"
+          "value": "Robusto",
+          "description": "Cuando tengas que marcar desgaste en este objeto, puedes marcar agotamiento en su lugar. No puedes marcar agotamiento para absorber daño con esta etiqueta. (Cualquier cosa)"
         },
         "conspicuous": {
-          "value": "Conspicuous",
-          "description": "When you target a vulnerable foe at far range, you cannot keep your position hidden, even on a 10+. Mark wear to ignore this effect. (Any far-range weapon that is particularly noisy or visible)"
+          "value": "Llamativa",
+          "description": "Cuando atacas a un enemigo vulnerable a largo alcance, no puedes mantener oculta tu posición, ni siquiera con un resultado de 10+. Marca desgaste para ignorar este efecto. (Cualquier arma a distancia que sea particularmente ruidosa o visible)"
         },
         "cursed": {
-          "value": "Cursed",
-          "description": "Allied NPCs suffer morale harm when they see you bearing this item. (Anything with a hateful myth around it)"
+          "value": "Maldito",
+          "description": "Los PNJ aliados sufren daño a moral cuando te ven llevar este objeto. (Cualquier cosa rodeada de un mito infame)"
         },
         "dangerous": {
-          "value": "Dangerous",
-          "description": "Mark injury—in addition to any other consequences—when you make a weapon move with this item and roll a 7-9. (Some explosives, difficult weapons)"
+          "value": "Peligroso",
+          "description": "Marca herida —además de cualquier otra consecuencia— cuando hagas un movimiento con armas con este objeto y saques un resultado de 7–9. (Algunos explosivos, armas difíciles)"
         },
         "hard-hold": {
-          "value": "Hard to Hold",
-          "description": "When you grapple with an enemy, if you roll a 7-9, you lose your grip on this item in addition to the other consequences of your roll. Mark exhaustion to ignore this effect. (Anything with poor grip)"
+          "value": "Difícil de agarrar",
+          "description": "Cuando te enzarzas en una pelea con un enemigo, si obtienes un resultado de 7–9, pierdes este objeto de tu mano, además de las demás consecuencias de tu tirada. Marca agotamiento para ignorar este efecto. (Cualquier cosa con poco agarre)"
         },
         "identifiable": {
-          "value": "Identifiable",
-          "description": "This item is known to be associated with a particular individual. Anyone who sees it instantly recognizes it and associates you with that individual. (Anything)"
+          "value": "Identificable",
+          "description": "Se sabe que este objeto está asociado a un individuo en particular. Cualquiera que lo vea lo reconoce al instante y te asocia con ese individuo. (Cualquier cosa)"
         },
         "immoral": {
-          "value": "Immoral",
-          "description": "While this item is displayed, you cannot persuade or ask for a favor from denizens most directly insulted by its immoral nature. Take -1 to ask for a favor from all other denizens while this item is visible. (Cat claw knuckles, bird beak necklace, etc.)"
+          "value": "Inmoral",
+          "description": "Mientras este objeto esté a la vista, no puedes persuadir o pedir un favor a los habitantes que más se sienten insultados por su naturaleza inmoral. Sufres -1 en tu tirada cuando pidas un favor a cualquier otro habitante mientras este objeto esté visible. (Nudillos de garra de gato, collar de pico de pájaro, etc.)"
         },
         "incriminating": {
-          "value": "Incriminating",
-          "description": "When any significant individual member of the faction offended by this item first sees you bearing it, mark notoriety with that faction. (Anything)"
+          "value": "Insultante",
+          "description": "Cuando cualquier miembro significativo de la facción ofendida por este objeto te vea por primera vez llevándolo, marca infamia con esa facción. (Cualquier cosa)"
         },
         "makeshift": {
-          "value": "Makeshift",
-          "description": "This item cannot be repaired. This negative tag refunds 2-Value instead of 1-Value. (Anything created with Improvise a Weapon)"
+          "value": "Improvisado",
+          "description": "Este objeto no puede repararse. Esta etiqueta negativa resta 2 al Valor en vez de 1. (Cualquier cosa creada con Improvisar un arma)"
         },
         "noisy": {
-          "value": "Noisy",
-          "description": "When you wreck something using this item, you always attract attention, regardless of the roll. (Explosives)"
+          "value": "Ruidoso",
+          "description": "Cuando destrozas algo usando este objeto, siempre atraes la atención, independientemente de la tirada. (Explosivos)"
         },
         "scarce": {
-          "value": "Scarce",
-          "description": "The tools to repair this item are not commonplace. Standard repairs can clear wear to one box fewer than maximum (so an item with 3 boxes of wear could only ever be repaired through standard means to 2-wear marked). Full repairs for this item require specialists with rare equipment. (Anything antique or rare)"
+          "value": "Escaso",
+          "description": "Las herramientas para reparar este objeto no son comunes. Las reparaciones estándar solo pueden eliminar el desgaste hasta una casilla menos del máximo (por lo que un objeto con 3 casillas de desgaste solo podría repararse por medios normales hasta 2 casillas de desgaste marcadas). Las reparaciones completas de este objeto requieren especialistas con equipamiento poco común. (Cualquier cosa antigua o rara)"
         }
       }
     }

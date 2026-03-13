@@ -11,7 +11,7 @@
         "Target Someone": {
             "name": "Atacar a alguien",
             "description": "<p>Cuando <strong><em>atacas a un enemigo vulnerable a largo alcance</em></strong>, tiras con Finura. </p>",
-            "failure": "<p>The GM gets to say what happens next, with an eye towards complicating the situation dramatically.</p>",
+            "failure": "<p>El DJ decide lo que ocurre a continuación, con la intención de complicar la situación de forma drástica o dramática.</p>",
             "partial": "<p>Infliges daño</p>",
             "success": "<p>Infliges daño.</p>\n<p>Puedes volver a atacar antes de que se ponga a cubierto &mdash;infligiéndole daño de nuevo&mdash; o puedes mantener tu posición oculta, tú eliges.</p>",
             "triumph": ""
@@ -19,7 +19,7 @@
         "Engage in Melee": {
             "name": "Enfrentarse cuerpo a cuerpo",
             "description": "<p>Cuando te <strong><em>enfrentas a un enemigo cuerpo a cuerpo</em></strong> a corto alcance o pegado, tiras con Poderío.</p>",
-            "failure": "<p>The GM gets to say what happens next, with an eye towards complicating the situation dramatically.</p>",
+            "failure": "<p>El DJ decide lo que ocurre a continuación, con la intención de complicar la situación de forma drástica o dramática.</p>",
             "partial": "<p>Intercambias golpes y os causáis daño. Elige una de las siguientes opciones:</p>\n<ul>\n<li>Infligir daño grave (+1)</li>\n<li>Sufrir poco daño (-1)</li>\n<li>Desplazar tu posición en un rango de alcance.</li>\n<li>Impresionar, desmoralizar o asustar a tu enemigo.</li>\n</ul>",
             "success": "<p>Intercambias golpes y os causáis daño. Elige tres de las siguientes opciones:</p>\n<ul>\n<li>Infligir daño grave (+1)</li>\n<li>Sufrir poco daño (-1)</li>\n<li>Desplazar tu posición en un rango de alcance.</li>\n<li>Impresionar, desmoralizar o asustar a tu enemigo.</li>\n</ul>",
             "triumph": ""
@@ -27,7 +27,7 @@
         "Grapple an Enemy": {
             "name": "Enzarzarse en una pelea",
             "description": "<p>Cuando <strong><em>te enzarzas en una pelea con un enemigo a alcance pegado</em></strong>, tiras con Poderío.</p>",
-            "failure": "<p>The GM gets to say what happens next, with an eye towards complicating the situation dramatically.</p>",
+            "failure": "<p>El DJ decide lo que ocurre a continuación, con la intención de complicar la situación de forma drástica o dramática.</p>",
             "partial": "<p>Ambos elegíos opciones de resultado simultáneamente. Continuad eligiendo hasta que alguien se destrabe, caiga inconsciente o muera.</p>\n<ul>\n<li>Das un gole rápido; infliges una herida.</li>\n<li>Lo desgastas; tu enemigo marca 1 casilla de agotamiento.</li>\n<li>Aprovechas una debilidad; marcas 1 casilla de agotamiento para infligir 2 heridas.</li>\n<li>Te retiras; te destrabas y te desplazas a corto alcance.</li>\n</ul>",
             "success": "<p>Eliges una opción y luego ambos elegís opciones de resultado simultáneamente. Continuad eligiendo hasta que alguien se destrabe, caiga inconsciente o muera.</p>\n<ul>\n<li>Das un gole rápido; infliges una herida.</li>\n<li>Lo desgastas; tu enemigo marca 1 casilla de agotamiento.</li>\n<li>Aprovechas una debilidad; marcas 1 casilla de agotamiento para infligir 2 heridas.</li>\n<li>Te retiras; te destrabas y te desplazas a corto alcance.</li>\n</ul>",
             "triumph": ""
