@@ -1,0 +1,61 @@
+name: ¡Una distracción!
+type: move
+_id: bBVSPEI9kqpXzu98
+img: icons/svg/aura.svg
+system:
+  description: >-
+    <p>Obtienes la proeza de granuja
+    @UUID[Compendium.magpie-root.quickstart-feats.Item.sLR59mjS89xbggvR]{Por
+    sorpresa} (no cuenta para tu límite). Cuando
+    @UUID[Compendium.magpie-root.basic-moves.Item.SDZcZ2HuMER7xzeH]{intentes una
+    proeza de granuja} para sorprender a alguien mientras está distraído por
+    peligros ambientales (un incendio, una inundación, etc.), tira con Suerte en
+    vez de Astucia.</p>
+  moveType: ''
+  rollFormula: ''
+  moveResults:
+    failure:
+      key: system.moveResults.failure.value
+      label: Miss
+      value: ''
+    partial:
+      key: system.moveResults.partial.value
+      label: Weak Hit
+      value: ''
+    success:
+      key: system.moveResults.success.value
+      label: Strong Hit
+      value: ''
+    triumph:
+      key: system.moveResults.triumph.value
+      label: Triumph!
+      value: ''
+  uses: 0
+  rollType: ''
+  rollMod: 0
+  actorType: character
+  choices: ''
+  tags: ''
+  mastery: false
+  wear:
+    trackMax: 5
+    trackSize: 0
+    current: 0
+effects: []
+folder: null
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: pbta
+  systemVersion: 1.1.22
+  createdTime: 1773160086050
+  modifiedTime: 1773160124816
+  lastModifiedBy: htpexporter00000
+_key: '!items!bBVSPEI9kqpXzu98'
+

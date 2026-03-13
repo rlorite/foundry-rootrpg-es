@@ -1,0 +1,33 @@
+name: Agitador - BQ - 1
+type: magpie-root.background-question
+_id: TLpvYB4m3QfdZKg7
+img: modules/magpie-root/assets/icons/uncertainty.svg
+system:
+  htmlFields:
+    - question
+  question: <p>¿A qué sitio llamas hogar?</p>
+  clearingName: ''
+  isClearing: false
+  options:
+    - Al claro _________.
+    - A la espesura.
+    - A un lugar lejos de aquí.
+  userSelection: null
+effects: []
+folder: null
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: pbta
+  systemVersion: 1.1.22
+  createdTime: 1772640301094
+  modifiedTime: 1772640393177
+  lastModifiedBy: htpexporter00000
+_key: '!items!TLpvYB4m3QfdZKg7'
+

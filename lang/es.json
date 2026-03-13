@@ -1,0 +1,673 @@
+{
+  "TYPES.Actor.character": "Vagabundo",
+  "TYPES.Actor.clearing": "Claro",
+  "TYPES.Actor.woodland": "Espesura",
+  "TYPES.Item.magpie-root": {
+    "connection": "Conexión",
+    "background-question": "Pregunta de trasfondo",
+    "nature": "Naturaleza",
+    "drive": "Motivación",
+    "feat": "Proeza de granuja"
+  },
+  "PBTA": {
+    "Weight": "Carga",
+    "Wt": "Carga"
+  },
+  "ROOT": {
+    "Settings": {
+      "game": {
+        "heading": "Root: El juego de rol",
+        "publisher": {
+          "title": "Magpie Games"
+        },
+        "support": {
+          "title": "MetaMorphic Support Portal"
+        }
+      },
+      "startup": {
+        "name": "First Time Startup",
+        "dialog": {
+          "title": "Welcome to Root!",
+          "content": "<p>Would you like to use a Root theme for your login screen?</p>"
+        }
+      },
+      "loginImg": {
+        "name": "Set Login Image",
+        "hint": "True: reset the login background image to a Root image. False: allow user images to override the login background image."
+      }
+    },
+    "CharacterSheets": {
+      "sheetConfig": "Ficha de vagabundo",
+      "sheetNpcConfig": "Root NPC Sheet",
+      "inventory": {
+        "wearLabel": "Desgaste:",
+        "rangeLabel": "Alcance:",
+        "tagsLabel": "Etiquetas:",
+        "loadError": "You are carrying too much weight! Reduce your Load to continue.",
+        "loadWarning": "You are burdened! You’re not able to move quickly or easily."
+      },
+      "rollResults": {
+        "failure": "Fallo",
+        "partialSuccess": "Éxito parcial",
+        "success": "Éxito total",
+        "triumph": "Triumph!"
+      },
+      "stats": {
+        "charm": "Carisma",
+        "cunning": "Astucia",
+        "finesse": "Finura",
+        "luck": "Suerte",
+        "might": "Poderío",
+        "nature": "Tu naturaleza",
+        "drives": "Tus motivaciones"
+      },
+      "attr": {
+        "injuryLabel": "Heridas",
+        "exhaustionLabel": "Agotamiento",
+        "depletionLabel": "Existencias",
+        "eqStartingValueLabel": "Valor inicial",
+        "reputation": {
+          "label": "Reputación",
+          "negativeLabel": "Infamia",
+          "positiveLabel": "Prestigio"
+        },
+        "detailsLabel": "Detalles",
+        "featsLabel": "Proezas de granuja",
+        "drivesLabel": "Tus motivaciones",
+        "natureLabel": "Naturaleza",
+        "speciesLabel": "Especies",
+        "demeanorLabel": "Comportamiento",
+        "bgQuestionsLabel": "Preguntas sobre el trasfondo",
+        "bgInfoLabel": "Información de trasfondo"
+      },
+      "details": {
+        "biographyLabel": "Notas",
+        "advancements": {
+          "note": "No puedes ganar más de una mejor por motivación cada sesión.",
+          "label": "Mejoras",
+          "description": "Cuando consigues una mejora por seguir una motivación, puedes elegir inmediatamente una opción de esta lista:",
+          "options": {
+            "0": "Aumentas una aptitud en un +1 (máximo +2)",
+            "1": "Aprendes un nuevo movimiento de tu libreto de personaje (máximo 5 movimientos de tu propio libreto de personaje)",
+            "2": "Aprendes un nuevo movimiento de otro liberto de personaje (máximo 2 movimientos de otros libretos de personaje)",
+            "3": "Aprendes hasta dos nuevas habilidades con armas (máximo 7 en total)",
+            "4": "Aprendes hasta dos nuevas proezas de granuja (máximo 6 en total)",
+            "5": "Añades una casilla a cualquier contador de daño (máximo 6 en cada uno)",
+            "6": "Desarrollas hasta dos nuevas conexiones (máximo 6 en total)"
+          }
+        },
+        "species": {
+          "label": "Especies",
+          "placeholder": "Añadir especies"
+        },
+        "demeanor": {
+          "label": "Comportamiento",
+          "placeholder": "Añadir comportamiento"
+        },
+        "details": {
+          "label": "Detalles",
+          "placeholder": "Añadir detalles"
+        },
+        "background": "Trasfondo",
+        "dominant": {
+          "label": "Especies dominantes",
+          "placeholder": "Establecer especies dominantes"
+        },
+        "controllingFaction": {
+          "label": "Controlling Faction",
+          "placeholder": "Set Controlling Faction"
+        },
+        "stronghold": {
+          "label": "¿La facción tiene una fortaleza?"
+        },
+        "contested": {
+          "label": "¿Disputado?"
+        }
+      },
+      "moveTypes": {
+        "basicLabel": "Movimientos básicos",
+        "playbookLabel": "Movimientos de libreto",
+        "weaponLabel": "Movimientos con armas",
+        "weaponSkillLabel": "Movimientos especiales con armas",
+        "speciesLabel": "Movimientos de especie",
+        "reputationLabel": "Movimientos de reputación",
+        "travelLabel": "Movimientos de viaje",
+        "sessionLabel": "Movimientos de sesión",
+        "specialLabel": "Reglas especiales"
+      },
+      "equipmentTypes": {
+        "equipmentLabel": "Equipo"
+      },
+      "socialTab": {
+        "tabName": "Social",
+        "connections": "Conexiones",
+        "reputation": {
+          "factionNamePlaceholder": "Nombre de la facción",
+          "label": "Tu reputación"
+        }
+      },
+      "load": {
+        "currentValue": "<b>Valor actual:</b> ",
+        "startingValue": "<b>Valor inicial:</b> ",
+        "carrying": "<b>Portado:</b>",
+        "burdened": "<b>Cargado:</b> ",
+        "max": "<b>Carga máxima:</b>"
+      },
+      "moves": {
+        "trackLabel": "Contador"
+      }
+    },
+    "ClearingSheet": {
+      "sheetConfig": "Ficha de claro",
+      "problemsLabel": "Problemas",
+      "importantBuildingsLabel": "Edificios importantes",
+      "importantInhabitantsLabel": "Habitantes importantes",
+      "numberPathsLabel": "Número de caminos",
+      "numberPathsPlaceholder": "0",
+      "factions": {
+        "label": "Reputación de las facciones",
+        "factionNamePlaceholder": "Nombre de la facción",
+        "hated": "Odiado",
+        "liked": "Amado"
+      }
+    },
+    "NPCSheets": {
+      "attr": {
+        "injuryLabel": "Injury",
+        "exhaustionLabel": "Exhaustion",
+        "wearLabel": "Desgaste",
+        "moraleLabel": "Morale",
+        "factionLabel": "Faction",
+        "inflictsLabel": "Harm Inflicted",
+        "speciesLabel": "Especies"
+      },
+      "details": {
+        "biographyLabel": "Description",
+        "driveLabel": "Drive",
+        "movesLabel": "Movimientos",
+        "equipmentLabel": "Equipo",
+        "specialLabel": "Especial"
+      }
+    },
+    "ItemSheets": {
+      "descriptionLabel": "Description",
+      "sheetEquipmentConfig": "Default Root Item Sheet",
+      "wearLabel": "Desgaste",
+      "trackLabel": "Contador",
+      "valueLabel": "Value",
+      "loadLabel": "Load",
+      "rangeLabel": "Range",
+      "rangePlaceholder": "Añadir alcance",
+      "tagsLabel": "Tags: "
+    },
+    "NatureSheet": {
+      "sheetConfig": "Root Nature Sheet",
+      "label": "Nature"
+    },
+    "DriveSheet": {
+      "sheetConfig": "Root Drive Sheet",
+      "label": "Drive"
+    },
+    "FeatSheet": {
+      "sheetConfig": "Root Feat Sheet",
+      "label": "Roguish Feat",
+      "risksLabel": "Risks"
+    },
+    "BackgroundQuestionSheet": {
+      "sheetConfig": "Root Background Question Sheet",
+      "question": "Pregunta",
+      "options": "Opciones",
+      "delete": "Eliminar",
+      "add": "Añadir"
+    },
+    "FactionSheet": {
+      "label": "Faction",
+      "sheetConfig": "Root Faction Sheet",
+      "descriptionLabel": "Description",
+      "goalsLabel": "Goals",
+      "plansLabel": "Plans"
+    },
+    "SpeciesSheet": {
+      "sheetConfig": "Root Species Sheet",
+      "label": "Especies",
+      "movesLabel": "Movimientos de especie"
+    },
+    "ConnectionSheet": {
+      "sheetConfig": "Root Connection Sheet",
+      "connectionType": {
+        "label": "Tipo de conexión",
+        "option": {
+          "protector": {
+            "name": "Protector",
+            "description": "Cuando esté a tu alcance, puedes hacer una marca en agotamiento para recibir un golpe que estaba destinado a él. Si lo haces, obtienes +1 Continuo a los movimientos de armas durante el resto de la escena."
+          },
+          "partner": {
+            "name": "Socio",
+            "description": "Cuando completáis esta conexión, cada uno gana 2 marcas de prestigio con la facción a la que ayudasteis, y marca 2 de infamia con la facción a la que perjudicasteis. Durante las partidas, si os descubren juntos, cualquier ganancia de prestigio o infamia con esas facciones se duplica para los dos."
+          },
+          "watcher": {
+            "name": "Vigilante",
+            "description": "Cuando <b>disciernes sus intenciones</b>, siempre guardas 1 punto, incluso en caso de fallo. Cuando le <b>suplicas que siga\ntu camino</b>, puedes dejarle recuperar 2 marcas de agotamiento en vez de 1."
+          },
+          "friend": {
+            "name": "Amigo",
+            "description": "Cuando le <b>ayudas</b>, puedes marcar 2 casillas de agotamiento para dar un +2, en vez de poder marcar solo 1 de agotamiento para un +1."
+          },
+          "professional": {
+            "name": "Profesional",
+            "description": "Si compartes información con él después de <b>leer una situación tensa</b>, ambos os beneficiáis de +1 por actuar según las respuestas. Si le ayudas mientras <b>intenta una proeza de granuja</b>, obtienes opciones en el movimiento de ayuda como si hubieras marcado 2 casillas de agotamiento cuando marcas solo 1."
+          },
+          "family": {
+            "name": "Familia",
+            "description": "Cuando le ayudas a cumplir con su naturaleza, ambos recuperáis vuestro contador de agotamiento."
+          },
+          "peer": {
+            "name": "Peer",
+            "description": "If you share information with them after <b>reading a tense situation</b>, you both benefit from the +1 for acting on the answers. If you <b>help</b> them while they <b>attempt a roguish feat</b>, you gain choices on the help move as if you had marked 2-exhaustion when you mark 1-exhaustion."
+          }
+        }
+      },
+      "connectionTypeTO": {
+        "option": {
+          "battleSibling": {
+            "name": "Battle-Sibling",
+            "description": "When you fight side-by-side or back-to-back with them, take +1 ongoing to weapon moves as long as you remain within intimate range of each other."
+          },
+          "confidant": {
+            "name": "Confidant",
+            "description": "When they come to you in confidence with a problem, mark exhaustion to suggest a course of action to resolve it; if they do as you say to the best of their ability, they clear their exhaustion track."
+          },
+          "enabler": {
+            "name": "Enabler",
+            "description": "When you <b>plead with them</b> to join you in reckless action and they agree, they take +1 ongoing to follow the plan in addition to clearing exhaustion."
+          },
+          "lover": {
+            "name": "Lover",
+            "description": "Once per session when you share a quiet moment of intimacy, just the two of you, choose one:<ul><li>Offer them affection; if they accept it, they clear 3-exhaustion.</li><li>Make them a promise; you take +1 ongoing to keep your word.</li></ul>"
+          },
+          "protege": {
+            "name": "Protégé",
+            "description": "Once per game session, when you spend time training with them, choose one and hold 1:<ul><li>Learn tricks of the trade; they choose which roguish feat they teach you, and you may spend hold to <b>attempt that roguish feat</b> as if you had it.</li><li>Spar with them; they choose which weapon skill they teach you, and you may spend hold to use that weapon skill as if you had it.</li><li>Ask them about how they see the world; spend hold to take +1 forward to prove them right or wrong.</li></ul>"
+          },
+          "rival": {
+            "name": "Rival",
+            "description": "When you challenge them to take a completely unnecessary and excessive risk to prove themself, they take +1 forward to accept and meet your provocation; if they decline, they mark exhaustion instead."
+          }
+        }
+      },
+      "playbook": "Libreto",
+      "statement": "Connection Statement",
+      "questions": "Connection Questions",
+      "answers": "Connection Answers",
+      "connectedTo": "Connect To",
+      "emptyQuestion": "—",
+      "connectedToPlaceholder": "Name of Connection",
+      "tab": {
+        "details": "Detalles",
+        "input": "Input"
+      },
+      "delete": "Delete",
+      "add": "Add"
+    },
+    "Tags": {
+      "move": {
+        "special": {
+          "value": "Especial",
+          "description": "This move is a Weapon skill and represents special combat-related techniques that a vagabond has mastered."
+        },
+        "no-tag": {
+          "value": "No Tag Required",
+          "description": "If a move includes the “no tag required” label, you do not need a weapon with the tag in order to use the weapon skill."
+        },
+        "marquisate": {
+          "value": "Marquisate",
+          "description": "This is a faction-specific Reputation move."
+        },
+        "eyrie": {
+          "value": "Eyrie",
+          "description": "This is a faction-specific Reputation move."
+        },
+        "woodland": {
+          "value": "Alianza del Bosque",
+          "description": "This is a faction-specific Reputation move."
+        },
+        "lizard": {
+          "value": "Lizard Cult",
+          "description": "This is a faction-specific Reputation move."
+        },
+        "riverfolk": {
+          "value": "Riverfolk Company",
+          "description": "This is a faction-specific Reputation move."
+        },
+        "corvid": {
+          "value": "Corvid Conspiracy",
+          "description": "This is a faction-specific Reputation move."
+        },
+        "duchy": {
+          "value": "Grand Duchy",
+          "description": "This is a faction-specific Reputation move."
+        }
+      },
+      "range": {
+        "intimate": {
+          "value": "Intimate",
+          "description": "You’re right up in each other’s faces, easily in touching range, breaking each other’s personal space bubbles. The kind of range you’d be in to start wrestling, to poke a finger into someone’s chest, to hug someone."
+        },
+        "close": {
+          "value": "Close",
+          "description": "You’re close enough to talk comfortably, to fight with weapons—not close enough to touch without effort, but certainly close enough to lunge at the other denizen and reach them. The kind of range you’d be in to sword-fight (or to fistfight from a distance), to walk in each other’s company without holding hands, to easily toss something."
+        },
+        "far": {
+          "value": "Far",
+          "description": "You’re far enough that you have to speak louder, even yelling, to hear each other—but you still can hear each other. The kind of range you’d be in to shoot a bow, to spot each other from a distance, to be able to easily break line of sight and hide."
+        }
+      },
+      "equipment": {
+        "arrow-proof": {
+          "value": "Arrow-proof",
+          "description": "Ignore the first hit dealing injury from arrows that you suffer in a scene. (Armor)"
+        },
+        "blunted": {
+          "value": "Blunted",
+          "description": "This weapon inflicts exhaustion, not injury. (Hammer, staff)"
+        },
+        "catfolk-steel": {
+          "value": "Catfolk Steel",
+          "description": "Mark wear when engaging in melee to shift your range one step, even on a miss. (Armor, weapons)"
+        },
+        "ceremonial": {
+          "value": "Ceremonial",
+          "description": "This weapon inflicts exhaustion, not injury. (Hammer, staff)"
+        },
+        "comfortable": {
+          "value": "Comfortable",
+          "description": "This weapon inflicts exhaustion, not injury. (Hammer, staff)"
+        },
+        "durable": {
+          "value": "Durable",
+          "description": "This weapon inflicts exhaustion, not injury. (Hammer, staff)"
+        },
+        "eaglecraft": {
+          "value": "Eaglecraft",
+          "description": "This weapon inflicts exhaustion, not injury. (Hammer, staff)"
+        },
+        "fast": {
+          "value": "Fast",
+          "description": "Mark wear when engaging in melee to suffer 1 fewer harm, even on a miss. (Smaller or thinner weapons)"
+        },
+        "friendly": {
+          "value": "Friendly",
+          "description": "When you meet someone important, mark exhaustion to roll with your Reputation +1. (Armor, nonthreatening weapons like staves)"
+        },
+        "flexible": {
+          "value": "Flexible",
+          "description": "When you grapple with someone, mark exhaustion to ignore the first choice they make. (Armor)"
+        },
+        "foxfolk-steel": {
+          "value": "Foxfolk Steel",
+          "description": "Ignore the first box of wear you mark on this item each session. (Weapons and some armor)"
+        },
+        "hair-trigger": {
+          "value": "Hair Trigger",
+          "description": "Mark wear to target a vulnerable foe at close range instead of far. (Crossbow)"
+        },
+        "healers-kit": {
+          "value": "Healer’s Kit",
+          "description": "Mark wear to clear exhaustion. Mark 2-wear to clear injury. (Healer’s kit)"
+        },
+        "heavy-bludgeon": {
+          "value": "Heavy Bludgeon",
+          "description": "Mark exhaustion to ignore your enemy’s armor when you inflict harm. (Hammer, mace)"
+        },
+        "heavy-draw-weight": {
+          "value": "Heavy Draw Weight",
+          "description": "When you target a vulnerable foe with this bow, mark exhaustion to inflict 1 additional injury. (Bow)"
+        },
+        "iron-bolts": {
+          "value": "Iron bolts",
+          "description": "This weapon inflicts 1 additional wear when its harm is absorbed by armor. (Bow, crossbow)"
+        },
+        "large": {
+          "value": "Large",
+          "description": "Mark exhaustion when inflicting harm with this weapon to inflict 1 additional harm. (Weapons)"
+        },
+        "luxury": {
+          "value": "Luxury",
+          "description": "After creation, this item is worth +3-Value. (Anything)"
+        },
+        "mousefolk-steel": {
+          "value": "Mousefolk Steel",
+          "description": "Mark wear to engage in melee using Cunning instead of Might. (Weapons)"
+        },
+        "mighty": {
+          "value": "Mighty",
+          "description": "When you wreck something with this item, mark 2-wear to shift a miss to a 7–9 or a 7–9 to a 10+ result. (Explosives, heavy weapons)"
+        },
+        "oiled-string": {
+          "value": "Oiled String",
+          "description": "Mark wear to use the weapon skill quick shot even if you don’t have it. (Bow)"
+        },
+        "quick": {
+          "value": "Quick",
+          "description": "Mark exhaustion to engage in melee with Finesse instead of Might. (Small or fast weapons)"
+        },
+        "rabbitfolk-steel": {
+          "value": "Rabbitfolk Steel",
+          "description": "Mark wear to engage in melee with Finesse instead of Might. (Weapons)"
+        },
+        "reach": {
+          "value": "Reach",
+          "description": "When you engage in melee, mark wear on this weapon to inflict harm instead of trading harm; you cannot use this tag if your enemy’s weapon also has reach. (Large, tall weapons)"
+        },
+        "refreshing": {
+          "value": "Refreshing",
+          "description": "When you take some time to relax and drink or eat from this item with a group, mark 3-wear, +1 additional wear for each participant past the third. Every participant clears all exhaustion. (Meal, flask)"
+        },
+        "sharp": {
+          "value": "Sharp",
+          "description": "Mark wear when inflicting harm with this weapon to inflict 1 additional harm. (Edged weapons)"
+        },
+        "short-limbs": {
+          "value": "Short Limbs",
+          "description": "Mark wear to fire a quick shot at far range. (Small bow)"
+        },
+        "signature": {
+          "value": "Signature",
+          "description": "Whenever you earn prestige or notoriety while showing this item, mark 1 additional prestige or notoriety. (Anything displayed)"
+        },
+        "thick": {
+          "value": "Thick",
+          "description": "When you mark wear on this shield to block a hit, you only ever mark 1-wear, even if you are blocking more harm from a single hit. (Shield)"
+        },
+        "thief-kit": {
+          "value": "Thief Kit",
+          "description": "When you attempt a roguish feat appropriate for this item, you may mark wear on this item instead of marking exhaustion to avoid a risk coming to bear on a 7–9. (Tools, specially made armor or weapons)"
+        },
+        "throwable": {
+          "value": "Throwable",
+          "description": "Mark exhaustion to target a vulnerable foe with this weapon at far range. (Daggers, grenades)"
+        },
+        "tightly-woven": {
+          "value": "Tightly Woven",
+          "description": "When you take a few seconds to repair this armor after a fight, clear 1-wear you marked during the fight. (Chain armor)"
+        },
+        "tricky": {
+          "value": "Tricky",
+          "description": "When you use this item to trick an NPC by distracting them at a distance, on a 7–9 mark wear to eliminate one option from the trick an NPC move before the NPC picks. (Bolas, bows)"
+        },
+        "unassuming": {
+          "value": "Unassuming",
+          "description": "Until you harm an enemy, they will never deem you more of a threat than other vagabonds with arms and armor. (Robes, staves)"
+        },
+        "versatile": {
+          "value": "Versatile",
+          "description": "When you move to or from a range this weapon can reach, mark wear to make a quick strike and inflict injury on any opponent in this weapon’s range. (Fast weapons)"
+        },
+        "bulky": {
+          "value": "Bulky",
+          "description": "This weapon cannot be hidden and is always visible while on your body. Mark exhaustion whenever you attempt a roguish feat or trust fate to sneak, hide, blindside, or perform an act of acrobatics. (Large weapons)"
+        },
+        "cumbersome": {
+          "value": "Cumbersome",
+          "description": "Mark 1-exhaustion when you don your armor—clear 1-exhaustion when you take it off. (Heavy armor)"
+        },
+        "fragile": {
+          "value": "Fragile",
+          "description": "When you make a weapon move with this weapon, mark wear on it. Mark exhaustion to ignore this effect. (Light weapons)"
+        },
+        "hated": {
+          "value": "Hated",
+          "description": "Take –2 Reputation with the faction that loathes this item while it is displayed. If you reveal this item to foes from that faction, they clear morale as they are energized by anger at you. (Anything)"
+        },
+        "shoddy": {
+          "value": "Shoddy",
+          "description": "Repairing this item costs twice as much Value per box of wear cleared. (Anything)"
+        },
+        "slow": {
+          "value": "Slow",
+          "description": "When you engage in melee with this weapon, choose one fewer option. Mark wear to ignore this effect. (Heavy weapons)"
+        },
+        "ugly": {
+          "value": "Ugly",
+          "description": "Take –1 to meet someone important while they can see this item. Mark exhaustion to hide it. (Weapons or handheld items)"
+        },
+        "unwieldy": {
+          "value": "Unwieldy",
+          "description": "Take a –1 to all weapon moves—both basic and special weapon moves—made with this weapon. Mark exhaustion to ignore this effect."
+        },
+        "weighty": {
+          "value": "Weighty",
+          "description": "This item counts as 1 additional Load. (Anything large)"
+        },
+        "wicked": {
+          "value": "Wicked",
+          "description": "Anyone who sees this weapon will deem its wielder a threat, at least to be watched carefully. When you inflict any harm with this weapon, mark notoriety with an observing faction for each harm inflicted. (Cruel weapons)"
+        },
+        "accurate": {
+          "value": "Accurate",
+          "description": "When you inflict injury with this weapon, mark exhaustion to target a specific part of your target’s body and impair it until they have time to heal. (Bow, knives)"
+        },
+        "barbed": {
+          "value": "Barbed",
+          "description": "When you catch someone with this weapon’s end, mark exhaustion to move to intimate range and grapple with them as if you had rolled a 10+. (Spears, axes, chains)"
+        },
+        "blend": {
+          "value": "Blend",
+          "description": "When you use this item to blend into the appropriate environment, mark wear to roll Sneak or Hide as if you had those feats. If you do have those feats, mark wear in the same situation to instead take +1 ongoing for the scene. (Camouflage, local clothing, etc.)"
+        },
+        "cathartic": {
+          "value": "Cathartic",
+          "description": "When you use this item for a recreational activity with another vagabond, mark 2-wear for both vagabonds to each clear 2-exhaustion. (Art supplies, bow and arrow, etc.)"
+        },
+        "common": {
+          "value": "Common",
+          "description": "When repairing this item, you can repair twice as much wear for the same Value. (Anything)"
+        },
+        "disarming": {
+          "value": "Disarming",
+          "description": "When wearing this item, you are underestimated. Mark exhaustion to change a miss to a 7-9 or a 7-9 to a 10+ when tricking an NPC by appearing weak or nonthreatening. (Tattered-seeming clothes, burlap robes)"
+        },
+        "distracting": {
+          "value": "Distracting",
+          "description": "When you grapple with an enemy while you wield or display this item, mark exhaustion to change a miss to a 7-9 or a 7-9 to a 10+. (Anything visibly or audibly distracting for your enemy)"
+        },
+        "disguised": {
+          "value": "Disguised",
+          "description": "Until this item is revealed as a weapon, it will be treated as if it isn’t one. When you attempt the Blindside roguish feat with this weapon while it is still unrevealed, mark wear to shift a miss to a 7-9 or a 7-9 to a 10+. (Any weapon disguised as a commonplace object)"
+        },
+        "hidden": {
+          "value": "Hidden",
+          "description": "Mark exhaustion when being searched or examined to ensure this item goes unnoticed. Mark wear to attempt the Blindside roguish feat if you don’t have it, or to take a 10+ to Blindside if you do have it. (Stiletto, baton)"
+        },
+        "impressive": {
+          "value": "Impressive",
+          "description": "When you storm a group wielding this item, mark wear to inflict 2-morale harm on them, in addition to the consequences of your roll. (Skull-shaped hammer, black sword)"
+        },
+        "incendiary": {
+          "value": "Incendiary",
+          "description": "This item inspires members of one faction, and angers and upsets members of another. When you openly give this item to an interested party in order to spread its message, mark prestige equal to this item’s Value with the positive faction, and notoriety equal to this item’s Value with the negative faction. (Pamphlets, libel, slanderous texts)"
+        },
+        "intimidating": {
+          "value": "Intimidating",
+          "description": "When you flaunt this item to persuade an NPC through threats, you can mark 2-notoriety with their faction to shift a miss to a 7-9 or a 7-9 to a 10+. (Any weapon)"
+        },
+        "inspiring": {
+          "value": "Inspiring",
+          "description": "When you use this item to help another vagabond, you can mark wear instead of exhaustion. (Anything)"
+        },
+        "invigorating": {
+          "value": "Invigorating",
+          "description": "When you consume this item, mark 2-injury to clear all your exhaustion and add 2 boxes to your exhaustion track for the rest of the scene (they go away at the end of the scene, whether they are marked or unmarked, with no further harmful effects either way). (Stimulant)"
+        },
+        "legendary": {
+          "value": "Legendary",
+          "description": "This item has its own reputation track, referred to as Legend, equivalent to 15 boxes of Prestige. It starts with Legend +1, and has no Legend boxes marked. To reach Legend +2, it would have to have 10 boxes of Legend marked, and then would clear its track. To reach Legend +3, it would have to have 15 boxes of Legend marked. This item also has a favored faction and a hated faction. Any time you wield this item openly, you do not mark prestige or notoriety at all. Instead, you mark Legend on this item when you aid the favored faction and injure the hated faction. For Reputation moves, roll with the item’s Legend instead of your own Reputation. Whenever any session goes by in which you did not mark any Legend on this item, clear 1 box of Legend from this item. If you have no boxes to clear, reduce its Legend by 1. (Anything)"
+        },
+        "light": {
+          "value": "Light",
+          "description": "This item doesn’t count towards your Load. (Anything made from lighter materials than normal)"
+        },
+        "nasty": {
+          "value": "Nasty",
+          "description": "When you grapple with an enemy, both yours and your enemy’s first choice is doubled in effect. (Heavy gauntlet or other heavy weapon)"
+        },
+        "poison": {
+          "value": "Poison",
+          "description": "When you target a vulnerable foe, inflict exhaustion instead of injury; your target is poisoned until cured. While poisoned, each time they take a significant or strenuous action, inflict exhaustion. If they fall unconscious, inflict injury every 6 hours until they receive the cure or perish. (Anything envenomed or poisoned)"
+        },
+        "precise": {
+          "value": "Precise",
+          "description": "Mark wear to ignore your enemy’s armor when you inflict harm. (Thin weapons)"
+        },
+        "reinforced": {
+          "value": "Reinforced",
+          "description": "While wearing this armor, you may absorb injury as exhaustion 1-for-1 instead of absorbing it as wear. (Armor)"
+        },
+        "sturdy": {
+          "value": "Sturdy",
+          "description": "When you would mark wear on this item, you may mark exhaustion instead. You cannot mark exhaustion to absorb injury with this tag. (Anything)"
+        },
+        "conspicuous": {
+          "value": "Conspicuous",
+          "description": "When you target a vulnerable foe at far range, you cannot keep your position hidden, even on a 10+. Mark wear to ignore this effect. (Any far-range weapon that is particularly noisy or visible)"
+        },
+        "cursed": {
+          "value": "Cursed",
+          "description": "Allied NPCs suffer morale harm when they see you bearing this item. (Anything with a hateful myth around it)"
+        },
+        "dangerous": {
+          "value": "Dangerous",
+          "description": "Mark injury—in addition to any other consequences—when you make a weapon move with this item and roll a 7-9. (Some explosives, difficult weapons)"
+        },
+        "hard-hold": {
+          "value": "Hard to Hold",
+          "description": "When you grapple with an enemy, if you roll a 7-9, you lose your grip on this item in addition to the other consequences of your roll. Mark exhaustion to ignore this effect. (Anything with poor grip)"
+        },
+        "identifiable": {
+          "value": "Identifiable",
+          "description": "This item is known to be associated with a particular individual. Anyone who sees it instantly recognizes it and associates you with that individual. (Anything)"
+        },
+        "immoral": {
+          "value": "Immoral",
+          "description": "While this item is displayed, you cannot persuade or ask for a favor from denizens most directly insulted by its immoral nature. Take -1 to ask for a favor from all other denizens while this item is visible. (Cat claw knuckles, bird beak necklace, etc.)"
+        },
+        "incriminating": {
+          "value": "Incriminating",
+          "description": "When any significant individual member of the faction offended by this item first sees you bearing it, mark notoriety with that faction. (Anything)"
+        },
+        "makeshift": {
+          "value": "Makeshift",
+          "description": "This item cannot be repaired. This negative tag refunds 2-Value instead of 1-Value. (Anything created with Improvise a Weapon)"
+        },
+        "noisy": {
+          "value": "Noisy",
+          "description": "When you wreck something using this item, you always attract attention, regardless of the roll. (Explosives)"
+        },
+        "scarce": {
+          "value": "Scarce",
+          "description": "The tools to repair this item are not commonplace. Standard repairs can clear wear to one box fewer than maximum (so an item with 3 boxes of wear could only ever be repaired through standard means to 2-wear marked). Full repairs for this item require specialists with rare equipment. (Anything antique or rare)"
+        }
+      }
+    }
+  }
+}

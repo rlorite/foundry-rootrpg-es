@@ -1,0 +1,81 @@
+{
+    "label": "Naturalezas",
+    "mapping": {
+        "name": "name",
+        "description": "system.description"
+    },
+    "entries": {
+        "Pilgrim": {
+            "name": "Peregrino",
+            "description": "Recuperas tu contador de agotamiento cuando encuentras a un experto en una habilidad que no posees."
+        },
+        "Survivor": {
+            "name": "Superviviente",
+            "description": "Recuperas tu contador de agotamiento cuando intentas huir o cubrir la huida de tus aliados de una situación peligrosa o abrumadora."
+        },
+        "Cynic": {
+            "name": "Cínico",
+            "description": "Recuperas tu contador de agotamiento cuando planteas abierta y directamente preguntas peligrosas sobre una «verdad» aceptada."
+        },
+        "Punisher": {
+            "name": "Castigador",
+            "description": "Recuperas tu contador de agotamiento cuando le dices a un villano poderoso o peligroso en su cara que lo castigarás."
+        },
+        "Loner": {
+            "name": "Solitario",
+            "description": "Recuperas tu contador de agotamiento cuando entras solo en una situación peligrosa, sin refuerzos ni ayuda."
+        },
+        "Extrovert": {
+            "name": "Extrovertido",
+            "description": "Recuperas tu contador de agotamiento cuando compartes un momento de verdadera calidez, amistad o disfrute con alguien."
+        },
+        "Radical": {
+            "name": "Radical",
+            "description": "Recuperas tu contador de agotamiento cuando propones ideas peligrosas al público equivocado."
+        },
+        "Kleptomaniac": {
+            "name": "Cleptómano",
+            "description": "Recuperas tu contador de agotamiento cuando intentas robar egoístamente algo valioso o importante."
+        },
+        "Perfectionist": {
+            "name": "Perfeccionista",
+            "description": "Recuperas tu contador de agotamiento cuando sustituyes la herramienta o el accesorio de otra persona por algo realmente genial."
+        },
+        "Combative": {
+            "name": "Combativo",
+            "description": "Recuperas tu contador de agotamiento cuando intentas iniciar una pelea contra una oposición abrumadora."
+        },
+        "Dutiful": {
+            "name": "Cumplidor",
+            "description": "Recuperas tu contador de agotamiento cuando asumes una tarea peligrosa o difícil en nombre de otro."
+        },
+        "Hustler": {
+            "name": "Estafador",
+            "description": "Recuperas tu contador de agotamiento cuando intentes estafar a un objetivo poderoso o peligroso."
+        },
+        "Glutton": {
+            "name": "Vicioso",
+            "description": "Recuperas tu contador de agotamiento cuando te excedes en vicios como la bebida, la comida y el juego."
+        },
+        "Arsonist": {
+            "name": "Pirómano",
+            "description": "Recuperas tu contador de agotamiento cuando utilizas métodos innecesariamente destructivos o dañinos para resolver un problema."
+        },
+        "Defender": {
+            "name": "Defensor",
+            "description": "Recuperas tu contador de agotamiento cuando te pones en peligro para defender a alguien de una injusticia o una amenaza grave."
+        },
+        "Peacemaker": {
+            "name": "Pacificador",
+            "description": "Recuperas tu contador de agotamiento cuando resuelves un conflicto peligroso de forma no violenta."
+        },
+        "Rebellious": {
+            "name": "Rebelde",
+            "description": "Recuperas tu contador de agotamiento cuando, de una manera grave, insultas, desafías o haces enfadar a figuras de autoridad."
+        },
+        "Competitive": {
+            "name": "Competitivo",
+            "description": "Recuperas tu contador de agotamiento cuando asumes riesgos dramáticamente innecesarios para presumir."
+        }
+    }
+}

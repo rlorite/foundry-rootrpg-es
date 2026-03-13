@@ -1,0 +1,68 @@
+name: Cargar y destruir
+type: move
+_id: SCNLzeP6KJFlZNiQ
+img: icons/svg/aura.svg
+system:
+  description: >-
+    <p>Cuando te abres paso a golpes por el escenario para alcanzar a alguien o
+    algo, tiras con Poderío. Si tienes éxito, alcanzas a tu objetivo. </p>
+  moveType: ''
+  rollFormula: ''
+  moveResults:
+    failure:
+      key: system.moveResults.failure.value
+      label: Miss
+      value: >-
+        <p>Te abres paso violentamente, pero quedas totalmente vulnerable al
+        llegar.</p>
+    partial:
+      key: system.moveResults.partial.value
+      label: Weak Hit
+      value: >-
+        <p>Alcanzas a tu objetivo. Eliges dos de las opciones
+        siguientes:</p><ul><li>Te haces daño: marcas 1 casilla de
+        heridas.</li><li>Rompes algo importante que forma parte de lo que te
+        rodea.</li><li>Dañas o dejas atrás un objeto del equipo (a elección del
+        DJ).</li></ul>
+    success:
+      key: system.moveResults.success.value
+      label: Strong Hit
+      value: >-
+        <p>Alcanzas a tu objetivo. Eliges una de las opciones
+        siguientes:</p><ul><li>Te haces daño: marcas 1 casilla de
+        heridas.</li><li>Rompes algo importante que forma parte de lo que te
+        rodea.</li><li>Dañas o dejas atrás un objeto del equipo (a elección del
+        DJ).</li></ul>
+    triumph:
+      key: system.moveResults.triumph.value
+      label: Triumph!
+      value: ''
+  uses: 0
+  rollType: ''
+  rollMod: 0
+  actorType: character
+  choices: ''
+  tags: ''
+  mastery: false
+  wear:
+    trackMax: 5
+    trackSize: 0
+    current: 0
+effects: []
+folder: null
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: pbta
+  systemVersion: 1.1.22
+  createdTime: 1772644685994
+  modifiedTime: 1772644789042
+  lastModifiedBy: htpexporter00000
+_key: '!items!SCNLzeP6KJFlZNiQ'
+

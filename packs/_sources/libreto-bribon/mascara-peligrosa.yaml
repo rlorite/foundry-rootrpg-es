@@ -1,0 +1,65 @@
+name: Máscara peligrosa
+type: move
+_id: lhBYi4oX5sXqlsYB
+img: icons/svg/aura.svg
+system:
+  description: >-
+    <p>Tienes una máscara, disfraz o atuendo que usas cuando realizas tus
+    trabajos más destructivos. Es más una combinación de tarjeta de visita y una
+    marca de tu «verdadero yo» que un medio para ocultar tu identidad. Trátala
+    como un objeto de equipo con dos casillas de desgaste. Mientras lleves la
+    máscara puesta, cualquier ganancia de infamia que sufras se dobla, y
+    cualquier ganancia de prestigio resulta en la mitad. También ganas +1 a
+    @UUID[Compendium.magpie-root.basic-moves.Item.ZtXsbBig1wQWbmNN]{confiar en
+    el destino} y a todos los movimientos específicos del libreto de personaje
+    de Bribón. Si alguna vez se destruye la máscara, marcas 4 casillas de
+    agotamiento. Si tu máscara es destruida, puedes hacer una nueva cuando pase
+    algo de tiempo.</p>
+  moveType: playbook
+  rollFormula: ''
+  moveResults:
+    failure:
+      key: system.moveResults.failure.value
+      label: Miss
+      value: ''
+    partial:
+      key: system.moveResults.partial.value
+      label: Weak Hit
+      value: ''
+    success:
+      key: system.moveResults.success.value
+      label: Strong Hit
+      value: ''
+    triumph:
+      key: system.moveResults.triumph.value
+      label: Triumph!
+      value: ''
+  uses: 0
+  rollType: ''
+  rollMod: 0
+  actorType: character
+  choices: ''
+  tags: ''
+  mastery: false
+  wear:
+    trackMax: 5
+    trackSize: 0
+    current: 0
+effects: []
+folder: null
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: pbta
+  systemVersion: 1.1.22
+  createdTime: 1773160202865
+  modifiedTime: 1773160294904
+  lastModifiedBy: htpexporter00000
+_key: '!items!lhBYi4oX5sXqlsYB'
+

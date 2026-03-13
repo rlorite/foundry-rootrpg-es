@@ -1,0 +1,66 @@
+name: Crear para destruir
+type: move
+_id: lBzqpwuWib2BZ5oA
+img: icons/svg/aura.svg
+system:
+  description: >-
+    <p>Cuando <strong>utilices materiales disponibles para montar un artefacto
+    peligroso</strong>, tira con Finura</p>
+  moveType: playbook
+  rollFormula: ''
+  moveResults:
+    failure:
+      key: system.moveResults.failure.value
+      label: Miss
+      value: >-
+        <p>Necesitas algún componente vital para terminarlo; el DJ te dirá
+        cuál.</p>
+    partial:
+      key: system.moveResults.partial.value
+      label: Weak Hit
+      value: >-
+        <p>Improvisas algo que haga lo que quieres, pero solo una vez. Elige una
+        opción de las siguientes. El artefacto es:</p><ul><li>Más peligroso de
+        lo previsto.</li><li>Más grande o difícil de manejar de lo
+        previsto.</li><li>Más inestable y frágil de lo previsto.</li></ul>
+    success:
+      key: system.moveResults.success.value
+      label: Strong Hit
+      value: >-
+        <p>Improvisas algo que haga lo que quieres, pero solo una vez. Elige dos
+        de las opciones siguientes. El artefacto es:</p><ul><li>Más peligroso de
+        lo previsto.</li><li>Más grande o difícil de manejar de lo
+        previsto.</li><li>Más inestable y frágil de lo previsto.</li></ul>
+    triumph:
+      key: system.moveResults.triumph.value
+      label: Triumph!
+      value: ''
+  uses: 0
+  rollType: ''
+  rollMod: 0
+  actorType: character
+  choices: ''
+  tags: ''
+  mastery: false
+  wear:
+    trackMax: 5
+    trackSize: 0
+    current: 0
+effects: []
+folder: null
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: pbta
+  systemVersion: 1.1.22
+  createdTime: 1773159830690
+  modifiedTime: 1773160068313
+  lastModifiedBy: htpexporter00000
+_key: '!items!lBzqpwuWib2BZ5oA'
+

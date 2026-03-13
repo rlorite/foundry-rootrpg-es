@@ -1,0 +1,37 @@
+name: Arbitro - Socio
+type: magpie-root.connection
+_id: XzDpBozVajHg1Ll9
+img: modules/magpie-root/assets/icons/shaking-hands.svg
+system:
+  htmlFields:
+    - statement
+  connectedTo: ''
+  answers: []
+  questions: []
+  selectedConnectionType: partner
+  connectionTypeInfo: >-
+    When you fill in this connection, you each mark 2-prestige with the faction
+    you helped, and mark 2-notoriety with the faction you harmed. During play,
+    if you are spotted together, then any prestige or notoriety gains with those
+    factions are doubled for the two of you.
+  statement: >-
+    <p>_________ y yo ayudamos juntos a una facción a tomar el control de un
+    claro, y compartimos la responsabilidad por ello.</p>
+effects: []
+folder: null
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: pbta
+  systemVersion: 1.1.22
+  createdTime: 1772645169223
+  modifiedTime: 1772645211526
+  lastModifiedBy: htpexporter00000
+_key: '!items!XzDpBozVajHg1Ll9'
+

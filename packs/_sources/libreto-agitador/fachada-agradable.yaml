@@ -1,0 +1,64 @@
+name: Fachada agradable
+type: move
+_id: xtseRa3NLfMTfUUK
+img: icons/svg/aura.svg
+system:
+  description: >-
+    <p>Cuando <strong>hagas la pelota o engatuses a un PNJ confiado o
+    desprevenido contar ti</strong>, tira con Carisma</p>
+  moveType: ''
+  rollFormula: ''
+  moveResults:
+    failure:
+      key: system.moveResults.failure.value
+      label: Miss
+      value: >-
+        <p>Tus intentos de adulación le hacen sospechar —no te quitará ojo de
+        encima—.</p>
+    partial:
+      key: system.moveResults.partial.value
+      label: Weak Hit
+      value: >-
+        <p>Guardas dos puntos.  Gasta tus puntos guardados a razón de 1 por 1
+        ocasión para desviar sus sospechas o su agresividad de ti hacia otra
+        persona o cosa.</p>
+    success:
+      key: system.moveResults.success.value
+      label: Strong Hit
+      value: >-
+        <p>Guardas tres puntos.  Gasta tus puntos guardados a razón de 1 por 1
+        ocasión para desviar sus sospechas o su agresividad de ti hacia otra
+        persona o cosa.</p>
+    triumph:
+      key: system.moveResults.triumph.value
+      label: Triumph!
+      value: ''
+  uses: 0
+  rollType: ''
+  rollMod: 0
+  actorType: character
+  choices: ''
+  tags: ''
+  mastery: false
+  wear:
+    trackMax: 5
+    trackSize: 0
+    current: 0
+effects: []
+folder: null
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: pbta
+  systemVersion: 1.1.22
+  createdTime: 1772640764062
+  modifiedTime: 1772640862731
+  lastModifiedBy: htpexporter00000
+_key: '!items!xtseRa3NLfMTfUUK'
+

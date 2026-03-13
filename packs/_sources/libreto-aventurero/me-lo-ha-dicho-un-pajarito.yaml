@@ -1,0 +1,65 @@
+name: Me lo ha dicho un pajarito
+type: move
+_id: B9KaO0R29dIgtGMI
+img: icons/svg/aura.svg
+system:
+  description: >-
+    <p>Cuando <strong>recabes información sobre lo que ocurre en un
+    claro</strong>, tiras con Astucia</p>
+  moveType: ''
+  rollFormula: ''
+  moveResults:
+    failure:
+      key: system.moveResults.failure.value
+      label: Miss
+      value: <p>Tus preguntas alertan a alguien peligroso.</p>
+    partial:
+      key: system.moveResults.partial.value
+      label: Weak Hit
+      value: >-
+        <p>Realizas dos preguntas:</p><ul><li>¿Quién ostenta el poder en este
+        claro?</li><li>¿Quién es el disidente local?</li><li>¿A qué temen los
+        habitantes?</li><li>¿Qué esperan los habitantes?</li><li>¿Qué
+        oportunidades existen para los vagabundos emprendedores?</li></ul>
+    success:
+      key: system.moveResults.success.value
+      label: Strong Hit
+      value: >-
+        <p>Haces tres de las siguientes preguntas:</p><ul><li>¿Quién ostenta el
+        poder en este claro?</li><li>¿Quién es el disidente local?</li><li>¿A
+        qué temen los habitantes?</li><li>¿Qué esperan los
+        habitantes?</li><li>¿Qué oportunidades existen para los vagabundos
+        emprendedores?</li></ul>
+    triumph:
+      key: system.moveResults.triumph.value
+      label: Triumph!
+      value: ''
+  uses: 0
+  rollType: ''
+  rollMod: 0
+  actorType: character
+  choices: ''
+  tags: ''
+  mastery: false
+  wear:
+    trackMax: 5
+    trackSize: 0
+    current: 0
+effects: []
+folder: null
+sort: 800000
+ownership:
+  default: 0
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: pbta
+  systemVersion: 1.1.22
+  createdTime: 1773157132991
+  modifiedTime: 1773157841977
+  lastModifiedBy: htpexporter00000
+_key: '!items!B9KaO0R29dIgtGMI'
+

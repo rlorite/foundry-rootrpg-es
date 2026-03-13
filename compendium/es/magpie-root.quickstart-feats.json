@@ -1,0 +1,54 @@
+{
+    "label": "Proezas de granuja",
+    "mapping": {
+        "description": "system.description",
+        "risks": "system.risks"
+    },
+    "entries": {
+        "Hide": {
+            "name": "Esconderse",
+            "description": "Desaparecer de la vista, permanecer oculto",
+            "risks": "Gastar recursos, dejar pruebas, tardar demasiado"
+        },
+        "Acrobatics": {
+            "name": "Acrobacias",
+            "description": "Escalar hábilmente, saltar, salto de altura, con pértiga o similar",
+            "risks": "Romper algo, ser detectado, ponerse en peligro"
+        },
+        "Counterfeit": {
+            "name": "Falsificación",
+            "description": "Copiar, falsificar, engañar",
+            "risks": "Dejar pruebas, tardar demasiado, resultado pobre"
+        },
+        "Pickpocket": {
+            "name": "Carterista",
+            "description": "Robar sutilmente algo de un bolsillo o bolsa",
+            "risks": "Dejar pruebas, tardar demasiado, resultado pobre"
+        },
+        "Disable Device": {
+            "name": "Inutilizar dispositivo",
+            "description": "Desactivar trampas, detener mecanismos",
+            "risks": "Romper algo, llamar la atención de no deseados, gastar recursos"
+        },
+        "Sleight of Hand": {
+            "name": "Prestidigitación",
+            "description": "Ocultar en la mano, dar el cambiazo, deshacerse de algo, florituras",
+            "risks": "Llamar la atención de no deseados, dejar pruebas, resultado pobre"
+        },
+        "Sneak": {
+            "name": "Infiltración",
+            "description": "Entrar o salir de lugares sin ser visto",
+            "risks": "Romper algo, llamar la atención de no deseados, ponerse en peligro"
+        },
+        "Blindside": {
+            "name": "Por sorpresa",
+            "description": "Puñalada trapera, asesinato, ataque por sorpresa, puñetazo a traición",
+            "risks": "Llamar la atención de no deseados, dejar pruebas, ponerse en peligro"
+        },
+        "Pick Lock": {
+            "name": "Forzar cerraduras",
+            "description": "Abrir una puerta cerrada, un cofre, etc.",
+            "risks": "Romper algo, ser detectado, ponerse en peligro"
+        }
+    }
+}

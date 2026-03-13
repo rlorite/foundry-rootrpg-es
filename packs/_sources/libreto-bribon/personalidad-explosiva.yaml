@@ -1,0 +1,56 @@
+name: Personalidad explosiva
+type: move
+_id: MniNCilDIN3B6Ql8
+img: icons/svg/aura.svg
+system:
+  description: >-
+    <p>Cuando destruyes algo con medios flagrantemente peligrosos (explosivos,
+    llamas incontroladas, etc.), tiras con Suerte en lugar de Poderío.</p>
+  moveType: playbook
+  rollFormula: ''
+  moveResults:
+    failure:
+      key: system.moveResults.failure.value
+      label: Miss
+      value: ''
+    partial:
+      key: system.moveResults.partial.value
+      label: Weak Hit
+      value: ''
+    success:
+      key: system.moveResults.success.value
+      label: Strong Hit
+      value: ''
+    triumph:
+      key: system.moveResults.triumph.value
+      label: Triumph!
+      value: ''
+  uses: 0
+  rollType: ''
+  rollMod: 0
+  actorType: character
+  choices: ''
+  tags: ''
+  mastery: false
+  wear:
+    trackMax: 5
+    trackSize: 0
+    current: 0
+effects: []
+folder: null
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: pbta
+  systemVersion: 1.1.22
+  createdTime: 1773159727198
+  modifiedTime: 1773159778113
+  lastModifiedBy: htpexporter00000
+_key: '!items!MniNCilDIN3B6Ql8'
+

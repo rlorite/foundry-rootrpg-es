@@ -1,0 +1,33 @@
+name: Agitador - Familia
+type: magpie-root.connection
+_id: WHErkfANQk8WZdLX
+img: modules/magpie-root/assets/icons/shaking-hands.svg
+system:
+  htmlFields:
+    - statement
+  connectedTo: ''
+  answers: []
+  questions: []
+  selectedConnectionType: family
+  connectionTypeInfo: >-
+    When you help them fulfill their nature, you both clear your exhaustion
+    track.
+  statement: "<p>Después de que _________ y yo diéramos un\_impresionante golpe y robáramos algo muy valioso a una\_poderosa facción, mis malas decisiones me llevaron a una\_situación desesperada. Pero me sacó del apuro y desde\_entonces estamos muy unidos.</p>"
+effects: []
+folder: null
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: pbta
+  systemVersion: 1.1.22
+  createdTime: 1772641306078
+  modifiedTime: 1772641384545
+  lastModifiedBy: htpexporter00000
+_key: '!items!WHErkfANQk8WZdLX'
+

@@ -1,0 +1,62 @@
+name: Y con el mazo dando
+type: move
+_id: xSYBqZChkycOKwl2
+img: icons/svg/aura.svg
+system:
+  description: >-
+    <p>Cuando uses palabras para detener una discusión o un conflicto violento
+    entre otros, tiras con Carisma.</p>
+  moveType: ''
+  rollFormula: ''
+  moveResults:
+    failure:
+      key: system.moveResults.failure.value
+      label: Miss
+      value: >-
+        <p>Loss PNJ vuelven su ira hacia ti, y los PJ ganan +1 Continuo contra
+        ti durante la escena.</p>
+    partial:
+      key: system.moveResults.partial.value
+      label: Weak Hit
+      value: >-
+        <p>Ellos eligen: marcar 2 casillas de agotamiento y continuar, o parar
+        por ahora.</p>
+    success:
+      key: system.moveResults.success.value
+      label: Strong Hit
+      value: >-
+        <p>Ellos eligen: marcar 2 casillas de agotamiento y continuar, o parar
+        por ahora. Obtienes +1 Continuo a tratar con ellos pacíficamente.</p>
+    triumph:
+      key: system.moveResults.triumph.value
+      label: Triumph!
+      value: ''
+  uses: 0
+  rollType: ''
+  rollMod: 0
+  actorType: character
+  choices: ''
+  tags: ''
+  mastery: false
+  wear:
+    trackMax: 5
+    trackSize: 0
+    current: 0
+effects: []
+folder: null
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: pbta
+  systemVersion: 1.1.22
+  createdTime: 1772644609715
+  modifiedTime: 1772644672770
+  lastModifiedBy: htpexporter00000
+_key: '!items!xSYBqZChkycOKwl2'
+

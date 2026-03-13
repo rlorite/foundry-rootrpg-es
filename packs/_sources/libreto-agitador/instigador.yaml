@@ -1,0 +1,59 @@
+name: Instigador
+type: move
+_id: pK9YqIr8i7sA2Kzf
+img: icons/svg/aura.svg
+system:
+  description: >-
+    <p>Cuando
+    @UUID[Compendium.magpie-root.basic-moves.Item.QUixw1pWWPAV2d8b]{engañas a un
+    PNJ} para que luche contra otro PNJ, puedes eliminar una opción de la lista
+    para el resultado de 7–9 —el PNJ no puede elegir esa opción en lugar de
+    hacer lo que tú quieres—.</p>
+  moveType: ''
+  rollFormula: ''
+  moveResults:
+    failure:
+      key: system.moveResults.failure.value
+      label: Miss
+      value: ''
+    partial:
+      key: system.moveResults.partial.value
+      label: Weak Hit
+      value: ''
+    success:
+      key: system.moveResults.success.value
+      label: Strong Hit
+      value: ''
+    triumph:
+      key: system.moveResults.triumph.value
+      label: Triumph!
+      value: ''
+  uses: 0
+  rollType: ''
+  rollMod: 0
+  actorType: character
+  choices: ''
+  tags: ''
+  mastery: false
+  wear:
+    trackMax: 5
+    trackSize: 0
+    current: 0
+effects: []
+folder: null
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: pbta
+  systemVersion: 1.1.22
+  createdTime: 1772640730500
+  modifiedTime: 1772640752014
+  lastModifiedBy: htpexporter00000
+_key: '!items!pK9YqIr8i7sA2Kzf'
+

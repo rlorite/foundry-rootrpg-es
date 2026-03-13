@@ -1,0 +1,71 @@
+name: Guardián
+type: move
+_id: PJk2fJxxXdyTqIJC
+img: icons/svg/aura.svg
+system:
+  description: >-
+    <p>Cuando <strong>defiendes a alguien o algo de una amenaza inmediata de un
+    PNJ o del entorno</strong>, tiras con Poderío. </p>
+  moveType: ''
+  rollFormula: ''
+  moveResults:
+    failure:
+      key: system.moveResults.failure.value
+      label: Miss
+      value: >-
+        <p>Recibes todo el impacto del golpe destinado a tu protegido, y la
+        amenaza te tiene ahora justo donde quiere.</p>
+    partial:
+      key: system.moveResults.partial.value
+      label: Weak Hit
+      value: >-
+        <p>Le mantienes a salvo y eliges una de las siguientes
+        opciones:</p><ul><li>Llamas la atención de la amenaza; ahora se centra
+        en ti.</li><li>Pones a la amenaza en una situación vulnerable; ganas +1
+        Al siguiente para contraatacar.</li><li>Haces retroceder a la amenaza;
+        tú y tu protegido tenéis la oportunidad para hacer una maniobra y
+        huir.</li></ul><p>Tiene un coste: te expones a un peligro o agravas la
+        situación.</p>
+    success:
+      key: system.moveResults.success.value
+      label: Strong Hit
+      value: >-
+        <p>Le mantienes a salvo y eliges una de las siguientes
+        opciones:</p><ul><li>Llamas la atención de la amenaza; ahora se centra
+        en ti.</li><li>Pones a la amenaza en una situación vulnerable; ganas +1
+        Al siguiente para contraatacar.</li><li>Haces retroceder a la amenaza;
+        tú y tu protegido tenéis la oportunidad para hacer una maniobra y
+        huir.</li></ul>
+    triumph:
+      key: system.moveResults.triumph.value
+      label: Triumph!
+      value: ''
+  uses: 0
+  rollType: ''
+  rollMod: 0
+  actorType: character
+  choices: ''
+  tags: ''
+  mastery: false
+  wear:
+    trackMax: 5
+    trackSize: 0
+    current: 0
+effects: []
+folder: null
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: pbta
+  systemVersion: 1.1.22
+  createdTime: 1772644934466
+  modifiedTime: 1772645132732
+  lastModifiedBy: htpexporter00000
+_key: '!items!PJk2fJxxXdyTqIJC'
+

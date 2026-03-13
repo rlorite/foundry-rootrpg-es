@@ -1,0 +1,64 @@
+name: Disparo potente
+type: move
+_id: 6Y0afLIdkU6YXgcj
+img: icons/svg/aura.svg
+system:
+  description: >-
+    <p>Cuando <em><strong>apuntes y dispares a alguien</strong></em> con un
+    arco, marcas desgaste en el arco para tirar con Poderío.</p>
+  moveType: ''
+  rollFormula: ''
+  moveResults:
+    failure:
+      key: system.moveResults.failure.value
+      label: Miss
+      value: ''
+    partial:
+      key: system.moveResults.partial.value
+      label: Weak Hit
+      value: >-
+        <p>Puedes marcar agotamiento para infligir 1 herida adicional.
+        </p><p>Puedes volver a marcar agotamiento para que tu disparo ignore la
+        armadura del enemigo —no podrá marcar desgaste para absorber las
+        heridas—.</p>
+    success:
+      key: system.moveResults.success.value
+      label: Strong Hit
+      value: >-
+        <p>Puedes marcar agotamiento para infligir 1 herida adicional.
+        </p><p>Puedes volver a marcar agotamiento para que tu disparo ignore la
+        armadura del enemigo —no podrá marcar desgaste para absorber las
+        heridas—.</p>
+    triumph:
+      key: system.moveResults.triumph.value
+      label: Triumph!
+      value: ''
+  uses: 0
+  rollType: ''
+  rollMod: 0
+  actorType: character
+  choices: ''
+  tags: ''
+  mastery: false
+  wear:
+    trackMax: 5
+    trackSize: 0
+    current: 0
+effects: []
+folder: null
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: pbta
+  systemVersion: 1.1.22
+  createdTime: 1772644822852
+  modifiedTime: 1772644920965
+  lastModifiedBy: htpexporter00000
+_key: '!items!6Y0afLIdkU6YXgcj'
+

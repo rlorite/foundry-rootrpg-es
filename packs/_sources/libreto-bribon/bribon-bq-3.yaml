@@ -1,0 +1,34 @@
+name: Bribón - BQ - 3
+type: magpie-root.background-question
+_id: hmPZX3Ah8idWdsT6
+img: modules/magpie-root/assets/icons/uncertainty.svg
+system:
+  htmlFields:
+    - question
+  question: <p>¿A quién has dejado atrás?</p>
+  clearingName: ''
+  isClearing: false
+  options:
+    - A mi maestro
+    - A mi familia
+    - A mi ser querido
+    - A mi único defensor
+    - A mi mejor amigo
+effects: []
+folder: null
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: pbta
+  systemVersion: 1.1.22
+  createdTime: 1773159438608
+  modifiedTime: 1773159471865
+  lastModifiedBy: htpexporter00000
+_key: '!items!hmPZX3Ah8idWdsT6'
+

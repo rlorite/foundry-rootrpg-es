@@ -1,0 +1,467 @@
+folder: null
+name: Árbitro
+type: playbook
+img: icons/svg/book.svg
+system:
+  description: >-
+    <section class="playbook"><div class="left-column"><img
+    src="modules/magpie-root/assets/art/playbooks/The_Arbiter.webp" alt="The
+    Arbiter playbook - Image of badger fighter" /><div class="stat-block"><div
+    class="stat-number"><p>0</p></div><div
+    class="stat-name"><p>Astucia</p></div></div><div class="stat-block"><div
+    class="stat-number"><p>+1</p></div><div
+    class="stat-name"><p>Carisma</p></div></div><div class="stat-block"><div
+    class="stat-number"><p>0</p></div><div
+    class="stat-name"><p>Finura</p></div></div><div class="stat-block"><div
+    class="stat-number"><p>+2</p></div><div
+    class="stat-name"><p>Poderío</p></div></div><div class="stat-block"><div
+    class="stat-number"><p>-1</p></div><div
+    class="stat-name"><p>Suerte</p></div></div><p>Añade +1 a una aptitud hasta
+    un máximo de +2</p><h4>Habilidades con armas</h4><p>Elige una habilidad con
+    armas inicial:</p><ul class="checkbox"><li>Asaltar a un
+    grupo</li><li>Desarmar</li><li>Hender</li><li>Parada</li></ul><h4>Proezas de
+    granuja</h4><p>Elige una proeza de granuja inicial (página
+    69)</p><h4>Equipo</h4><p>Valor inicial 10</p></div><div><h2
+    class="playbook-title">Árbitro</h2><p class="description"><em>Eres un
+    poderoso y obstinado vagabundo, que sirve como algo intermedio entre un
+    mercenario y un protector, quizás tomando partido con demasiada facilidad en
+    el gran conflicto entre las facciones.</em></p><div
+    class="flexrow"><div><h4>Especies</h4><ul><li><p>Zorro, ratón, conejo,
+    pájaro, tejón,
+    otra.</p></li></ul><h4>Comportamiento</h4><ul><li>Intimidante, honesto,
+    brusco, abierto.</li></ul></div><div><h4>Detalles</h4><ul><li><p>Él, ella,
+    elle, fluido.</p></li><li><p>Grande, con cicatrices, bien arreglado,
+    viejo.</p></li><li><p>Insignia militar descolorida, parche en el ojo, ropa
+    reparada, relicario deslustrado.</p></li></ul></div></div><h3>Tú naturaleza
+    <span class="instruction">Elige una</span></h3><ul
+    class="checkbox"><li><span class="special-em">Defensor:</span> Recuperas tu
+    contador de agotamiento cuando te pones en peligro para defender a alguien
+    de una injusticia o una amenaza grave</li><li><span
+    class="special-em">Castigador:</span> Recuperas tu contador de agotamiento
+    cuando le dices a un villano poderoso o peligroso en su cara que lo
+    castigarás.</li></ul><h3>Tus motivaciones <span class="instruction">ELige
+    dos</span></h3><ul class="checkbox"><li><span class="special-em">Justicia:
+    </span>Mejoras cuando consigues justicia para alguien perjudicado por un
+    individuo poderoso, rico o de alto estatus.</li><li><span
+    class="special-em">Principios: </span>Mejoras cuando expresas o encarnas tus
+    principios morales a un gran coste para ti o tus aliados.</li><li><span
+    class="special-em">Lealtad: </span>Eres leal a alguien; di a quién. Mejoras
+    cuando obedezcas sus órdenes a un gran coste para ti..</li><li><span
+    class="special-em">Protección: </span>Di quién es tu protegido. Mejoras
+    cuando lo proteges de un peligro importante, o cuando pasa el tiempo y tu
+    protegido sigue a salvo.</li></ul><h3>Tus conexiones</h3><p>Consulta
+    @UUID[Compendium.magpie-root-core.core-book.JournalEntry.rootcore00book00.JournalEntryPage.00makingvagabo00#connections]{conexiones}
+    para conocer los efectos mecánicos de las conexiones.</p><ul><li><span
+    class="special-em">Socio: </span>_________ y yo ayudamos juntos a una
+    facción a tomar el control de un claro, y compartimos la responsabilidad por
+    ello.</li><li><span class="special-em">Protector: </span>Una vez protegí a
+    _________ de un golpe mortal durante un combate, y volvería a hacerlo. ¿Por
+    qué?</li></ul></div></section><section
+    class="playbook-moves"><h3>Movimientos del Árbitro <span
+    class="instruction">ELIGE TRES</span></h3><h4>Bruto</h4><p>Aumentas Poderío
+    en +1 (máx. +3)</p><h4>Y con el mazo dando</h4><p>Cuando uses palabras para
+    detener una discusión o un conflicto violento entre otros, tiras con
+    Carisma. Si tienes éxito, ellos eligen: marcar 2 casillas de agotamiento y
+    continuar, o parar por ahora. Con un resultado de 10+, obtienes +1 Continuo
+    a tratar con ellos pacíficamente. Si fallas, los PNJ vuelven su ira hacia
+    ti, y los PJ ganan +1 Continuo contra ti durante la escena.</p><h4>Cargar y
+    destruir</h4><p>Cuando te abres paso a golpes por el escenario para alcanzar
+    a alguien o algo, tiras con Poderío. Si tienes éxito, alcanzas a tu
+    objetivo. Con un resultado de 10+, eliges una de las opciones siguientes;
+    con un resultado de 7–9, eliges dos:</p><ul><li>Te haces daño: marcas 1
+    casilla de heridas.</li><li>Rompes algo importante que forma parte de lo que
+    te rodea.</li><li>Dañas o dejas atrás un objeto del equipo (a elección del
+    DJ).</li></ul><p>Si fallas, te abres paso violentamente, pero quedas
+    totalmente vulnerable al llegar.</p><h4>Duro de roer</h4><p>Adquieres 1
+    casilla adicional de heridas. Cada vez que pase el tiempo o viajes a un
+    nuevo claro, puedes recuperar 2 casillas de heridas
+    automáticamente.</p><h4>Disparo potente</h4><p>Cuando apuntes y dispares a
+    alguien con un arco, marcas desgaste en el arco para tirar con Poderío. Si
+    tienes éxito, puedes marcar agotamiento para infligir 1 herida adicional.
+    Puedes volver a marcar agotamiento para que tu disparo ignore la armadura
+    del enemigo —no podrá marcar desgaste para absorber las
+    heridas—.</p><h4>Guardián</h4><p>Cuando defiendes a alguien o algo de una
+    amenaza inmediata de un PNJ o del entorno, tiras con Poderío. Si tienes
+    éxito, le mantienes a salvo y eliges una de las siguientes opciones. Con un
+    resultado de 7–9, tiene un coste: te expones a un peligro o agravas la
+    situación.</p><ul><li>Llamas la atención de la amenaza; ahora se centra en
+    ti.</li><li>Pones a la amenaza en una situación vulnerable; ganas +1 Al
+    siguiente para contraatacar.</li><li>Haces retroceder a la amenaza; tú y tu
+    protegido tenéis la oportunidad para hacer una maniobra o
+    huir.</li></ul><p>Si fallas, recibes todo el impacto del golpe destinado a
+    tu protegido, y la amenaza te tiene ahora justo donde
+    quiere.</p></section><section class="background"><h3>Preguntas sobre el
+    trasfondo</h3><div class="two-col"><div><h5>¿A qué sitio llamas
+    hogar?</h5><ul class="checkbox"><li><span class="underlines">Al claro
+    ____________</span></li><li>A la espesura.</li><li>A un lugar lejos de
+    aquí.</li></ul><h5>¿Por qué eres un vagabundo?</h5><ul
+    class="checkbox"><li>Me persigue un poderoso oficial.</li><li>Deseo
+    compensar una transgresión de mi pasado.</li><li>Quiero luchar contra la
+    injusticia.</li><li>Debo limpiar mi nombre manchado.</li><li>He sido
+    exiliado de la mayoría de los claros.</li></ul></div><div><h5>¿A quién has
+    dejado atrás?</h5><ul class="checkbox"><li>A mi compañero y amigo.</li><li>A
+    mi familia.</li><li>A mi ser querido.</li><li>A mi protegido.</li><li>A mi
+    comandante.</li></ul><p><strong>¿A que facción has servido más?
+    </strong>(Marca 2 casillas de prestigio con la facción
+    apropiada)</p><p><strong>¿Con qué facción te has ganado una enemistad
+    especial?</strong> (Marca 1 casilla de infamia con la facción
+    apropiada)</p></div></div></section>
+  slug: the-arbiter
+  actorType: character
+  stats:
+    charm:
+      label: Charm
+      value: 1
+    cunning:
+      label: Cunning
+      value: 0
+    finesse:
+      label: Finesse
+      value: 0
+    luck:
+      label: Luck
+      value: -1
+    might:
+      label: Might
+      value: 2
+  statsDetail: Añade +1 a una aptitud hasta un máximo de +2
+  attributes:
+    species:
+      label: Species
+      type: ListOne
+      choices:
+        - options:
+            '0':
+              label: Zorro
+            '1':
+              label: Ratón
+            '2':
+              label: Conejo
+            '3':
+              label: Pájaro
+            '4':
+              label: Tejón
+          value: ''
+      custom: false
+      path: attributes
+      value: ''
+      max: null
+      options:
+        '0': {}
+      description: ''
+    demeanor:
+      label: Demeanor
+      type: ListOne
+      choices:
+        - options:
+            '0':
+              label: Intimidante
+            '1':
+              label: Honesto
+            '2':
+              label: Brusco
+            '3':
+              label: Abierto
+          value: ''
+      custom: false
+      path: attributes
+      value: ''
+      max: null
+      options:
+        '0': {}
+      description: ''
+    details:
+      label: Details
+      type: ListMany
+      choices:
+        - options:
+            '0':
+              value: false
+              label: Él
+            '1':
+              value: false
+              label: Ella
+            '2':
+              value: false
+              label: Elle
+            '3':
+              value: false
+              label: Fluido
+          value: ''
+        - options:
+            '0':
+              value: false
+              label: Grande
+            '1':
+              value: false
+              label: Con cicatrices
+            '2':
+              value: false
+              label: Bien arreglado
+            '3':
+              value: false
+              label: Viejo
+          value: ''
+        - options:
+            '0':
+              value: false
+              label: Insignia militar descolorida
+            '1':
+              value: false
+              label: Parche en el ojo
+            '2':
+              value: false
+              label: Ropa reparada
+            '3':
+              value: false
+              label: Relicario deslustrado
+          value: ''
+      custom: false
+      path: attributes
+      value: ''
+      max: null
+      options:
+        '0': {}
+      description: ''
+    eqStartingValue:
+      label: Starting Value
+      type: Number
+      value: 0
+      choices:
+        - value: 10
+          options: {}
+      custom: false
+      path: attributes
+      max: null
+      options: {}
+      description: ''
+    bgInfo:
+      label: Background Info
+      value: ''
+      type: LongText
+      choices:
+        - value: >-
+            <p><strong>¿A que facción has servido más?</strong> (Marca 2
+            casillas de prestigio con la facción apropiada)</p>
+          options: {}
+        - value: >-
+            <p><strong>¿Con qué facción te has ganado una enemistad especial?
+            </strong>(Marca 1 casilla de infamia con la facción apropiada)</p>
+          options: {}
+      custom: false
+      path: details
+      max: null
+      options: {}
+      description: ''
+  choiceSets:
+    - title: Preguntas sobre el trasfondo
+      desc: ''
+      grantOn: 0
+      advancement: 0
+      repeatable: true
+      choices:
+        - uuid: >-
+            Compendium.foundryvtt-root-magpie-es.libreto-arbitro.Item.WTxytdGqgeJCRuOH
+          img: modules/magpie-root/assets/icons/uncertainty.svg
+          granted: false
+          advancement: 0
+        - uuid: >-
+            Compendium.foundryvtt-root-magpie-es.libreto-arbitro.Item.U0nOTNZ9R9ZCIU1b
+          img: modules/magpie-root/assets/icons/uncertainty.svg
+          granted: false
+          advancement: 0
+        - uuid: >-
+            Compendium.foundryvtt-root-magpie-es.libreto-arbitro.Item.TQzen5hpiLhJROaG
+          img: modules/magpie-root/assets/icons/uncertainty.svg
+          granted: false
+          advancement: 0
+      type: multi
+      granted: false
+    - title: Movimientos del Árbitro
+      desc: Elige tres
+      grantOn: 1
+      advancement: 0
+      repeatable: true
+      choices:
+        - uuid: >-
+            Compendium.foundryvtt-root-magpie-es.libreto-arbitro.Item.yxJr1lKjRP1oR1ey
+          img: icons/svg/aura.svg
+          granted: false
+          advancement: 0
+        - uuid: >-
+            Compendium.foundryvtt-root-magpie-es.libreto-arbitro.Item.SCNLzeP6KJFlZNiQ
+          img: icons/svg/aura.svg
+          granted: false
+          advancement: 0
+        - uuid: >-
+            Compendium.foundryvtt-root-magpie-es.libreto-arbitro.Item.6Y0afLIdkU6YXgcj
+          img: icons/svg/aura.svg
+          granted: false
+          advancement: 0
+        - uuid: >-
+            Compendium.foundryvtt-root-magpie-es.libreto-arbitro.Item.zD7P38prberslCqU
+          img: icons/svg/aura.svg
+          granted: false
+          advancement: 0
+        - uuid: >-
+            Compendium.foundryvtt-root-magpie-es.libreto-arbitro.Item.PJk2fJxxXdyTqIJC
+          img: icons/svg/aura.svg
+          granted: false
+          advancement: 0
+        - uuid: >-
+            Compendium.foundryvtt-root-magpie-es.libreto-arbitro.Item.xSYBqZChkycOKwl2
+          img: icons/svg/aura.svg
+          granted: false
+          advancement: 0
+      type: multi
+      granted: false
+    - title: Tus conexiones
+      desc: ''
+      grantOn: 0
+      advancement: 0
+      repeatable: true
+      choices:
+        - uuid: >-
+            Compendium.foundryvtt-root-magpie-es.libreto-arbitro.Item.91ryfg6CepdaZFNn
+          img: modules/magpie-root/assets/icons/shaking-hands.svg
+          granted: false
+          advancement: 0
+        - uuid: >-
+            Compendium.foundryvtt-root-magpie-es.libreto-arbitro.Item.XzDpBozVajHg1Ll9
+          img: modules/magpie-root/assets/icons/shaking-hands.svg
+          granted: false
+          advancement: 0
+      type: multi
+      granted: false
+    - title: Habilidades con armas
+      desc: Elige una
+      grantOn: 1
+      advancement: 0
+      repeatable: true
+      choices:
+        - uuid: >-
+            Compendium.magpie-root.basic-weapon-skills-moves.Item.83xkNNNtcj2gyH49
+          img: modules/magpie-root/assets/icons/crossed-swords.svg
+          granted: false
+          advancement: 0
+        - uuid: >-
+            Compendium.magpie-root.basic-weapon-skills-moves.Item.JGL9qhXNICN0ZrZV
+          img: modules/magpie-root/assets/icons/crossed-swords.svg
+          granted: false
+          advancement: 0
+        - uuid: >-
+            Compendium.magpie-root.basic-weapon-skills-moves.Item.UXi7q917vWrnYAbY
+          img: modules/magpie-root/assets/icons/crossed-swords.svg
+          granted: false
+          advancement: 0
+        - uuid: >-
+            Compendium.magpie-root.basic-weapon-skills-moves.Item.8weoA1YOY24aprul
+          img: modules/magpie-root/assets/icons/crossed-swords.svg
+          granted: false
+          advancement: 0
+      type: multi
+      granted: false
+    - title: Tu naturaleza
+      desc: Elige una
+      grantOn: 1
+      advancement: 0
+      repeatable: true
+      choices:
+        - uuid: Compendium.magpie-root.quickstart-natures.Item.JR1wBKhLsURNg7ce
+          img: modules/magpie-root/assets/icons/brain.svg
+          granted: false
+          advancement: 0
+        - uuid: Compendium.magpie-root.quickstart-natures.Item.t10dqA6PZ3wYM97N
+          img: modules/magpie-root/assets/icons/brain.svg
+          granted: false
+          advancement: 0
+      type: multi
+      granted: false
+    - title: Tus motivaciones
+      desc: Elige dos
+      grantOn: 1
+      advancement: 0
+      repeatable: true
+      choices:
+        - uuid: Compendium.magpie-root.quickstart-drives.Item.jdRFl8Nb8MXdEM3s
+          img: modules/magpie-root/assets/icons/heart-wings.svg
+          granted: false
+          advancement: 0
+        - uuid: Compendium.magpie-root.quickstart-drives.Item.X4Dh60kI0tMlVjTh
+          img: modules/magpie-root/assets/icons/heart-wings.svg
+          granted: false
+          advancement: 0
+        - uuid: Compendium.magpie-root.quickstart-drives.Item.VWoz1K952B9KkJTD
+          img: modules/magpie-root/assets/icons/heart-wings.svg
+          granted: false
+          advancement: 0
+        - uuid: Compendium.magpie-root.quickstart-drives.Item.qxvOppJaIMm6SK6G
+          img: modules/magpie-root/assets/icons/heart-wings.svg
+          granted: false
+          advancement: 0
+      type: multi
+      granted: false
+    - title: Proezas de granuja
+      desc: Elige una
+      grantOn: 1
+      advancement: 0
+      repeatable: true
+      choices:
+        - uuid: Compendium.magpie-root.quickstart-feats.Item.ELqBsDVSvWL024ph
+          img: modules/magpie-root/assets/icons/cloak-dagger.svg
+          granted: false
+          advancement: 0
+        - uuid: Compendium.magpie-root.quickstart-feats.Item.kEHGg1gGFR19RfUN
+          img: modules/magpie-root/assets/icons/cloak-dagger.svg
+          granted: false
+          advancement: 0
+        - uuid: Compendium.magpie-root.quickstart-feats.Item.9RTX8NP31x0gtcBD
+          img: modules/magpie-root/assets/icons/cloak-dagger.svg
+          granted: false
+          advancement: 0
+        - uuid: Compendium.magpie-root.quickstart-feats.Item.RwqvOdDL1Z06HWWq
+          img: modules/magpie-root/assets/icons/cloak-dagger.svg
+          granted: false
+          advancement: 0
+        - uuid: Compendium.magpie-root.quickstart-feats.Item.zOiy0qiU8eYSrwam
+          img: modules/magpie-root/assets/icons/cloak-dagger.svg
+          granted: false
+          advancement: 0
+        - uuid: Compendium.magpie-root.quickstart-feats.Item.rKBrV61tv7PM6YPA
+          img: modules/magpie-root/assets/icons/cloak-dagger.svg
+          granted: false
+          advancement: 0
+        - uuid: Compendium.magpie-root.quickstart-feats.Item.lmrkolsqAp89xKxH
+          img: modules/magpie-root/assets/icons/cloak-dagger.svg
+          granted: false
+          advancement: 0
+        - uuid: Compendium.magpie-root.quickstart-feats.Item.sLR59mjS89xbggvR
+          img: modules/magpie-root/assets/icons/cloak-dagger.svg
+          granted: false
+          advancement: 0
+        - uuid: Compendium.magpie-root.quickstart-feats.Item.pzIxvr7Vk7HVonij
+          img: modules/magpie-root/assets/icons/cloak-dagger.svg
+          granted: false
+          advancement: 0
+      type: multi
+      granted: false
+effects: []
+flags:
+  sigil:
+    completed: true
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: pbta
+  systemVersion: 1.1.22
+  createdTime: 1772642150794
+  modifiedTime: 1772645493130
+  lastModifiedBy: htpexporter00000
+ownership:
+  default: 0
+_id: FjDaDkGsaE8L34oh
+sort: 0
+_key: '!items!FjDaDkGsaE8L34oh'
+

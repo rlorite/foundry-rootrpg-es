@@ -1,0 +1,69 @@
+{
+    "label": "Motivaciones",
+    "mapping": {
+        "name": "name",
+        "description": "system.description"
+    },
+    "entries": {
+        "Revenge": {
+            "name": "Venganza",
+            "description": "Di quién es tu enemigo. Mejoras cuando le causes un daño significativo a él o a sus intereses."
+        },
+        "Thrills": {
+            "name": "Emociones fuertes",
+            "description": "Mejoras cuando escapas de una muerte segura o encarcelamiento sin remedio."
+        },
+        "Crime": {
+            "name": "Crimen",
+            "description": "Mejoras cuando consigues ilícitamente un botín importante o llevas a cabo una operación ilegal contra todo pronóstico."
+        },
+        "Principles": {
+            "name": "Principios",
+            "description": "Mejoras cuando expresas o encarnas tus principios morales a un gran coste para ti o tus aliados."
+        },
+        "Loyalty": {
+            "name": "Lealtad",
+            "description": "Eres leal a alguien; di a quién. Mejoras cuando obedezcas sus órdenes a un gran coste para ti."
+        },
+        "Ambition": {
+            "name": "Ambición",
+            "description": "Mejoras cuando aumentas tu Reputación con cualquier facción."
+        },
+        "Chaos": {
+            "name": "Caos",
+            "description": "Mejoras cuando derrocas a una figura u orden tiránico o peligrosamente dominante."
+        },
+        "Infamy": {
+            "name": "Infamia",
+            "description": "Mejoras cuando disminuye tu Reputación con cualquier facción."
+        },
+        "Wanderlust": {
+            "name": "Ansia de viajar",
+            "description": "Mejoras cuando terminas un viaje a un claro."
+        },
+        "Justice": {
+            "name": "Justicia",
+            "description": "Mejoras cuando consigues justicia para alguien perjudicado por un individuo poderoso, rico o de alto estatus."
+        },
+        "Discovery": {
+            "name": "Descubrimiento",
+            "description": "Mejoras cuando encuentras una nueva maravilla o ruinas en la espesura."
+        },
+        "Freedom": {
+            "name": "Libertad",
+            "description": "Mejoras cuando liberas a un grupo de habitantes de la opresión."
+        },
+        "Protection": {
+            "name": "Protección",
+            "description": "Di quién es tu protegido. Mejoras cuando lo proteges de un peligro importante, o cuando pasa el tiempo y tu protegido sigue a salvo."
+        },
+        "Clean Paws": {
+            "name": "Garras limpias",
+            "description": "Mejoras cuando logras un objetivo criminal ilícito manteniendo una apariencia de inocencia creíble."
+        },
+        "Greed": {
+            "name": "Avaricia",
+            "description": "Mejoras cuando te aseguras un importante botín o un tesoro."
+        }
+    }
+}

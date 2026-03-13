@@ -1,0 +1,28 @@
+{
+  "label": "Movimientos de viaje",
+  "mapping": {
+    "description": "system.description",
+    "failure": "system.moveResults.failure.value",
+    "partial": "system.moveResults.partial.value",
+    "success": "system.moveResults.success.value",
+    "triumph": "system.moveResults.triumph.value"
+  },
+  "entries": {
+    "Travel Along the Path": {
+      "name": "Viajar por un camino",
+      "description": "<p>Cuando <em><strong>viaja de claro en claro por un camino</strong></em>, la banda decide en conjunto cómo viaja, y un miembro de la banda tira por el grupo:</p>\n<ul>\n<li>A un ritmo tranquilo: todo el mundo recupera 3 casillas de agotamiento; la banda marca 2 casillas de existencias entre todos; -1 a la tirada.</li>\n<li>A un ritmo medio: todo el mundo recupera 2 casillas de agotamiento; la banda marca 1 casilla de existencias en total; +0 a la tirada.</li>\n<li>De forma segura, rápida y sin levantar sospechas: la banda marca en conjunto 1 casilla de existencias por consumo de suministros; +1 a la tirada.</li>\n<li>De forma urgente y rápida: todo el mundo marca una casilla de agotamiento; +2 a la tirada.</li>\n</ul>",
+      "failure": "<p>Os veréis atrapados en medio de una situación peligrosa antes de llegar al siguiente claro.</p>",
+      "partial": "<p>Llegáis al siguiente claro a tiempo</p>\n<p>Encontráis algo digno de mención en el camino: una caravana, un campo de batalla o algo extraño que lo atraviesa.</p>",
+      "success": "<p>Llegáis al siguiente claro a tiempo</p>\n<p>El viaje es rápido y sin interrumpciones.</p>",
+      "triumph": ""
+    },
+    "Travel Through the Forest": {
+      "name": "Viajar a través de la espesura",
+      "description": "<p>Cuando <em><strong>viaja de claro en claro a través de la espesura</strong></em>, la banda decide colectivamente cómo viaje, y un miembro de la banda tira por todo el grupo:</p>\n<ul>\n<li>Despacio, forrajeando a fondo: todos recuperan 2 casillas de existencias; la banda en conjunto marca 1 casilla de agotamiento por cada miembro; -1 a la tirada.</li>\n<li>Con cuidado, evitando problemas: la banda en conjunto marca 1 casilla de existencias o agotamiento por cadca miembro; +1 a la tirada.</li>\n<li>Lo más rápido posible: todos marcan 1 casilla de agotamiento y existencias; +2 a la tirada</li>\n</ul>",
+      "failure": "<p>Os encontráis con uno de los peligros de la espesura durante el viaje, y no podéis escapar de él fácilmente; enfrentaos a el antes de llegar al claro que hay al otro lado.</p>",
+      "partial": "<p>Atravesáis la espesura hasta cualquier claro que haya al otro lado. Por el camino, uno de vosotros divisa un sitio interesante; dejáis indicadores para poder volver al terminar el viaje.</p>\n<p>Algo que había en la espesura os está siguiendo; podéis dejar que os rastree, o cada vagabundo puede marcar una casilla de agotamiento para perderlo.</p>",
+      "success": "<p>Atravesáis la espesura hasta cualquier claro que haya al otro lado. Por el camino, uno de vosotros divisa un sitio interesante; dejáis indicadores para poder volver al terminar el viaje.</p>\n<p>El camino es en gran medida seguro.</p>",
+      "triumph": ""
+    }
+  }
+}

@@ -1,0 +1,66 @@
+name: Encanto agresivo
+type: move
+_id: 88b6kGKhKUKemMvs
+img: icons/svg/aura.svg
+system:
+  description: >-
+    <p>Cuando <strong>juegas con las inseguridades, preocupaciones o miedos de
+    un enemigo para distraerlo con palabras durante un combate</strong>, tiras
+    con Astucia.</p>
+  moveType: ''
+  rollFormula: ''
+  moveResults:
+    failure:
+      key: system.moveResults.failure.value
+      label: Miss
+      value: >-
+        <p>Le enfureces directamente; viene a por ti, con dureza, y no estás
+        preparado.</p>
+    partial:
+      key: system.moveResults.partial.value
+      label: Weak Hit
+      value: >-
+        <p>Creas una oportunidad para ti. Puedes realizar cualquier movimiento
+        con armas disponible contra él con un +1, o golpearle rápidamente y
+        causarle daño. </p><p>También lo enfureces; ya no te escuchará, hagas lo
+        que hagas, hasta que la situación cambie drásticamente.</p>
+    success:
+      key: system.moveResults.success.value
+      label: Strong Hit
+      value: >-
+        <p>Creas una oportunidad para ti. Puedes realizar cualquier movimiento
+        con armas disponible contra él con un +1, o golpearle rápidamente y
+        causarle daño.</p>
+    triumph:
+      key: system.moveResults.triumph.value
+      label: Triumph!
+      value: ''
+  uses: 0
+  rollType: ''
+  rollMod: 0
+  actorType: character
+  choices: ''
+  tags: ''
+  mastery: false
+  wear:
+    trackMax: 5
+    trackSize: 0
+    current: 0
+effects: []
+folder: null
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: pbta
+  systemVersion: 1.1.22
+  createdTime: 1772640933415
+  modifiedTime: 1772641036997
+  lastModifiedBy: htpexporter00000
+_key: '!items!88b6kGKhKUKemMvs'
+

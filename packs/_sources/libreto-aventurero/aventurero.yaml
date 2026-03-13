@@ -1,0 +1,443 @@
+folder: null
+name: Aventurero
+type: playbook
+img: icons/svg/book.svg
+system:
+  description: >-
+    <section class="playbook"><div class="left-column"><img
+    src="modules/magpie-root/assets/art/playbooks/The_Adventurer.webp" alt="The
+    Adventurer playbook - Image of an Owl in robes" /><div
+    class="stat-block"><div class="stat-number"><p>+1</p></div><div
+    class="stat-name"><p>Astucia</p></div></div><div class="stat-block"><div
+    class="stat-number"><p>+2</p></div><div
+    class="stat-name"><p>Carisma</p></div></div><div class="stat-block"><div
+    class="stat-number"><p>0</p></div><div
+    class="stat-name"><p>Finura</p></div></div><div class="stat-block"><div
+    class="stat-number"><p>-1</p></div><div
+    class="stat-name"><p>Poderío</p></div></div><div class="stat-block"><div
+    class="stat-number"><p>0</p></div><div
+    class="stat-name"><p>Suerte</p></div></div><p>Añade +1 a una aptitud hasta
+    un máximo de +2.</p><h4>Habilidades con armas</h4><p>Elige una habilidad con
+    armas inicial:</p><ul class="checkbox"><li>Desarmar</li><li>Hostigar a un
+    grupo</li><li>Improvisar arma</li><li>Parada</li></ul><h4>Proezas de
+    granuja</h4><p>Empiezas con estas:</p><p>Falsificación,
+    Prestidigitación</p><h4>Equipo</h4><p>Valor inicial: 9</p></div><div><h2
+    class="playbook-title">Aventurero</h2><p class="description"><em>Eres un
+    vagabundo pacífico y diplomático, que hace aliados a aquellos a los que
+    ayudas, tal vez derrocando a grandes potencias al forjar fuertes lazos con
+    otros.</em></p><div class="flexrow"><div><h4>Especies</h4><ul><li><p>Zorro,
+    ratón, conejo, pájaro, búho,
+    otra.</p></li></ul><h4>Comportamiento</h4><ul><li><p>Encantador,
+    diplomático, agradable,
+    severo.</p></li></ul></div><div><h4>Detalles</h4><ul><li>Él, ella, elle,
+    fluido.</li><li>Formal, colorido,multicultural, sencillo.</li><li>Medalla al
+    servicio, joyas de cuentas, flauta tallada, bolsitas con piedras
+    preciosas.</li></ul></div></div><h3>Tu naturaleza <span
+    class="instruction">Elige una</span></h3><ul class="checkbox"><li><span
+    class="special-em">Extrovertido:</span> Recuperas tu contador de agotamiento
+    cuando compartes un momento de verdadera calidez, amistad o disfrute con
+    alguien.</li><li><span class="special-em">Pacificador:</span> Recuperas tu
+    contador de agotamiento cuando resuelves un conflicto peligroso de forma no
+    violenta.</li></ul><h3>Tus motivaciones <span class="instruction">Elige
+    dos</span></h3><ul class="checkbox"><li><span class="special-em">Ambición:
+    </span>Mejoras cuando aumentas tu Reputación con cualquier
+    facción.</li><li><span class="special-em">Garras limpias:</span> Mejoras
+    cuando logras un objetivo criminal ilícito manteniendo una apariencia de
+    inocencia creíble.</li><li><span class="special-em">Principios:</span>
+    Mejoras cuando expresas o encarnas tus principios morales a un gran coste
+    para ti o tus aliados.</li><li><span class="special-em">Justicia:</span>
+    Mejoras cuando consigues justicia para alguien perjudicado por un individuo
+    poderoso, rico o de alto estatus.</li></ul><h3>Tus
+    conexiones</h3><p>Consulta
+    @UUID[Compendium.magpie-root-core.core-book.JournalEntry.rootcore00book00.JournalEntryPage.00makingvagabo00#connections]{Connections}
+    para conocer los efectos mecánicos de las conexiones..</p><ul><li><span
+    class="special-em">Socio:</span> <span class="underlines">_________</span> y
+    yo luchamos codo con codo para defender un claro de los tejemanejes de una
+    facción... pero fracasamos. ¿Por qué defendimos el claro? ¿Por qué
+    fracasamos? ¿Quién nos derrotó?</li><li><span
+    class="special-em">Amigo:</span> Viajé con <span
+    class="underlines">_________</span> durante un tiempo justo después de
+    convertirme en vagabundo. Me ayudó a mantenerme a salvo y me enseñó el
+    Bosque. ¿Qué recuerdo mío le regalé?</li></ul></div></section><section
+    class="playbook-moves"><h3>Movimientos del Aventurero <span
+    class="instruction">Elige tres</span></h3><h4>Reputación
+    excelente</h4><p>Siempre que <strong>marques cualquier cantidad de prestigio
+    con una facción</strong>, marca una casilla de prestigio adicional. Cuando
+    marques cualquier cantidad de infamia con una facción, puedes eliminar en su
+    lugar una cantidad equivalente de prestigio que tengas
+    marcado.</p><h4>Ataque subyugador</h4><p>Cuando tu objetivo sea
+    <strong>someter a un enemigo de forma rápida y no letal</strong>, puedes
+    @UUID[Compendium.magpie-root.basic-weapon-moves.Item.QYFY5AZ2PVO7ahN5]{enfrentarte
+    cuerpo a cuerpo} con Astucia en lugar de Poderío. No puedes elegir infligir
+    daño grave si lo haces así..</p><h4>Me lo ha dicho un pajarito</h4><p>Cuando
+    <strong>recabes información sobre lo que ocurre en un claro</strong>, tiras
+    con Astucia. Con un resultado de 10+, haces tres de las siguientes
+    preguntas. Con un resultado 7–9, realizas dos.</p><ul><li>¿Quién ostenta el
+    poder en este claro?</li><li>¿Quién es el disidente local?</li><li>¿A qué
+    temen todos los habitantes?</li><li>¿Qué esperan los
+    habitantes?</li><li>¿Qué oportunidades existen para los vagabundos
+    emprendedores?</li></ul><p>Si fallas, tus preguntas alertan a alguien
+    peligroso.</p><h4>Orador</h4><p>Cuando <strong>des un discurso a los
+    habitantes interesados de un claro</strong>, indica lo que les estás
+    animando a hacer y tira Carisma. Si tienes éxito, se pondrán en movimiento
+    para hacerlo como ellos crean conveniente. Con un resultado de 10+, eliges
+    dos de las siguientes opciones; con un resultado de 7–9, eliges
+    una:</p><ul><li>No intentan llevar tu idea demasiado lejos.</li><li>No se
+    disuelven a la primera señal de resistencia real.</li><li>No exigen que te
+    pongas a la cabeza y les dirijas.</li></ul><p>Si fallas, retuercen tu
+    mensaje de formas impredecibles.</p><h4>Cultivado</h4><p>Aumentas Astucia en
+    +1 (máximo +3).</p><h4>Amistad rápida</h4><p>Cuando <strong>intentes hacerte
+    amigo de un PNJ que acabas de conocer encajando con su personalidad,
+    lenguaje corporal y deseos</strong>, marca agotamiento y tira con Astucia.
+    Si tienes éxito, te mirará con buenos ojos. Hazle cualquier pregunta no
+    comprometedora y te responderá con la verdad, o pídele un favor sencillo y
+    lo hará por ti. Con un resultado de 10+, le gustas de verdad, y compartirá
+    contigo un secreto valioso o te concederá un favor importante. Si fallas, te
+    equivocas de pata a rabo al analizar su forma de ser y su disgusto te cuesta
+    caro..</p></section><section class="background"><h3>Preguntas sobre el
+    trasfondo</h3><div class="two-col"><div><h5>¿A qué sitio llamas
+    hogar?</h5><ul class="checkbox"><li><span class="underlines">Al claro
+    ____________</span>.</li><li>A la espesura.</li><li>A un lugar lejos de
+    aquí.</li></ul><h5>¿Por qué eres un vagabundo?</h5><ul
+    class="checkbox"><li>Quiero ayudar al Bosque.</li><li>Quiero explorar el
+    Bosque.</li><li>Creo que las facciones actuales deberían ser
+    derrocadas.</li><li>Debo cumplir una promesa que hice a un ser
+    querido.</li><li>Quiero liberarme de las ataduras de la
+    sociedad.</li></ul></div><div><h5>¿A quién has dejado atrás?</h5><ul
+    class="checkbox"><li>A mi mentor.</li><li>A mi familia.</li><li>A mi ser
+    querido.</li><li>A mi estudiante.</li><li>A mi mayor
+    aliado.</li></ul><p><strong>¿A qué facción has servidor más? </strong>(Marca
+    2 casillas de prestigio con la facción apropiada)</p><p><strong>¿Con qué
+    facción te has ganado una enemistad especial?</strong> (Marca 1 casilla de
+    infamia con la facción apropiada)</p></div></div></section>
+  slug: the-adventurer
+  actorType: character
+  stats:
+    charm:
+      label: Charm
+      value: 2
+    cunning:
+      label: Cunning
+      value: 1
+    finesse:
+      label: Finesse
+      value: 0
+    luck:
+      label: Luck
+      value: 0
+    might:
+      label: Might
+      value: -1
+  statsDetail: add +1 to a stat of your choice, to a max of +2
+  attributes:
+    species:
+      label: Species
+      type: ListOne
+      choices:
+        - options:
+            '0':
+              label: Zorro
+            '1':
+              label: Ratón
+            '2':
+              label: Conejo
+            '3':
+              label: Pájaro
+            '4':
+              label: Búho
+          value: ''
+      custom: false
+      path: attributes
+      value: ''
+      max: null
+      options:
+        '0': {}
+      description: ''
+    demeanor:
+      label: Demeanor
+      type: ListOne
+      choices:
+        - options:
+            '0':
+              label: Encantador
+            '1':
+              label: Diplomático
+            '2':
+              label: Agradable
+            '3':
+              label: Severo
+          value: ''
+      custom: false
+      path: attributes
+      value: ''
+      max: null
+      options:
+        '0': {}
+      description: ''
+    details:
+      label: Details
+      type: ListMany
+      choices:
+        - options:
+            '0':
+              value: false
+              label: Él
+            '1':
+              value: false
+              label: Ella
+            '2':
+              value: false
+              label: Elle
+            '3':
+              value: false
+              label: Fluido
+          value: ''
+        - options:
+            '0':
+              value: false
+              label: Formal
+            '1':
+              value: false
+              label: Colorido
+            '2':
+              value: false
+              label: Multicultural
+            '3':
+              value: false
+              label: Sencillo
+          value: ''
+        - options:
+            '0':
+              value: false
+              label: Medalla al servicio
+            '1':
+              value: false
+              label: Joyas de cuentas
+            '2':
+              value: false
+              label: Flauta tallada
+            '3':
+              value: false
+              label: Bolsitas con piedras preciosas
+          value: ''
+      custom: false
+      path: attributes
+      value: ''
+      max: null
+      options:
+        '0': {}
+      description: ''
+    eqStartingValue:
+      label: Starting Value
+      type: Number
+      value: 0
+      choices:
+        - value: 9
+          options: {}
+      custom: false
+      path: attributes
+      max: null
+      options: {}
+      description: ''
+    bgInfo:
+      label: Background Info
+      value: ''
+      type: LongText
+      choices:
+        - value: >-
+            <p><strong>¿A qué facción has servidor más?</strong> (Marca 2
+            casillas de prestigio con la facción apropiada)</p><p></p>
+          options: {}
+        - value: >-
+            <p><strong>¿Con qué facción te has ganado una enemistad especial?
+            </strong>(Marca 1 casilla de infamia con la facción apropiada)</p>
+          options: {}
+      custom: false
+      path: details
+      max: null
+      options: {}
+      description: ''
+  choiceSets:
+    - title: Preguntas sobre el trasfondo
+      desc: ''
+      type: multi
+      repeatable: true
+      choices:
+        - uuid: >-
+            Compendium.foundryvtt-root-magpie-es.libreto-aventurero.Item.YgQ1QXo7GlhwOdv7
+          img: modules/magpie-root/assets/icons/uncertainty.svg
+          granted: false
+          advancement: 0
+        - uuid: >-
+            Compendium.foundryvtt-root-magpie-es.libreto-aventurero.Item.mlLrt06rsmGHXc1o
+          img: modules/magpie-root/assets/icons/uncertainty.svg
+          granted: false
+          advancement: 0
+        - uuid: >-
+            Compendium.foundryvtt-root-magpie-es.libreto-aventurero.Item.7uZ9nAajGrwy7oWH
+          img: modules/magpie-root/assets/icons/uncertainty.svg
+          granted: false
+          advancement: 0
+      grantOn: 0
+      granted: false
+      advancement: 0
+    - title: Tus movimientos
+      desc: Elige tres
+      type: multi
+      repeatable: true
+      choices:
+        - uuid: >-
+            Compendium.foundryvtt-root-magpie-es.libreto-aventurero.Item.v2Tvyi1lfQ3CgwB9
+          img: icons/svg/aura.svg
+          granted: false
+          advancement: 0
+        - uuid: >-
+            Compendium.foundryvtt-root-magpie-es.libreto-aventurero.Item.Sl7uQAxpuNpoADpb
+          img: icons/svg/aura.svg
+          granted: false
+          advancement: 0
+        - uuid: >-
+            Compendium.foundryvtt-root-magpie-es.libreto-aventurero.Item.6HUOmuWqFUxprqeJ
+          img: icons/svg/aura.svg
+          granted: false
+          advancement: 0
+        - uuid: >-
+            Compendium.foundryvtt-root-magpie-es.libreto-aventurero.Item.B9KaO0R29dIgtGMI
+          img: icons/svg/aura.svg
+          granted: false
+          advancement: 0
+        - uuid: >-
+            Compendium.foundryvtt-root-magpie-es.libreto-aventurero.Item.zm8oQ74PZoW6zqpc
+          img: icons/svg/aura.svg
+          granted: false
+          advancement: 0
+        - uuid: >-
+            Compendium.foundryvtt-root-magpie-es.libreto-aventurero.Item.UgsT0wi29Hzy8uMt
+          img: icons/svg/aura.svg
+          granted: false
+          advancement: 0
+      grantOn: 1
+      granted: false
+      advancement: 0
+    - title: Tus conexiones
+      desc: ''
+      type: multi
+      repeatable: true
+      choices:
+        - uuid: >-
+            Compendium.foundryvtt-root-magpie-es.libreto-aventurero.Item.Felnd1ITcipmQmPh
+          img: modules/magpie-root/assets/icons/shaking-hands.svg
+          granted: false
+          advancement: 0
+        - img: modules/magpie-root/assets/icons/shaking-hands.svg
+          uuid: >-
+            Compendium.foundryvtt-root-magpie-es.libreto-aventurero.Item.svQjxpoh5KUaOUBZ
+          granted: false
+          advancement: 0
+      grantOn: 0
+      granted: false
+      advancement: 0
+    - title: Habilidades con armas
+      desc: Elige una
+      type: multi
+      repeatable: true
+      choices:
+        - uuid: >-
+            Compendium.magpie-root.basic-weapon-skills-moves.Item.JGL9qhXNICN0ZrZV
+          img: modules/magpie-root/assets/icons/crossed-swords.svg
+          granted: false
+          advancement: 0
+        - uuid: >-
+            Compendium.magpie-root.basic-weapon-skills-moves.Item.LRROMSnP1s47ubpm
+          img: modules/magpie-root/assets/icons/crossed-swords.svg
+          granted: false
+          advancement: 0
+        - uuid: >-
+            Compendium.magpie-root.basic-weapon-skills-moves.Item.2BBGsvtkXI2j63rg
+          img: modules/magpie-root/assets/icons/crossed-swords.svg
+          granted: false
+          advancement: 0
+        - uuid: >-
+            Compendium.magpie-root.basic-weapon-skills-moves.Item.8weoA1YOY24aprul
+          img: modules/magpie-root/assets/icons/crossed-swords.svg
+          granted: false
+          advancement: 0
+      grantOn: 1
+      granted: false
+      advancement: 0
+    - title: Tu naturaleza
+      desc: Elige una
+      type: multi
+      repeatable: true
+      choices:
+        - uuid: Compendium.magpie-root.quickstart-natures.Item.S3tmQt1jczOBoEHc
+          img: modules/magpie-root/assets/icons/brain.svg
+          granted: false
+          advancement: 0
+        - uuid: Compendium.magpie-root.quickstart-natures.Item.uPRZJcjrQe1bKTxo
+          img: modules/magpie-root/assets/icons/brain.svg
+          granted: false
+          advancement: 0
+      grantOn: 1
+      granted: false
+      advancement: 0
+    - title: Tus motivaciones
+      desc: Elige dos
+      type: multi
+      repeatable: true
+      choices:
+        - uuid: Compendium.magpie-root.quickstart-drives.Item.Xb3OlxnxXrUVw3nR
+          img: modules/magpie-root/assets/icons/heart-wings.svg
+          granted: false
+          advancement: 0
+        - uuid: Compendium.magpie-root.quickstart-drives.Item.tFZtMSx7shvwur4N
+          img: modules/magpie-root/assets/icons/heart-wings.svg
+          granted: false
+          advancement: 0
+        - uuid: Compendium.magpie-root.quickstart-drives.Item.jdRFl8Nb8MXdEM3s
+          img: modules/magpie-root/assets/icons/heart-wings.svg
+          granted: false
+          advancement: 0
+        - uuid: Compendium.magpie-root.quickstart-drives.Item.VWoz1K952B9KkJTD
+          img: modules/magpie-root/assets/icons/heart-wings.svg
+          granted: false
+          advancement: 0
+      grantOn: 1
+      granted: false
+      advancement: 0
+    - title: Proezas de granuja
+      desc: ''
+      type: multi
+      repeatable: true
+      choices:
+        - uuid: Compendium.magpie-root.quickstart-feats.Item.RwqvOdDL1Z06HWWq
+          img: modules/magpie-root/assets/icons/cloak-dagger.svg
+          granted: false
+          advancement: 0
+        - uuid: Compendium.magpie-root.quickstart-feats.Item.pzIxvr7Vk7HVonij
+          img: modules/magpie-root/assets/icons/cloak-dagger.svg
+          granted: false
+          advancement: 0
+      grantOn: 0
+      granted: false
+      advancement: 0
+effects: []
+flags:
+  sigil:
+    completed: true
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: pbta
+  systemVersion: 1.1.22
+  createdTime: 1773156491865
+  modifiedTime: 1773158172014
+  lastModifiedBy: htpexporter00000
+ownership:
+  default: 0
+_id: rRAQZSEICzKwOFYT
+sort: 300000
+_key: '!items!rRAQZSEICzKwOFYT'
+

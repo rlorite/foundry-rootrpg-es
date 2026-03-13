@@ -1,0 +1,59 @@
+name: Arena en el bolsillo
+type: move
+_id: QS5XpqpeesnIzlSb
+img: icons/svg/aura.svg
+system:
+  description: >-
+    <p>Adquieres la habilidad con armas
+    @UUID[Compendium.magpie-root.basic-weapon-skills-moves.Item.g7gmBAB98oLffqRf]{confundir
+    sentidos}  (no cuenta para tu límite). </p><p>Cuando lances algo para
+    confundir los sentidos de un oponente a corto alcance o pegado, tira con
+    Astucia en lugar de con Finura.</p>
+  moveType: ''
+  rollFormula: ''
+  moveResults:
+    failure:
+      key: system.moveResults.failure.value
+      label: Miss
+      value: ''
+    partial:
+      key: system.moveResults.partial.value
+      label: Weak Hit
+      value: ''
+    success:
+      key: system.moveResults.success.value
+      label: Strong Hit
+      value: ''
+    triumph:
+      key: system.moveResults.triumph.value
+      label: Triumph!
+      value: ''
+  uses: 0
+  rollType: ''
+  rollMod: 0
+  actorType: character
+  choices: ''
+  tags: ''
+  mastery: false
+  wear:
+    trackMax: 5
+    trackSize: 0
+    current: 0
+effects: []
+folder: null
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: pbta
+  systemVersion: 1.1.22
+  createdTime: 1772641143896
+  modifiedTime: 1772641189612
+  lastModifiedBy: htpexporter00000
+_key: '!items!QS5XpqpeesnIzlSb'
+

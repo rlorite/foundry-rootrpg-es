@@ -1,0 +1,84 @@
+{
+    "label": "Movimientos básicos",
+    "mapping": {
+        "description": "system.description",
+        "failure": "system.moveResults.failure.value",
+        "partial": "system.moveResults.partial.value",
+        "success": "system.moveResults.success.value",
+        "triumph": "system.moveResults.triumph.value"
+    },
+    "entries": {
+        "Read a Tense Situation": {
+          "name": "Leer una situación tensa",
+          "description": "<p>Cuando <em><strong>leas una situación tensa</strong></em>, tiras con Astucia.</p>",
+          "failure": "<p>The GM gets to say what happens next, with an eye towards complicating the situation dramatically.</p>",
+          "partial": "<p><strong>Puedes hacer una pregunta</strong>. Ganas un bonificador de +1 en los movimientos posteriores cuando actúes según las respuestas que obtengas.</p>\n<ul>\n<li>¿Cuál es mi mejor manera para salir/entrar/atravesar esta situación?</li>\n<li>¿Quién o qué es la mayor amenaza?</li>\n<li>¿Quién o qué es más vulnerable con respecto a mi?</li>\n<li>¿Qué debo tener en cuenta?</li>\n<li>¿Quién tiene el control aquí?</li>\n</ul>",
+          "success": "<p><strong>Puedes hacer tres preguntas</strong>. Ganas un bonificador de +1 en los movimientos posteriores cuando actúes según las respuestas que obtengas.</p>\n<ul>\n<li>¿Cuál es mi mejor manera para salir/entrar/atravesar esta situación?</li>\n<li>¿Quién o qué es la mayor amenaza?</li>\n<li>¿Quién o qué es más vulnerable con respecto a mi?</li>\n<li>¿Qué debo tener en cuenta?</li>\n<li>¿Quién tiene el control aquí?</li>\n</ul>",
+          "triumph": "<p><strong>Ask 3</strong>. Take +1 when acting on the answers.</p> <ul> <li>what&rsquo;s my best way out / in / through?</li> <li>who or what is the biggest threat?</li> <li>who or what is most vulnerable to me?</li> <li>what should I be on the lookout for?</li> <li>who is in control here?</li> </ul> <p>You may also ask, &ldquo;How could I ____________________?&rdquo; and fill in the blank with any action you hope to accomplish. If you follow the answer to that question, take a 12+ on the first move you make toward your desired outcome, instead of rolling.</p>"
+        },
+        "Help or Interfere": {
+          "name": "Ayudar o interferir",
+          "description": "<p>Cuando <em><strong>ayudas o intefieres</strong></em> a otro vagabundo, puedes aceptar una marca de agotamiento para sumar +1 o -2 a su tirada (después de tirar). Marca una casilla más de agotamiento para seleccionar una de las siguientes opciones:</p> \n<ul> \n<li>Ocultar tu ayuda o interferencia.</li> \n<li>Crear una oportunidad u obstáculo.</li>\n</ul>",
+          "failure": "",
+          "partial": "",
+          "success": "",
+          "triumph": ""
+        },
+        "Trick an NPC": {
+          "name": "Engañar a un PNJ",
+          "description": "<p>Cuando <em><strong>engañas a un PNJ</strong></em> para conseguir lo que quieres, tiras con Astucia.</p>",
+          "failure": "<p>The GM gets to say what happens next, with an eye towards complicating the situation dramatically.</p>",
+          "partial": "<p>Muerde el anzuelo y hace lo que quieres.</p> <p>Puede elegir una de las siguientes opciones:</p>\n <ul> \n<li>Duda; debilitas su confianza o su moral.</li> \n<li>Tiene un desliz; ganas una oportunidad crítica.</li> \n<li>Reacciona de forma exagerada; ganas +1 Al siguiente contra él.</li> \n</ul>",
+          "success": "<p>Muerde el anzuelo y hace lo que quieres.</p> ",
+          "triumph": "<p>They buy into your deception utterly and entirely; it would take obvious, incontrovertible evidence to shake their belief. You can always return to the same character and play up the same trick again, taking a 10+ to <span class=\"move-name\">trick</span> them the same way instead of rolling.</p>"
+        },
+        "Attempt a Roguish Feat": {
+          "name": "Intentar una proeza de granuja",
+          "description": "<p>Cuando <strong><em>intentas una proeza de granuja en la que eres habilidoso</em></strong>, di cuál es el objetivo y tira con Finura.</p>\n<p class=\"p1\">Cuando intentas una proeza de granuja en la que NO eres diestro, estás <span class=\"move-name\">@UUID[Compendium.magpie-root.basic-moves.Item.ZtXsbBig1wQWbmNN]{confiando en el destino}</span>.</p>",
+          "failure": "<p>The GM gets to say what happens next, with an eye towards complicating the situation dramatically.</p>",
+          "partial": "<p>Consigues tu objetivo.</p>\n<p>Marca una casilla de agotamiento o asumes el riesgo de tu proeza (a elección del DJ).</p>",
+          "success": "<p>Consigues tu objetivo</p>",
+          "triumph": "<p>You achieve your goal, choose one:</p>\n<ul>\n<li class=\"move-opt-last\">immediately accomplish a second appropriate roguish feat, whether or not you possess that feat, as if you had rolled a 10+</li>\n<li class=\"move-opt-last\">clear 2-exhaustion as you exert control over yourself and the situation</li>\n</ul>"
+        },
+        "Trust Fate": {
+          "name": "Confiar en el destino",
+          "description": "<p>Cuando <em><strong>confías en el destino</strong></em> para superar un problema, tiras con Suerte. </p>",
+          "failure": "<p>The GM gets to say what happens next, with an eye towards complicating the situation dramatically.</p>",
+          "partial": "<p>Te las apañas o sales del paso; el DJ te dirá el coste que supone hacerlo.</p>",
+          "success": "<p>Te las apañas o sales del paso; el DJ te dirá el coste que supone hacerlo.</p>\n<p>La fortuna favorece a los audaces; tu desenvoltura también te hace ganar una oportunidad fugaz</p>",
+          "triumph": "<p>Fate smiles upon you as you receive an incredible and surprising windfall of luck. You accomplish your aim without cost, and you receive an immediate fortunate benefit; the GM will tell you what bounty befalls you.</p>"
+        },
+        "Plead with a PC": {
+          "name": "Suplicar a un PJ",
+          "description": "<p>Cuando <em><strong>suplicas a un PJ</strong></em> que te siga la corriente, se libera de 1 marca de agotamiento si acepta lo que le propones. Solo puedes usar este movimiento una vez por sesión.</p>",
+          "failure": "",
+          "partial": "",
+          "success": "",
+          "triumph": ""
+        },
+        "Wreck Something": {
+          "name": "Destrozar algo",
+          "description": "<p>Cuando <em><strong>destrozas algo</strong></em>, tiras con Poderío. </p>",
+          "failure": "<p>The GM gets to say what happens next, with an eye towards complicating the situation dramatically.</p>",
+          "partial": "<p>Lo rompes del todo y no se podrá volver a utilizar hasta que se repare, pero has sido impreciso y el resultado es peligroso: causas daños colaterales, llamas la atención o acabas en mal lugar o situación, a elección del DJ.</p>",
+          "success": "<p>Lo rompes del todo y no se podrá volver a utilizar hasta que se repare.</p>",
+          "triumph": "<p>You seriously break it; it can&rsquo;t be used again until it&rsquo;s repaired, choose one from the list:</p> <ul> <li class=\"move-opt-last\">inflict 2-injury on any foes in the area (from splinters, debris, falling infrastructure, etc.)</li> <li class=\"move-opt-last\">you break, smash, or destroy something far larger and more substantial than you normally could (an entire building, a mountain face, etc.)</li> <li class=\"move-opt-last\">you can grab up shards of useful material from the wreckage; clear 2-depletion</li> </ul>"
+        },
+        "Figure Someone Out": {
+          "name": "Discernir las intenciones de alguien",
+          "description": "<p>Cuando intentes <em><strong>discernir las intenciones de alguien</strong></em>, tira con Carisma.</p>",
+          "failure": "<p>The GM gets to say what happens next, with an eye towards complicating the situation dramatically.</p>",
+          "partial": "<p><strong>Guardas 1 punto</strong>. Mientras interactúas con ese alguien, puedes utilizar los puntos guardados que hayas conseguido a razón de 1 punto por cada pregunta al jugador/DJ que interpreta a ese personaje:</p>\n<ul>\n<li>¿Está diciendo la verdad tu personaje?</li>\n<li>¿Qué siente realmente tu personaje?</li>\n<li>¿Qué pretende hacer tu personaje?</li>\n<li>¿Qué desearía tu personaje que yo hiciera?</li>\n<li>¿Cómo podría conseguir que tu personaje _______?</li>\n</ul>",
+          "success": "<p><strong>Guardas 3 puntos</strong>. Mientras interactúas con ese alguien, puedes utilizar los puntos guardados que hayas conseguido a razón de 1 punto por cada pregunta al jugador/DJ que interpreta a ese personaje:</p>\n<ul>\n<li>¿Está diciendo la verdad tu personaje?</li>\n<li>¿Qué siente realmente tu personaje?</li>\n<li>¿Qué pretende hacer tu personaje?</li>\n<li>¿Qué desearía tu personaje que yo hiciera?</li>\n<li>¿Cómo podría conseguir que tu personaje _______?</li>\n</ul>",
+          "triumph": "<p><strong>Hold 3</strong>. While interacting with them, spend your hold 1 for 1 to ask their player a question:</p>\n<ul>\n<li>is your character telling the truth?</li>\n<li>what is your character really feeling?</li>\n<li>what does your character intend to do?</li>\n<li>what does your character wish I&rsquo;d do?</li>\n<li>how could I get your character to _______?</li>\n</ul>\n<p>Mark down their name on your character sheet; from this point forward, you can always tell if they are lying to you. If you roll a 12+ against a character whose name you have already marked down, you instead take +1 ongoing to act on the answers to the questions you ask.</p>"
+        },
+        "Persuade an NPC": {
+          "name": "Persuadir a un PNJ",
+          "description": "<p>Cuando <em><strong>persuades a un PNJ</strong></em> con promesas o amenazas, tiras Carisma.</p>",
+          "failure": "<p>The GM gets to say what happens next, with an eye towards complicating the situation dramatically.</p>",
+          "partial": "<p>No está seguro; el DJ te dirá lo que tienes que hacer para convencerlo.</p>",
+          "success": "<p>Consigues que vea las cosas a tu manera, siempre que le hayas dado un motivo sólido o un soborno razonable</p>",
+          "triumph": "<p>They see things your way, provided you have given them a strong motive or reasonable bribe, you may mark exhaustion to treat this move as a 12+ on the&nbsp;<span class=\"move-name\">sway an NPC</span> Reputation move, even if you don&rsquo;t have a high enough Reputation with their faction to normally <span class=\"move-name\">sway the NPC</span> in question.</p>"
+        }
+    }
+}

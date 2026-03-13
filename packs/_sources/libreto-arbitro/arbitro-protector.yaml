@@ -1,0 +1,35 @@
+name: Árbitro - Protector
+type: magpie-root.connection
+_id: 91ryfg6CepdaZFNn
+img: modules/magpie-root/assets/icons/shaking-hands.svg
+system:
+  htmlFields:
+    - statement
+  connectedTo: ''
+  answers:
+    - ''
+  questions:
+    - ¿Por qué?
+  selectedConnectionType: protector
+  connectionTypeInfo: >-
+    When they are in reach, mark exhaustion to take a blow meant for them. If
+    you do, take +1 ongoing to weapon moves for the rest of the scene.
+  statement: "<p>Una vez protegí a _________ de un golpe\_mortal durante un combate, y volvería a hacerlo.\_</p>"
+effects: []
+folder: null
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: pbta
+  systemVersion: 1.1.22
+  createdTime: 1772645243226
+  modifiedTime: 1772645271778
+  lastModifiedBy: htpexporter00000
+_key: '!items!91ryfg6CepdaZFNn'
+

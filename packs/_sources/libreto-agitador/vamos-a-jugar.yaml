@@ -1,0 +1,60 @@
+name: Vamos a jugar
+type: move
+_id: 3kPS3dCEI7H8xQty
+img: icons/svg/aura.svg
+system:
+  description: >-
+    <p>Cuando <strong>juegues a un juego de habilidad e ingenio para soltarle la
+    lengua a otro</strong>, tira con Carisma.</p>
+  moveType: ''
+  rollFormula: ''
+  moveResults:
+    failure:
+      key: system.moveResults.failure.value
+      label: Miss
+      value: >-
+        <p>Es mejor de lo que pensabas: marcas existencias y tratas de reducir
+        tus pérdidas, o marca 3 casillas de existencias y empezará a hablar</p>
+    partial:
+      key: system.moveResults.partial.value
+      label: Weak Hit
+      value: >-
+        <p>Se le escapa algo útil o valioso. Tienes que perder a lo que estés
+        jugando para conseguirlo; marcas existencias.</p>
+    success:
+      key: system.moveResults.success.value
+      label: Strong Hit
+      value: <p>Se le escapa algo útil o valioso.</p>
+    triumph:
+      key: system.moveResults.triumph.value
+      label: Triumph!
+      value: ''
+  uses: 0
+  rollType: ''
+  rollMod: 0
+  actorType: character
+  choices: ''
+  tags: ''
+  mastery: false
+  wear:
+    trackMax: 5
+    trackSize: 0
+    current: 0
+effects: []
+folder: null
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: pbta
+  systemVersion: 1.1.22
+  createdTime: 1772641052484
+  modifiedTime: 1772641129633
+  lastModifiedBy: htpexporter00000
+_key: '!items!3kPS3dCEI7H8xQty'
+

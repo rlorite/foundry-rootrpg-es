@@ -1,0 +1,448 @@
+name: Bribón
+type: playbook
+_id: HZ3RDyA59qrpPEuq
+img: icons/svg/book.svg
+system:
+  description: >-
+    <section class="playbook"><div class="left-column"><img
+    src="modules/magpie-root/assets/art/playbooks/The_Adventurer.webp" alt="The
+    Adventurer playbook - Image of an Owl in robes" /><div
+    class="stat-block"><div class="stat-number"><p>-1</p></div><div
+    class="stat-name"><p>Astucia</p></div></div><div class="stat-block"><div
+    class="stat-number"><p>+1</p></div><div
+    class="stat-name"><p>Carisma</p></div></div><div class="stat-block"><div
+    class="stat-number"><p>0</p></div><div
+    class="stat-name"><p>Finura</p></div></div><div class="stat-block"><div
+    class="stat-number"><p>0</p></div><div
+    class="stat-name"><p>Poderío</p></div></div><div class="stat-block"><div
+    class="stat-number"><p>+2</p></div><div
+    class="stat-name"><p>Suerte</p></div></div><p>Añade +1 a una aptitud hasta
+    un máximo de +2.</p><h4>Habilidades con armas</h4><p>Elige una habilidad con
+    armas inicial:</p><ul class="checkbox"><li>Ataque vil</li><li>Confundir
+    sentidos</li><li>Disparo rápido</li><li>Improvisar arma</li></ul><h4>Proezas
+    de granuja</h4><p>Empiezas con estas:</p><p>Acrobacias, Esconderse,
+    Infiltración.</p><h4>Equipo</h4><p>Valor inicial: 8</p></div><div><h2
+    class="playbook-title">Bribón</h2><p class="description"><em>Eres un
+    vagabundo afortunado y peligroso, que actúa más como destructor y
+    alborotador que otra cosa, quizá creando caos y destrucción porque
+    sí.</em></p><div class="flexrow"><div><h4>Especies</h4><ul><li>Zorro, ratón,
+    conejo, pájaro, gato, otra.</li></ul><h4>Comportamiento</h4><ul><li>Taimado,
+    no confiable, directo,
+    ingenuo.</li></ul></div><div><h4>Detalles</h4><ul><li>Él, ella, elle,
+    fluido.</li><li>Sospechoso, empobrecido, pulgoso, con
+    cicatrices.</li><li>Máscara completa, mechero de chispa de acero ratuno,
+    abrigo demasiado grande, bolsitas de sulfuro.</li></ul></div></div><h3>Tu
+    naturaleza <span class="instruction">Elige una</span></h3><ul
+    class="checkbox"><li><span class="special-em">Pirómano:</span> Recuperas tu
+    contador de agotamiento cuando utilizas métodos innecesariamente
+    destructivos o dañinos para resolver un problema.</li><li><span
+    class="special-em">Combativo:</span> Recuperas tu contador de agotamiento
+    cuando intentas iniciar una pelea contra una oposición
+    abrumadora.</li></ul><h3>Tus motivaciones <span class="instruction">Elige
+    dos</span></h3><ul class="checkbox"><li><span class="special-em">Caos:
+    </span>Mejoras cuando derrocas a una figura u orden tiránico o
+    peligrosamente dominante.</li><li><span class="special-em">Emociones
+    fuertes:</span> Mejoras cuando escapas de una muerte segura o
+    encarcelamiento sin remedio.</li><li><span class="special-em">Crimen:</span>
+    Mejoras cuando consigues ilícitamente un botín importante o llevas a cabo
+    una operación ilegal contra todo pronóstico.</li><li><span
+    class="special-em">Infamia:</span> Mejoras cuando disminuye tu Reputación
+    con cualquier facción.</li></ul><h3>Tus conexiones</h3><p>Consulta
+    @UUID[Compendium.magpie-root-core.core-book.JournalEntry.rootcore00book00.JournalEntryPage.00makingvagabo00#connections]{Connections}
+    para conocer los efectos mecánicos de las conexiones..</p><ul><li><span
+    class="special-em">Amigo:</span> <span class="underlines">_________</span> y
+    yo nos conocimos hace tiempo y juntos llevamos a cabo una locura imposible.
+    ¿Qué hicimos? ¿Por qué?</li><li><span class="special-em">Socio:</span> <span
+    class="underlines">_________</span> y yo destruimos un recurso de una
+    facción en nombre de una facción contraria. ¿Por
+    qué?</li></ul></div></section><section
+    class="playbook-moves"><h3>Movimientos del Bribón <span
+    class="instruction">Elige tres</span></h3><h4>Personalidad
+    explosiva</h4><p>Cuando destruyes algo con medios flagrantemente peligrosos
+    (explosivos, llamas incontroladas, etc.), tiras con Suerte en lugar de
+    Poderío.</p><h4>Crear para destruir</h4><p>Cuando <strong>utilices
+    materiales disponibles para montar un artefacto peligroso</strong>, tira con
+    Finura. Si tienes éxito, improvisas algo que haga lo que quieres, pero solo
+    una vez. Con un resultado de 10+, elige una opción de las siguientes. Con un
+    resultado 7–9, elige dos. El artefacto es:</p><ul><li>Más peligroso de lo
+    previsto.</li><li>Más grande o difícil de manejar de lo
+    previsto.</li><li>Más inestable y frágil de lo previsto.</li></ul><p>Si
+    fallas, necesitas algún componente vital para terminarlo; el DJ te dirá
+    cuál.</p><h4>¡Una distracción!</h4><p>Obtienes la proeza de granuja
+    @UUID[Compendium.magpie-root.quickstart-feats.Item.sLR59mjS89xbggvR]{Por
+    sorpresa} (no cuenta para tu límite). Cuando
+    @UUID[Compendium.magpie-root.basic-moves.Item.SDZcZ2HuMER7xzeH]{intentes una
+    proeza de granuja} para sorprender a alguien mientras está distraído por
+    peligros ambientales (un incendio, una inundación, etc.), tira con Suerte en
+    vez de Astucia.</p><h4>Temerario</h4><p>Tienes más suerte cuando te lanzas
+    al peligro sin dudar. Cuando te <strong>lances a una situación peligrosa sin
+    premeditación ni planificación</strong>, considera que tienes una «Armadura
+    de la suerte», con 1 casilla de desgaste (recuerda que una armadura solo se
+    «destruye» cuando tienes que marcar otra casilla de desgaste y todas sus
+    casillas ya están llenas). La «Armadura de la suerte» desaparece
+    automáticamente una vez que ha pasado el peligro, y la próxima vez que
+    tengas «Armadura de la suerte», la obtienes como si fuera nueva con las
+    casillas libres.</p><h4>Máscara peligrosa</h4><p>Tienes una máscara, disfraz
+    o atuendo que usas cuando realizas tus trabajos más destructivos. Es más una
+    combinación de tarjeta de visita y una marca de tu «verdadero yo» que un
+    medio para ocultar tu identidad. Trátala como un objeto de equipo con dos
+    casillas de desgaste. Mientras lleves la máscara puesta, cualquier ganancia
+    de infamia que sufras se dobla, y cualquier ganancia de prestigio resulta en
+    la mitad. También ganas +1 a
+    @UUID[Compendium.magpie-root.basic-moves.Item.ZtXsbBig1wQWbmNN]{confiar en
+    el destino} y a todos los movimientos específicos del libreto de personaje
+    de Bribón. Si alguna vez se destruye la máscara, marcas 4 casillas de
+    agotamiento. Si tu máscara es destruida, puedes hacer una nueva cuando pase
+    algo de tiempo.</p><h4>Más vale tener suerte que ser bueno</h4><p>Cuando
+    <strong>uses un movimiento con armas (básico o especial)</strong>, marca
+    agotamiento para tirar con Suerte en lugar de con la aptitud
+    indicada.</p></section><section class="background"><h3>Preguntas sobre el
+    trasfondo</h3><div class="two-col"><div><h5>¿A qué sitio llamas
+    hogar?</h5><ul class="checkbox"><li><span class="underlines">Al claro
+    ____________</span>.</li><li>A la espesura.</li><li>A un lugar lejos de
+    aquí.</li></ul><h5>¿Por qué eres un vagabundo?</h5><ul
+    class="checkbox"><li>Estoy huyendo por un crimen destructivo.</li><li>Busco
+    venganza por mi sufrimiento.</li><li>Deseo derrotar a una
+    facción.</li><li>Desconfío de los demás habitantes.</li><li>Quiero liberarme
+    de las ataduras de la sociedad.</li></ul></div><div><h5>¿A quién has dejado
+    atrás?</h5><ul class="checkbox"><li>A mi maestro.</li><li>A mi
+    familia.</li><li>A mi ser querido.</li><li>A mi único defensor.</li><li>A mi
+    mejor amigo.</li></ul><p><strong>¿A qué facción has servidor más?
+    </strong>(Marca 2 casillas de prestigio con la facción
+    apropiada)</p><p><strong>¿Con qué facción te has ganado una enemistad
+    especial?</strong> (Marca 1 casilla de infamia con la facción
+    apropiada)</p></div></div></section>
+  slug: bribon
+  actorType: character
+  stats:
+    charm:
+      label: Carisma
+      value: 0
+    cunning:
+      label: Astucia
+      value: 0
+    finesse:
+      label: Finura
+      value: 0
+    luck:
+      label: Suerte
+      value: 0
+    might:
+      label: Poderío
+      value: 0
+  statsDetail: ''
+  attributes:
+    species:
+      label: Species
+      type: ListOne
+      choices:
+        - options:
+            '0':
+              label: Zorro
+            '1':
+              label: Ratón
+            '2':
+              label: Conejo
+            '3':
+              label: Pájaro
+            '4':
+              label: Gato
+          value: ''
+      custom: false
+      path: attributes
+      value: ''
+      max: null
+      options:
+        '0': {}
+      description: ''
+    demeanor:
+      label: Demeanor
+      type: ListOne
+      choices:
+        - options:
+            '0':
+              label: Taimado
+            '1':
+              label: No confiable
+            '2':
+              label: Directo
+            '3':
+              label: Ingenuo
+          value: ''
+      custom: false
+      path: attributes
+      value: ''
+      max: null
+      options:
+        '0': {}
+      description: ''
+    details:
+      label: Details
+      type: ListMany
+      choices:
+        - options:
+            '0':
+              value: false
+              label: Él
+            '1':
+              value: false
+              label: Ella
+            '2':
+              value: false
+              label: Elle
+            '3':
+              value: false
+              label: Fluído
+          value: ''
+        - options:
+            '0':
+              value: false
+              label: Sospechoso
+            '1':
+              value: false
+              label: Empobrecido
+            '2':
+              value: false
+              label: Pulgoso
+            '3':
+              value: false
+              label: Con cicatrices
+          value: ''
+        - options:
+            '0':
+              value: false
+              label: Máscara completa
+            '1':
+              value: false
+              label: Mechero de chispa de acero ratuno
+            '2':
+              value: false
+              label: Abrigo demasiado grande
+            '3':
+              value: false
+              label: Bolsitas de sulfuro
+          value: ''
+      custom: false
+      path: attributes
+      value: ''
+      max: null
+      options:
+        '0': {}
+      description: ''
+    eqStartingValue:
+      label: Starting Value
+      type: Number
+      value: 0
+      choices:
+        - value: 8
+          options: {}
+      custom: false
+      path: attributes
+      max: null
+      options: {}
+      description: ''
+    bgInfo:
+      label: Background Info
+      value: ''
+      type: LongText
+      choices:
+        - value: >-
+            <p><strong>¿A qué facción has servido más?</strong> (Marca 2
+            casillas de prestigio con la facción adecuada)</p>
+          options: {}
+        - value: >-
+            <p><strong>¿Con qué facción te has ganado una enemistad
+            especial?</strong> (Marca 1 casilla de infamia con la facción
+            apropiada)</p>
+          options: {}
+      custom: false
+      path: details
+      max: null
+      options: {}
+      description: ''
+  choiceSets:
+    - title: Preguntas sobre el trasfondo
+      desc: ''
+      type: multi
+      repeatable: true
+      choices:
+        - uuid: >-
+            Compendium.foundryvtt-root-magpie-es.libreto-bribon.Item.B8mj3SotOFvpGiyh
+          img: modules/magpie-root/assets/icons/uncertainty.svg
+          granted: false
+          advancement: 0
+        - uuid: >-
+            Compendium.foundryvtt-root-magpie-es.libreto-bribon.Item.eATFuiXYjHVpvitm
+          img: modules/magpie-root/assets/icons/uncertainty.svg
+          granted: false
+          advancement: 0
+        - uuid: >-
+            Compendium.foundryvtt-root-magpie-es.libreto-bribon.Item.hmPZX3Ah8idWdsT6
+          img: modules/magpie-root/assets/icons/uncertainty.svg
+          granted: false
+          advancement: 0
+      grantOn: 0
+      granted: false
+      advancement: 0
+    - title: Tus movimientos
+      desc: Elige tres
+      type: multi
+      repeatable: true
+      choices:
+        - uuid: >-
+            Compendium.foundryvtt-root-magpie-es.libreto-bribon.Item.bBVSPEI9kqpXzu98
+          img: icons/svg/aura.svg
+          granted: false
+          advancement: 0
+        - uuid: >-
+            Compendium.foundryvtt-root-magpie-es.libreto-bribon.Item.lBzqpwuWib2BZ5oA
+          img: icons/svg/aura.svg
+          granted: false
+          advancement: 0
+        - uuid: >-
+            Compendium.foundryvtt-root-magpie-es.libreto-bribon.Item.1s5ofpFNiib95nmb
+          img: icons/svg/aura.svg
+          granted: false
+          advancement: 0
+        - uuid: >-
+            Compendium.foundryvtt-root-magpie-es.libreto-bribon.Item.lhBYi4oX5sXqlsYB
+          img: icons/svg/aura.svg
+          granted: false
+          advancement: 0
+        - uuid: >-
+            Compendium.foundryvtt-root-magpie-es.libreto-bribon.Item.MniNCilDIN3B6Ql8
+          img: icons/svg/aura.svg
+          granted: false
+          advancement: 0
+        - uuid: >-
+            Compendium.foundryvtt-root-magpie-es.libreto-bribon.Item.q3AC1zokhb6N9bR1
+          img: icons/svg/aura.svg
+          granted: false
+          advancement: 0
+      grantOn: 0
+      granted: false
+      advancement: 0
+    - title: Tus conexiones
+      desc: ''
+      type: multi
+      repeatable: true
+      choices:
+        - uuid: >-
+            Compendium.foundryvtt-root-magpie-es.libreto-bribon.Item.TgS9EBudssYlFMWi
+          img: modules/magpie-root/assets/icons/shaking-hands.svg
+          granted: false
+          advancement: 0
+        - uuid: >-
+            Compendium.foundryvtt-root-magpie-es.libreto-bribon.Item.l2IS0sVpJX7FhQcq
+          img: modules/magpie-root/assets/icons/shaking-hands.svg
+          granted: false
+          advancement: 0
+      grantOn: 0
+      granted: false
+      advancement: 0
+    - title: Habilidades con armas
+      desc: Elige una
+      type: multi
+      repeatable: true
+      choices:
+        - uuid: >-
+            Compendium.magpie-root.basic-weapon-skills-moves.Item.Q9I2xNWCm7QBFubO
+          img: modules/magpie-root/assets/icons/crossed-swords.svg
+          granted: false
+          advancement: 0
+        - uuid: >-
+            Compendium.magpie-root.basic-weapon-skills-moves.Item.g7gmBAB98oLffqRf
+          img: modules/magpie-root/assets/icons/crossed-swords.svg
+          granted: false
+          advancement: 0
+        - uuid: >-
+            Compendium.magpie-root.basic-weapon-skills-moves.Item.XJXHUY2CSBhUmHqt
+          img: modules/magpie-root/assets/icons/crossed-swords.svg
+          granted: false
+          advancement: 0
+        - uuid: >-
+            Compendium.magpie-root.basic-weapon-skills-moves.Item.2BBGsvtkXI2j63rg
+          img: modules/magpie-root/assets/icons/crossed-swords.svg
+          granted: false
+          advancement: 0
+      grantOn: 1
+      granted: false
+      advancement: 0
+    - title: Tu naturaleza
+      desc: Elige una
+      type: multi
+      repeatable: true
+      choices:
+        - uuid: Compendium.magpie-root.quickstart-natures.Item.gwwIgGi4cY95rKiW
+          img: modules/magpie-root/assets/icons/brain.svg
+          granted: false
+          advancement: 0
+        - uuid: Compendium.magpie-root.quickstart-natures.Item.qyOUbGadNGr0slyA
+          img: modules/magpie-root/assets/icons/brain.svg
+          granted: false
+          advancement: 0
+      grantOn: 1
+      granted: false
+      advancement: 0
+    - title: Tus motivaciones
+      desc: Elige dos
+      type: multi
+      repeatable: true
+      choices:
+        - uuid: Compendium.magpie-root.quickstart-drives.Item.XzkMy6ugw2f5Sx8I
+          img: modules/magpie-root/assets/icons/heart-wings.svg
+          granted: false
+          advancement: 0
+        - uuid: Compendium.magpie-root.quickstart-drives.Item.QOUUmP7UYktIPMWi
+          img: modules/magpie-root/assets/icons/heart-wings.svg
+          granted: false
+          advancement: 0
+        - uuid: Compendium.magpie-root.quickstart-drives.Item.F3G7VO1Z8ZciOvi7
+          img: modules/magpie-root/assets/icons/heart-wings.svg
+          granted: false
+          advancement: 0
+        - uuid: Compendium.magpie-root.quickstart-drives.Item.cX2m15P5sXk5U0O9
+          img: modules/magpie-root/assets/icons/heart-wings.svg
+          granted: false
+          advancement: 0
+      grantOn: 1
+      granted: false
+      advancement: 0
+    - title: Proezas de granuja
+      desc: ''
+      type: multi
+      repeatable: true
+      choices:
+        - uuid: Compendium.magpie-root.quickstart-feats.Item.ELqBsDVSvWL024ph
+          img: modules/magpie-root/assets/icons/cloak-dagger.svg
+          granted: false
+          advancement: 0
+        - uuid: Compendium.magpie-root.quickstart-feats.Item.9RTX8NP31x0gtcBD
+          img: modules/magpie-root/assets/icons/cloak-dagger.svg
+          granted: false
+          advancement: 0
+        - img: modules/magpie-root/assets/icons/cloak-dagger.svg
+          uuid: Compendium.magpie-root.quickstart-feats.Item.rKBrV61tv7PM6YPA
+          granted: false
+          advancement: 0
+      grantOn: 0
+      granted: false
+      advancement: 0
+effects: []
+folder: null
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: pbta
+  systemVersion: 1.1.22
+  createdTime: 1773157958497
+  modifiedTime: 1773160600909
+  lastModifiedBy: htpexporter00000
+_key: '!items!HZ3RDyA59qrpPEuq'
+

@@ -1,0 +1,35 @@
+name: Aventurero - Amigo
+type: magpie-root.connection
+img: modules/magpie-root/assets/icons/shaking-hands.svg
+system:
+  htmlFields:
+    - statement
+  connectedTo: ''
+  answers:
+    - ''
+  questions:
+    - ¿Qué recuerdo mío le regalé?
+  selectedConnectionType: friend
+  connectionTypeInfo: >-
+    When you <b>help</b> them, you can mark 2-exhaustion to give a +2, instead
+    of 1-exhaustion for a +1.
+  statement: "<p>Viajé con ___________ durante un tiempo\_justo después de convertirme en vagabundo. Me ayudó\_a mantenerme a salvo y me enseñó el Bosque.\_</p>"
+effects: []
+folder: null
+ownership:
+  default: 0
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: pbta
+  systemVersion: 1.1.22
+  createdTime: 1773157841966
+  modifiedTime: 1773157841977
+  lastModifiedBy: htpexporter00000
+_id: Felnd1ITcipmQmPh
+sort: 200000
+_key: '!items!Felnd1ITcipmQmPh'
+

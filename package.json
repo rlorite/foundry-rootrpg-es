@@ -1,0 +1,14 @@
+{
+  "name": "rootrpg-es",
+  "packageManager": "yarn@4.6.0",
+  "type": "module",
+  "scripts": {
+    "compendium:extract": "node cli.js compendium extract",
+    "compendium:compile": "node cli.js compendium compile"
+  },
+  "devDependencies": {
+    "@foundryvtt/foundryvtt-cli": "1.0.2",
+    "fancy-log": "^2.0.0",
+    "yargs": "^17.7.2"
+  }
+}

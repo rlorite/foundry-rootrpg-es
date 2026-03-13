@@ -1,0 +1,135 @@
+{
+  "title": "[Translation] Root RPG Spanish",
+  "description": "Este módulo contiene la traducción actualizada del sistema de Root RPG en su versión de Magpie",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "esmodules": [
+    "register.js"
+  ],
+  "styles": [
+    "./style.css"
+  ],
+  "languages": [
+    {
+      "lang": "es",
+      "name": "Español",
+      "path": "lang/es.json",
+      "flags": {}
+    }
+  ],
+  "url": "",
+  "manifest": "",
+  "download": "",
+  "id": "foundryvtt-root-magpie-es",
+  "authors": [
+    {
+      "name": "WallaceMcGregor",
+      "url": "https://github.com/WallaceMcGregor",
+      "flags": {}
+    },
+    {
+      "name": "Roberto Lorite",
+      "url": "https://github.com/sharak",
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "label": "Agitador",
+      "name": "libreto-agitador",
+      "path": "packs/libreto-agitador",
+      "type": "Item",
+      "system": "pbta"
+    },
+    {
+      "label": "Árbitro",
+      "name": "libreto-arbitro",
+      "path": "packs/libreto-arbitro",
+      "type": "Item",
+      "system": "pbta"
+    },
+    {
+      "label": "Aventurero",
+      "name": "libreto-aventurero",
+      "path": "packs/libreto-aventurero",
+      "type": "Item",
+      "system": "pbta"
+    },
+    {
+      "label": "Bribón",
+      "name": "libreto-bribon",
+      "path": "packs/libreto-bribon",
+      "type": "Item",
+      "system": "pbta"
+    },
+    {
+      "label": "Chatarrero",
+      "name": "libreto-chatarrero",
+      "path": "packs/libreto-chatarrero",
+      "type": "Item",
+      "system": "pbta"
+    },
+    {
+      "label": "Hostigador",
+      "name": "libreto-hostigador",
+      "path": "packs/libreto-hostigador",
+      "type": "Item",
+      "system": "pbta"
+    },
+    {
+      "label": "Ladrón",
+      "name": "libreto-ladron",
+      "path": "packs/libreto-ladron",
+      "type": "Item",
+      "system": "pbta"
+    },
+    {
+      "label": "Montaraz",
+      "name": "libreto-montaraz",
+      "path": "packs/libreto-montaraz",
+      "type": "Item",
+      "system": "pbta"
+    },
+    {
+      "label": "Ronin",
+      "name": "libreto-ronin",
+      "path": "packs/libreto-ronin",
+      "type": "Item",
+      "system": "pbta"
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Libretos",
+      "sorting": "m",
+      "packs": [
+        "libreto-agitador",
+        "libreto-arbitro",
+        "libreto-aventurero",
+        "libreto-bribon",
+        "libreto-chatarrero",
+        "libreto-hostigador",
+        "libreto-ladron",
+        "libreto-montaraz",
+        "libreto-ronin"
+      ]
+    }
+  ],
+  "relationships": {
+    "requires": [
+      {
+        "id": "magpie-root",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "babele",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  }
+}

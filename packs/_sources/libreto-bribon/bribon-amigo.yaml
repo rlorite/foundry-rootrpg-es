@@ -1,0 +1,37 @@
+name: Bribón - Amigo
+type: magpie-root.connection
+_id: TgS9EBudssYlFMWi
+img: modules/magpie-root/assets/icons/shaking-hands.svg
+system:
+  htmlFields:
+    - statement
+  connectedTo: ''
+  answers:
+    - ''
+    - ''
+  questions:
+    - ¿Qué hicimos?
+    - ¿Por qué?
+  selectedConnectionType: friend
+  connectionTypeInfo: >-
+    When you <b>help</b> them, you can mark 2-exhaustion to give a +2, instead
+    of 1-exhaustion for a +1.
+  statement: "<p>___________ y yo nos conocimos hace tiempo\_y juntos llevamos a cabo una locura imposible.\_</p>"
+effects: []
+folder: null
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: pbta
+  systemVersion: 1.1.22
+  createdTime: 1773160341898
+  modifiedTime: 1773160371129
+  lastModifiedBy: htpexporter00000
+_key: '!items!TgS9EBudssYlFMWi'
+

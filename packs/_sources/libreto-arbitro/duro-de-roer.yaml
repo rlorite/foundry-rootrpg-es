@@ -1,0 +1,57 @@
+name: Duro de roer
+type: move
+_id: zD7P38prberslCqU
+img: icons/svg/aura.svg
+system:
+  description: >-
+    <p>Adquieres 1 casilla adicional de heridas. Cada vez que pase el tiempo o
+    viajes a un nuevo claro, puedes recuperar 2 casillas de heridas
+    automáticamente.</p>
+  moveType: ''
+  rollFormula: ''
+  moveResults:
+    failure:
+      key: system.moveResults.failure.value
+      label: Miss
+      value: ''
+    partial:
+      key: system.moveResults.partial.value
+      label: Weak Hit
+      value: ''
+    success:
+      key: system.moveResults.success.value
+      label: Strong Hit
+      value: ''
+    triumph:
+      key: system.moveResults.triumph.value
+      label: Triumph!
+      value: ''
+  uses: 0
+  rollType: ''
+  rollMod: 0
+  actorType: character
+  choices: ''
+  tags: ''
+  mastery: false
+  wear:
+    trackMax: 5
+    trackSize: 0
+    current: 0
+effects: []
+folder: null
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: pbta
+  systemVersion: 1.1.22
+  createdTime: 1772644798273
+  modifiedTime: 1772644811200
+  lastModifiedBy: htpexporter00000
+_key: '!items!zD7P38prberslCqU'
+

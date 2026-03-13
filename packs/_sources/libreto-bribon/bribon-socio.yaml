@@ -1,0 +1,37 @@
+name: Bribón - Socio
+type: magpie-root.connection
+_id: l2IS0sVpJX7FhQcq
+img: modules/magpie-root/assets/icons/shaking-hands.svg
+system:
+  htmlFields:
+    - statement
+  connectedTo: ''
+  answers:
+    - ''
+  questions:
+    - ¿Por qué?
+  selectedConnectionType: partner
+  connectionTypeInfo: >-
+    When you fill in this connection, you each mark 2-prestige with the faction
+    you helped, and mark 2-notoriety with the faction you harmed. During play,
+    if you are spotted together, then any prestige or notoriety gains with those
+    factions are doubled for the two of you.
+  statement: "<p>\____________y yo destruimos un recurso de una facción en nombre de una facción contraria.\_</p>"
+effects: []
+folder: null
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: pbta
+  systemVersion: 1.1.22
+  createdTime: 1773160385465
+  modifiedTime: 1773160408645
+  lastModifiedBy: htpexporter00000
+_key: '!items!l2IS0sVpJX7FhQcq'
+

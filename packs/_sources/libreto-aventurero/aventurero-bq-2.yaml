@@ -1,0 +1,34 @@
+name: Aventurero - BQ - 2
+type: magpie-root.background-question
+_id: mlLrt06rsmGHXc1o
+img: modules/magpie-root/assets/icons/uncertainty.svg
+system:
+  htmlFields:
+    - question
+  question: <p>¿Por qué eres un vagabundo?</p>
+  clearingName: ''
+  isClearing: false
+  options:
+    - Quiero ayudar al Bosque.
+    - Quiero explorar el Bosque.
+    - Creo que las facciones actuales deberían ser derrocadas.
+    - Debo cumplir una promesa que hice a un ser querido.
+    - Quiero liberarme de las ataduras de la sociedad.
+effects: []
+folder: null
+sort: 400000
+ownership:
+  default: 0
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: pbta
+  systemVersion: 1.1.22
+  createdTime: 1773156877992
+  modifiedTime: 1773157841977
+  lastModifiedBy: htpexporter00000
+_key: '!items!mlLrt06rsmGHXc1o'
+

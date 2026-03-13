@@ -1,0 +1,66 @@
+name: Amistad rápida
+type: move
+_id: v2Tvyi1lfQ3CgwB9
+img: icons/svg/aura.svg
+system:
+  description: >-
+    <p>Cuando <strong>intentes hacerte amigo de un PNJ que acabas de conocer
+    encajando con su personalidad, lenguaje corporal y deseos</strong>, marca
+    agotamiento y tira con Astucia</p>
+  moveType: ''
+  rollFormula: ''
+  moveResults:
+    failure:
+      key: system.moveResults.failure.value
+      label: Miss
+      value: >-
+        <p>Te equivocas de pata a rabo al analizar su forma de ser y su disgusto
+        te cuesta caro.</p>
+    partial:
+      key: system.moveResults.partial.value
+      label: Weak Hit
+      value: >-
+        <p>Si tienes éxito, te mirará con buenos ojos. Hazle cualquier pregunta
+        no comprometedora y te responderá con la verdad, o pídele un favor
+        sencillo y lo hará por ti. </p>
+    success:
+      key: system.moveResults.success.value
+      label: Strong Hit
+      value: >-
+        <p>Si tienes éxito, te mirará con buenos ojos. Hazle cualquier pregunta
+        no comprometedora y te responderá con la verdad, o pídele un favor
+        sencillo y lo hará por ti. </p><p>Le gustas de verdad, y compartirá
+        contigo un secreto valioso o te concederá un favor importante.</p>
+    triumph:
+      key: system.moveResults.triumph.value
+      label: Triumph!
+      value: ''
+  uses: 0
+  rollType: ''
+  rollMod: 0
+  actorType: character
+  choices: ''
+  tags: ''
+  mastery: false
+  wear:
+    trackMax: 5
+    trackSize: 0
+    current: 0
+effects: []
+folder: null
+sort: 1100000
+ownership:
+  default: 0
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: pbta
+  systemVersion: 1.1.22
+  createdTime: 1773157404151
+  modifiedTime: 1773157841977
+  lastModifiedBy: htpexporter00000
+_key: '!items!v2Tvyi1lfQ3CgwB9'
+

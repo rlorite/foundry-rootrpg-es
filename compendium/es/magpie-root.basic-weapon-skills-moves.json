@@ -1,0 +1,92 @@
+{
+  "label": "Movimientos especiales con armas",
+  "mapping": {
+    "description": "system.description",
+    "failure": "system.moveResults.failure.value",
+    "partial": "system.moveResults.partial.value",
+    "success": "system.moveResults.success.value",
+    "triumph": "system.moveResults.triumph.value"
+  },
+  "entries": {
+    "Improvise a Weapon": {
+      "name": "Improvisar arma",
+      "description": "<p>Cuando <em><strong>fabricas un arma con materiales improvisados de tu alrededor</strong></em>, tiras con Astucia.</p>",
+      "failure": " The GM gets to say what happens next, with an eye towards complicating the situation dramatically. ",
+      "partial": "<p>Fabricas un arma; el DJ te dirá su etiqueta de alcance y al menos otra etiqueta beneficiosa basada en los materiales que hayas utilizado. El arma también tiene una etiqueta de defecto.</p>",
+      "success": "<p>Fabricas un arma; el DJ te dirá su etiqueta de alcance y al menos otra etiqueta beneficiosa basada en los materiales que hayas utilizado.</p>",
+      "triumph": " You may choose your weapon ’ s range and two beneficial tags it bears (as long as they make sense to the item). "
+    },
+    "Storm a Group": {
+      "name": "Asaltar a un grupo",
+      "description": "<p>Cuando <em>asaltes a un grupo de enemigos cuerpo a cuerpo</em>, marca una casilla de agotamiento y tira con Poderío</p>",
+      "failure": " The GM gets to say what happens next, with an eye towards complicating the situation dramatically. ",
+      "partial": "<p>Intercambiáis golpes y os provocáis daño. Elige una de las siguientes opciones:</p>\n<ul>\n<li>Los pones en evidencia; les infliges 2 de daño moral.</li>\n<li>Los mantienes desequilibrados y confusos; les infliges 2 de daño de agotamiento.</li>\n<li>Esquivas sus golpes lo mejor que puedes; sufres poco daño (-1)</li>\n<li>Los usas unos contra otros; marca una casilla de agotamiento adicional y consigues que se inflija su cantidad de daño contra sí mismos.</li>\n</ul>",
+      "success": "<p>Intercambiáis golpes y os provocáis daño. Elige dos de las siguientes opciones:</p>\n<ul>\n<li>Los pones en evidencia; les infliges 2 de daño moral.</li>\n<li>Los mantienes desequilibrados y confusos; les infliges 2 de daño de agotamiento.</li>\n<li>Esquivas sus golpes lo mejor que puedes; sufres poco daño (-1)</li>\n<li>Los usas unos contra otros; marca una casilla de agotamiento adicional y consigues que se inflija su cantidad de daño contra sí mismos.</li>\n</ul>",
+      "triumph": " Trade harm, Take all four options from the list and choose one for double effect. you show them up ; you inflict 2-morale harm you keep them off-balance and confused ; you inflict 2-exhaustion you avoid their blows to the best of your ability ; you suffer little ( – 1) harm you use them against each other ; mark exhaustion again and they inflict their harm against themselves "
+    },
+    "Parry": {
+      "name": "Parada",
+      "description": "<p>Cuando <em><strong>intentas parar los ataques de un enemigo a corto alcance</strong></em>, marcas una casilla de agotamiento y tiras con Finura.</p>",
+      "failure": " The GM gets to say what happens next, with an eye towards complicating the situation dramatically. ",
+      "partial": "<p>Mantienes ocupada la atención de tu enemigo en ti. Elige uno de los efectos siguientes:</p>\n<ul>\n<li>Infliges daño moral o de agotamiento (a elección del DJ).</li>\n<li>Desarmas a tu oponente; su arma queda fuera de sus manos, pero al alcance.</li>\n<li>No sufres ningún daño.</li>\n</ul>",
+      "success": "<p>Mantienes ocupada la atención de tu enemigo en ti. Consigues los 3 efectos siguientes:</p>\n<ul>\n<li>Infliges daño moral o de agotamiento (a elección del DJ).</li>\n<li>Desarmas a tu oponente; su arma queda fuera de sus manos, pero al alcance.</li>\n<li>No sufres ningún daño</li>\n</ul>",
+      "triumph": " You consume their attention. All 3 happen. you inflict morale or exhaustion harm (GM ’ s choice) you disarm your opponent ; their weapon is out of hand, but in reach you don ’ t suffer any harm You can immediately riposte, choosing one: you inflict 2-injury with a strike that pierces their defenses ; they cannot absorb the injury with armor you inflict 2-morale with an insulting line or gesture that demeans them you inflict 2-exhaustion with a quick punch or blow intended to disorient and knock them out "
+    },
+    "Trick Shot": {
+      "name": "Disparo trucado",
+      "description": "<p>Cuando <em><strong>realizas un disparo trucado para aprovechar el entorno a cualquier alcance</strong></em>, marcas una casilla de desgaste y tiras con Finura.</p>",
+      "failure": " The GM gets to say what happens next, with an eye towards complicating the situation dramatically. ",
+      "partial": "<p>Eliges dos de las siguientes opciones:</p>\n<ul>\n<li>Tu disparo impacta en cualquier objetivo a tu elección dentro del alcance, incluso si está detrás de cobertura o se encuentra oculto (infligiendo herida o desgaste, si procede)</li>\n<li>Tu disparo impacta en un segundo objetivo a tu elección que esté disponible.</li>\n<li>Tu disparo corta, rompe o derriba algo, a tu elección.</li>\n<li>Tu disparo distrae a un oponente y proporciona una oportunidad.</li>\n</ul>",
+      "success": "<p>Eliges tres de las siguientes opciones:</p>\n<ul>\n<li>Tu disparo impacta en cualquier objetivo a tu elección dentro del alcance, incluso si está detrás de cobertura o se encuentra oculto (infligiendo herida o desgaste, si procede)</li>\n<li>Tu disparo impacta en un segundo objetivo a tu elección que esté disponible.</li>\n<li>Tu disparo corta, rompe o derriba algo, a tu elección.</li>\n<li>Tu disparo distrae a un oponente y proporciona una oportunidad.</li>\n</ul>",
+      "triumph": " Take all four options from the list, and your shot strikes a third available target of your choice. your shot lands in any target of your choice within range, even if it ’ s behind cover or hidden (inflicting injury or wear if appropriate) your shot strikes a second available target of your choice your shot cuts something, breaks something, or knocks something over, your choice your shot distracts an opponent and provides an opportunity "
+    },
+    "Disarm": {
+      "name": "Desarmar",
+      "description": "<p>Cuando <em><strong>el objetivo de tus golpes es el arma de un adversario a corto alcance</strong></em>, tiras con Finura.</p>",
+      "failure": " The GM gets to say what happens next, with an eye towards complicating the situation dramatically. ",
+      "partial": "<p>Tu oponente tiene que marcar 2 casillas de agotamiento o pierde su arma &mdash;cae fuera de su alcance&mdash;.</p>",
+      "success": "<p>Tu oponente tiene que marcar 3 casillas de agotamiento o pierde su arma &mdash;cae fuera de su alcance&mdash;.</p>",
+      "triumph": " Your opponent both marks 3-exhaustion and loses their weapon. "
+    },
+    "Harry a Group": {
+      "name": "Hostigar a un grupo",
+      "description": "<p>Cuando <em><strong>hostigas a un grupo de enemigos a largo alcance</strong></em>, marcas una casilla de desgaste y tiras con Astucia.</p>",
+      "failure": " The GM gets to say what happens next, with an eye towards complicating the situation dramatically. ",
+      "partial": "<p>Elige uno de los efectos siguientes:</p>\n<ul>\n<li>Causas 2 de daño a moral.</li>\n<li>El grupo queda inmovilizado o bloqueado.</li>\n</ul>",
+      "success": "<p>Obtienes los dos efectos siguientes:</p>\n<ul>\n<li>Causas 2 de daño a moral.</li>\n<li>El grupo queda inmovilizado o bloqueado.</li>\n</ul>",
+      "triumph": " Both happen: \n \n inflict 2-morale harm \n they are pinned or blocked \n \n You inflict an additional 2-injury or 2-morale, your choice. "
+    },
+    "Vicious Strike": {
+      "name": "Ataque vil",
+      "description": "<p>Cuando <em><strong>atacas vilmente a un oponente en un punto débil a corto alcance o pegado</strong></em>, marcas una casilla de agotamiento y tiras con Poderío.</p>",
+      "failure": " The GM gets to say what happens next, with an eye towards complicating the situation dramatically. ",
+      "partial": "<p>Tu enemigo sufre un daño grave (+1) y no puede marcar desgaste de su armadura para absorber el daño con ella. El enemigo también consigue dar un contragolpe.</p>",
+      "success": "<p>Tu enemigo sufre un daño grave (=1) y no puede marcar desgaste de su armadura para absorber el daño con ella. Te libras del contragolpe.</p>",
+      "triumph": " On a 12 +, in addition to the results of the 10 +, you strike them so well you incapacitate them, choosing one from the list: they cannot change position — fleeing, advancing, maneuvering, etc. — until they receive medical aid they cannot wield a weapon until they receive medical aid they cannot communicate until they receive medical aid "
+    },
+    "Cleave": {
+      "name": "Hender",
+      "description": "<p>Cuando <em><strong>hiendes la armadura de tu enemigo a corto alcance</strong></em>, marcas una casilla de agotamiento y tiras con Poderío.</p>",
+      "failure": " The GM gets to say what happens next, with an eye towards complicating the situation dramatically. ",
+      "partial": "<p>Atraviesas sus defensas y equipo, causando 3 casillas de daño de desgaste. Fuerzas tu arma o a ti mismo: marcas una casilla de desgaste o tú acabas en una mala posición, tú eliges.</p>",
+      "success": "<p>Atraviesas sus defensas y equipo, causando 3 casillas de daño de desgaste.</p>",
+      "triumph": " You inflict 6-wear instead. Any excess wear instead becomes injury or exhaustion (your choice) dealt to your foes. "
+    },
+    "Quick Shot": {
+      "name": "Disparo rápido",
+      "description": "<p>Cuando <em><strong>realizas un disparo rápido a un enemigo a corto alcance</strong></em>, tiras con Suerte.</p>",
+      "failure": " The GM gets to say what happens next, with an eye towards complicating the situation dramatically. ",
+      "partial": "<p>Produces heridas. Eliges una de las siguientes opciones:</p>\n<ul>\n<li>No marcas desgaste.</li>\n<li>No marcas agotamiento.</li>\n<li>Te mueves rápidamente y cambias de posición (y, si quieres, de alcance).</li>\n<li>Mantienes a raya a tu objetivo: no se mueve.</li>\n</ul>",
+      "success": "<p>Produces heridas. Eliges dos de las siguientes opciones:</p>\n<ul>\n<li>No marcas desgaste.</li>\n<li>No marcas agotamiento.</li>\n<li>Te mueves rápidamente y cambias de posición (y, si quieres, de alcance).</li>\n<li>Mantienes a raya a tu objetivo: no se mueve.</li>\n</ul>",
+      "triumph": " Take all four options from the list and inflict 2-injury instead of 1-injury. you don ’ t mark wear you don ’ t mark exhaustion you move quickly and change your position (and, if you choose, range) you keep your target at bay — they don ’ t move "
+    },
+    "Confuse Senses": {
+      "name": "Confundir sentidos",
+      "description": "<p>Cuando <em><strong>arrojas algo a un oponente para confundir sus sentidos a corto alcance o pegado</strong></em>, tiras con Finura.</p>",
+      "failure": " The GM gets to say what happens next, with an eye towards complicating the situation dramatically. ",
+      "partial": "<p>Lo has desequilibrado, cegado, ensordecido o confundido, y consigues una oportunidad. Solo consigues ganar unos instantes.</p>",
+      "success": "<p>Lo has desequilibrado, cegado, ensordecido o confundido, y consigues una oportunidad. Tu oponente tiene que tomarse un tiempo para orientarse y recuperar sus sentidos antes de volver a actuar con claridad.</p>",
+      "triumph": " Choose one: you successfully confuse the senses of a whole group ; apply the results of the 10 + move to any foes you choose in range you knock a single foe so off-kilter you can take them out exactly as you choose right now, without triggering any move "
+    }
+  }
+}

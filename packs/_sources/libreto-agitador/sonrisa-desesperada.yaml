@@ -1,0 +1,58 @@
+name: Sonrisa desesperada
+type: move
+_id: r73ziLXz7ea3TIjC
+img: icons/svg/aura.svg
+system:
+  description: >-
+    <p>Cuando
+    @UUID[Compendium.magpie-root.basic-moves.Item.ZtXsbBig1wQWbmNN]{confíes en
+    el destino} para ver el resultado de tu ruego, súplica o humillación, tira
+    con Carisma en lugar de con Suerte.</p>
+  moveType: ''
+  rollFormula: ''
+  moveResults:
+    failure:
+      key: system.moveResults.failure.value
+      label: Miss
+      value: ''
+    partial:
+      key: system.moveResults.partial.value
+      label: Weak Hit
+      value: ''
+    success:
+      key: system.moveResults.success.value
+      label: Strong Hit
+      value: ''
+    triumph:
+      key: system.moveResults.triumph.value
+      label: Triumph!
+      value: ''
+  uses: 0
+  rollType: ''
+  rollMod: 0
+  actorType: character
+  choices: ''
+  tags: ''
+  mastery: false
+  wear:
+    trackMax: 5
+    trackSize: 0
+    current: 0
+effects: []
+folder: null
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: pbta
+  systemVersion: 1.1.22
+  createdTime: 1772640878240
+  modifiedTime: 1772640913526
+  lastModifiedBy: htpexporter00000
+_key: '!items!r73ziLXz7ea3TIjC'
+

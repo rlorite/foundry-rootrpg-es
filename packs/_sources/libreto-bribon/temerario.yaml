@@ -1,0 +1,62 @@
+name: Temerario
+type: move
+_id: q3AC1zokhb6N9bR1
+img: icons/svg/aura.svg
+system:
+  description: >-
+    <p>Tienes más suerte cuando te lanzas al peligro sin dudar. Cuando te
+    <strong>lances a una situación peligrosa sin premeditación ni
+    planificación</strong>, considera que tienes una «Armadura de la suerte»,
+    con 1 casilla de desgaste (recuerda que una armadura solo se «destruye»
+    cuando tienes que marcar otra casilla de desgaste y todas sus casillas ya
+    están llenas). La «Armadura de la suerte» desaparece automáticamente una vez
+    que ha pasado el peligro, y la próxima vez que tengas «Armadura de la
+    suerte», la obtienes como si fuera nueva con las casillas libres.</p>
+  moveType: playbook
+  rollFormula: ''
+  moveResults:
+    failure:
+      key: system.moveResults.failure.value
+      label: Miss
+      value: ''
+    partial:
+      key: system.moveResults.partial.value
+      label: Weak Hit
+      value: ''
+    success:
+      key: system.moveResults.success.value
+      label: Strong Hit
+      value: ''
+    triumph:
+      key: system.moveResults.triumph.value
+      label: Triumph!
+      value: ''
+  uses: 0
+  rollType: ''
+  rollMod: 0
+  actorType: character
+  choices: ''
+  tags: ''
+  mastery: false
+  wear:
+    trackMax: 5
+    trackSize: 0
+    current: 0
+effects: []
+folder: null
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: pbta
+  systemVersion: 1.1.22
+  createdTime: 1773160142697
+  modifiedTime: 1773160185467
+  lastModifiedBy: htpexporter00000
+_key: '!items!q3AC1zokhb6N9bR1'
+
